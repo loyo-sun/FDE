@@ -1,4 +1,4 @@
-# FDE Knowledge Base
+# FDE 从入门到精通
 
 面向现场交付工程师的静态知识库基础架构，重点支持中文检索、SEO 和 AI 内容索引。
 
@@ -29,7 +29,7 @@ npm run build
 在 Vercel 项目环境变量中设置正式地址，Sitemap、robots 和 canonical 会在部署时使用它：
 
 ```text
-NEXT_PUBLIC_SITE_URL=https://你的正式域名
+NEXT_PUBLIC_SITE_URL=https://fde.loyo.work
 ```
 
 ## 新增文档

@@ -45,7 +45,7 @@ const docs = files
 fs.writeFileSync(path.join(publicDir, "content.json"), JSON.stringify(docs, null, 2));
 
 const list = docs.map((doc) => `- [${doc.title}](${doc.url}) — ${doc.description}`).join("\n");
-const llms = `# FDE Knowledge Base\n\n> 面向现场交付工程师的交付、AI 应用实施、故障处理与项目治理知识库。\n\n## Documentation\n\n${list}\n`;
+const llms = `# FDE 从入门到精通\n\n> 面向现场交付工程师的系统化知识库，覆盖岗位能力、项目交付、AI 应用实施、RAG 知识工程、故障排查、验收运维与项目治理。\n\nCanonical: https://fde.loyo.work/\n\n## Documentation\n\n${list}\n`;
 fs.writeFileSync(path.join(publicDir, "llms.txt"), llms);
 
 const full = docs

@@ -8,7 +8,7 @@ export function SiteHeader() {
       <div className="header-inner">
         <Link className="brand" href="/">
           <span className="brand-mark"><BookOpenText size={20} /></span>
-          <span><strong>FDE</strong><small>Knowledge Base</small></span>
+          <span><strong>FDE</strong><small>从入门到精通</small></span>
         </Link>
         <div className="header-search"><SearchBox compact /></div>
         <nav aria-label="主导航">
