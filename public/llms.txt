@@ -1,0 +1,23 @@
+# FDE Knowledge Base
+
+> 面向现场交付工程师的交付、AI 应用实施、故障处理与项目治理知识库。
+
+## Documentation
+
+- [FDE 知识地图](/docs/knowledge-map/) — 知识库的完整信息架构、阅读路径和内容边界。
+- [FDE 岗位与能力模型](/docs/role-and-competency/) — 明确现场交付工程师的职责边界、关键产出和成长路径。
+- [交付生命周期](/docs/delivery-lifecycle/) — 从售前交接到项目关闭的标准阶段、门禁和关键产出。
+- [现场实施标准作业](/docs/site-delivery-sop/) — 现场勘查、安装部署、验证和回退的统一作业框架。
+- [验收与运维移交](/docs/acceptance-and-handover/) — 建立可度量的验收条件，并把系统、资料和责任完整移交。
+- [AI 基础与能力边界](/docs/ai-foundations/) — FDE 需要掌握的大模型、Prompt、RAG、Agent 和部署基础。
+- [AI 应用交付](/docs/ai-delivery/) — 将 AI 业务需求转化为可测试、可上线、可回退的交付方案。
+- [RAG 知识工程](/docs/rag-knowledge-engineering/) — 文档接入、切片、索引、召回、重排和引用的交付方法。
+- [AI 评测与验收](/docs/ai-evaluation-and-acceptance/) — 用业务测试集、质量指标和安全用例建立 AI 项目的验收标准。
+- [故障排查方法](/docs/troubleshooting-method/) — 用影响判断、证据链和可验证假设快速收敛现场问题。
+- [AI 系统常见故障](/docs/ai-troubleshooting/) — 排查幻觉、召回错误、工具失败、限流、性能和成本异常。
+- [运维、监控与变更](/docs/operations-and-change/) — 建立系统健康指标、告警、备份、升级和容量管理规范。
+- [安全、隐私与 AI 治理](/docs/security-privacy-ai-governance/) — 管理账号、密钥、客户数据、Prompt 注入、越权访问和审计风险。
+- [项目沟通、风险与变更](/docs/project-communication-risk/) — 用清晰的项目机制管理预期、决策、阻塞和范围变化。
+- [案例库与 FDE 工具箱](/docs/cases-and-toolkit/) — 规定案例沉淀方法，以及现场检查、调试和报告工具的管理方式。
+- [知识库治理与文档标准](/docs/knowledge-governance/) — 定义文档模板、所有权、审核、版本、过期处理和质量指标。
+- [培训、认证与成长路径](/docs/training-and-certification/) — 设计新员工学习、实操训练、能力认证和经验分享机制。
