@@ -5,13 +5,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: { default: `${siteName}｜现场交付工程师知识库`, template: `%s｜${siteName}` },
+  title: { default: `${siteName}｜前沿部署工程师知识库`, template: `%s｜${siteName}` },
   description: siteDescription,
   applicationName: siteName,
   keywords: [
     "FDE",
-    "现场交付工程师",
-    "Field Delivery Engineer",
+    "前沿部署工程师",
+    "Forward Deployed Engineer",
     "项目交付",
     "AI 应用交付",
     "RAG 知识库",
@@ -39,12 +39,12 @@ export const metadata: Metadata = {
     locale: "zh_CN",
     url: siteUrl,
     siteName,
-    title: `${siteName}｜现场交付工程师知识库`,
+    title: `${siteName}｜前沿部署工程师知识库`,
     description: siteDescription,
   },
   twitter: {
     card: "summary",
-    title: `${siteName}｜现场交付工程师知识库`,
+    title: `${siteName}｜前沿部署工程师知识库`,
     description: siteDescription,
   },
 };

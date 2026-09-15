@@ -1,25 +1,48 @@
 # FDE 从入门到精通
 
-> 面向现场交付工程师的系统化知识库，覆盖岗位能力、项目交付、AI 应用实施、RAG 知识工程、故障排查、验收运维与项目治理。
+> 面向 Forward Deployed Engineer（前沿部署工程师）的中文知识库，覆盖客户问题、软件工程、AI 系统、业务价值与产品反馈。内容分为基础指南和待完善大纲，后者不代表完整教程。
 
 Canonical: https://fde.loyo.work/
 
 ## Documentation
 
-- [FDE 知识地图](/docs/knowledge-map/) — 知识库的完整信息架构、阅读路径和内容边界。
-- [FDE 岗位与能力模型](/docs/role-and-competency/) — 明确现场交付工程师的职责边界、关键产出和成长路径。
-- [交付生命周期](/docs/delivery-lifecycle/) — 从售前交接到项目关闭的标准阶段、门禁和关键产出。
-- [现场实施标准作业](/docs/site-delivery-sop/) — 现场勘查、安装部署、验证和回退的统一作业框架。
-- [验收与运维移交](/docs/acceptance-and-handover/) — 建立可度量的验收条件，并把系统、资料和责任完整移交。
-- [AI 基础与能力边界](/docs/ai-foundations/) — FDE 需要掌握的大模型、Prompt、RAG、Agent 和部署基础。
-- [AI 应用交付](/docs/ai-delivery/) — 将 AI 业务需求转化为可测试、可上线、可回退的交付方案。
-- [RAG 知识工程](/docs/rag-knowledge-engineering/) — 文档接入、切片、索引、召回、重排和引用的交付方法。
-- [AI 评测与验收](/docs/ai-evaluation-and-acceptance/) — 用业务测试集、质量指标和安全用例建立 AI 项目的验收标准。
-- [故障排查方法](/docs/troubleshooting-method/) — 用影响判断、证据链和可验证假设快速收敛现场问题。
-- [AI 系统常见故障](/docs/ai-troubleshooting/) — 排查幻觉、召回错误、工具失败、限流、性能和成本异常。
-- [运维、监控与变更](/docs/operations-and-change/) — 建立系统健康指标、告警、备份、升级和容量管理规范。
-- [安全、隐私与 AI 治理](/docs/security-privacy-ai-governance/) — 管理账号、密钥、客户数据、Prompt 注入、越权访问和审计风险。
-- [项目沟通、风险与变更](/docs/project-communication-risk/) — 用清晰的项目机制管理预期、决策、阻塞和范围变化。
-- [案例库与 FDE 工具箱](/docs/cases-and-toolkit/) — 规定案例沉淀方法，以及现场检查、调试和报告工具的管理方式。
-- [知识库治理与文档标准](/docs/knowledge-governance/) — 定义文档模板、所有权、审核、版本、过期处理和质量指标。
-- [培训、认证与成长路径](/docs/training-and-certification/) — 设计新员工学习、实操训练、能力认证和经验分享机制。
+- [FDE 知识地图](/docs/knowledge-map/) — 基础指南：全局大纲、学习路线与内容建设进度。
+- [FDE 岗位与能力模型](/docs/role-and-competency/) — 基础指南：理解 Forward Deployed Engineer 的责任、工程能力与协作边界。
+- [工程基础与开发环境](/docs/engineering-foundations/) — 待完善大纲：补齐编程、系统、网络、Git 与调试的基础。
+- [学习路线与能力评估](/docs/training-and-certification/) — 基础指南：用项目产出检验从入门到独立负责项目的成长。
+- [客户访谈与问题定义](/docs/business-discovery/) — 待完善大纲：把模糊诉求拆成用户、场景、问题与约束。
+- [业务流程与用户研究](/docs/workflow-mapping/) — 待完善大纲：找出真实工作流中的瓶颈、例外与人工判断。
+- [场景筛选与范围界定](/docs/use-case-prioritization/) — 待完善大纲：按价值、可行性、数据准备度和风险选择首个场景。
+- [价值假设与成功指标](/docs/success-metrics/) — 待完善大纲：把业务目标转成可测量的基线、目标和验收证据。
+- [解决方案架构与技术取舍](/docs/solution-architecture/) — 待完善大纲：建立组件、边界、部署形态与关键决策记录。
+- [数据建模与业务语义](/docs/data-architecture/) — 待完善大纲：把业务对象、关系、事件和指标映射到可用的数据模型。
+- [系统集成与接口契约](/docs/integration-design/) — 待完善大纲：设计跨系统的数据流、接口、错误处理与一致性边界。
+- [原型与技术验证](/docs/prototype-validation/) — 待完善大纲：通过最小原型验证高风险假设，明确继续或停止的条件。
+- [后端服务与 API 实现](/docs/api-engineering/) — 待完善大纲：构建有校验、鉴权、错误处理与可观测性的服务。
+- [数据接入与处理管道](/docs/data-pipelines/) — 待完善大纲：构建可重跑、可追踪并能处理脏数据的接入链路。
+- [业务应用与工作流界面](/docs/workflow-apps/) — 待完善大纲：把模型和接口变成用户能完成任务的工具。
+- [测试、代码审查与持续集成](/docs/engineering-quality/) — 待完善大纲：用自动检查与评审控制变更质量。
+- [AI 基础与能力边界](/docs/ai-foundations/) — 基础指南：理解模型、Prompt、RAG、Agent 与部署选择。
+- [AI 应用交付](/docs/ai-delivery/) — 基础指南：把业务需求转成可测试、可上线的 AI 方案。
+- [RAG 知识工程](/docs/rag-knowledge-engineering/) — 基础指南：设计文档接入、检索、引用与知识更新链路。
+- [Agent 与工具工作流](/docs/agent-workflows/) — 待完善大纲：设计工具调用、状态管理、权限边界与人工介入。
+- [AI 评测与验收](/docs/ai-evaluation-and-acceptance/) — 基础指南：定义评测集、业务指标、失败门槛与上线标准。
+- [交付生命周期](/docs/delivery-lifecycle/) — 基础指南：串联问题定义、开发迭代、试运行、验收与移交。
+- [部署、联调与上线准备](/docs/site-delivery-sop/) — 基础指南：检查环境、配置、依赖、联调和回退准备。
+- [验收与运维移交](/docs/acceptance-and-handover/) — 基础指南：明确验收证据、责任边界和遗留事项。
+- [可观测性与服务目标](/docs/observability/) — 待完善大纲：用日志、指标、链路和 SLO 发现用户受到的影响。
+- [故障排查方法](/docs/troubleshooting-method/) — 基础指南：建立从现象、假设、证据到根因的诊断过程。
+- [AI 系统常见故障](/docs/ai-troubleshooting/) — 基础指南：诊断召回、输出、工具调用、性能和成本异常。
+- [运维、监控与变更](/docs/operations-and-change/) — 基础指南：管理版本、容量、备份、回退和日常运维。
+- [安全、隐私与 AI 治理](/docs/security-privacy-ai-governance/) — 基础指南：理解项目中的安全控制与治理责任。
+- [身份认证与权限设计](/docs/identity-access/) — 待完善大纲：设计用户、服务、租户和资源的访问边界。
+- [数据分级与隐私保护](/docs/data-privacy/) — 待完善大纲：定义数据的收集、处理、保留和删除边界。
+- [AI 威胁建模与防护验证](/docs/ai-threat-modeling/) — 待完善大纲：识别提示注入、数据泄露和工具滥用的攻击面。
+- [项目沟通、风险与变更](/docs/project-communication-risk/) — 基础指南：管理里程碑、范围、风险和升级机制。
+- [干系人协作与用户采用](/docs/stakeholder-adoption/) — 待完善大纲：推动业务负责人、使用者和技术团队共同验收价值。
+- [产品反馈与需求抽象](/docs/product-feedback/) — 待完善大纲：区分单一客户定制和具有复用价值的产品需求。
+- [方案复用与规模化交付](/docs/reusable-solutions/) — 待完善大纲：将一次性实现沉淀为可配置、可维护的复用方案。
+- [端到端实战项目](/docs/capstone-project/) — 待完善大纲：从问题访谈到上线复盘，完成一个可评审的示范项目。
+- [案例沉淀与工具管理](/docs/cases-and-toolkit/) — 基础指南：说明案例记录方法与工具准入标准，真实案例逐步补充。
+- [项目交付模板目录](/docs/delivery-templates/) — 待完善大纲：规划问题定义、架构决策、评测、上线和复盘模板。
+- [知识库治理与文档标准](/docs/knowledge-governance/) — 基础指南：区分大纲、概念指南和操作手册，维护内容状态与证据。

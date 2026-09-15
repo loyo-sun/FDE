@@ -1,102 +1,64 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Bot, ClipboardCheck, LifeBuoy, Route, SearchCheck, ShieldCheck } from "lucide-react";
-import { SearchBox } from "@/components/search-box";
+import { ArrowRight } from "lucide-react";
 import { categories, getAllDocs } from "@/lib/docs";
+import { statusLabels } from "@/lib/content-status";
+import { learningPaths } from "@/lib/learning-paths";
 import { siteDescription, siteName, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: `${siteName}｜现场交付工程师知识库`,
+  title: { absolute: `${siteName}｜前沿部署工程师知识库` },
   description: siteDescription,
   alternates: { canonical: siteUrl },
 };
 
-const categoryIcons = {
-  start: Route,
-  delivery: ClipboardCheck,
-  ai: Bot,
-  troubleshooting: LifeBuoy,
-  operations: ShieldCheck,
-  management: Route,
-  practice: SearchCheck,
-  governance: ClipboardCheck,
-};
-
 export default function Home() {
   const docs = getAllDocs();
-  const websiteJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": `${siteUrl}/#website`,
-    url: siteUrl,
-    name: siteName,
-    alternateName: ["FDE 知识库", "现场交付工程师知识库"],
-    description: siteDescription,
-    inLanguage: "zh-CN",
-  };
-  const collectionJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "@id": `${siteUrl}/#knowledge-base`,
-    url: siteUrl,
-    name: `${siteName}｜现场交付工程师知识库`,
-    description: siteDescription,
-    inLanguage: "zh-CN",
-    isPartOf: { "@id": `${siteUrl}/#website` },
-    mainEntity: {
-      "@type": "ItemList",
-      numberOfItems: docs.length,
-      itemListElement: docs.map((doc, index) => ({
-        "@type": "ListItem",
-        position: index + 1,
-        name: doc.title,
-        url: `${siteUrl}/docs/${doc.slug}/`,
-      })),
-    },
+  const guides = docs.filter((doc) => doc.status !== "outline").length;
+  const outlines = docs.length - guides;
+  const schema = {
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    name: siteName, url: siteUrl, description: siteDescription, inLanguage: "zh-CN",
+    isPartOf: { "@type": "WebSite", "@id": `${siteUrl}/#website`, name: siteName, url: siteUrl, description: siteDescription, inLanguage: "zh-CN" },
+    mainEntity: { "@type": "ItemList", numberOfItems: docs.length, itemListElement: docs.map((doc, index) => ({ "@type": "ListItem", position: index + 1, name: doc.title, url: `${siteUrl}/docs/${doc.slug}/` })) },
   };
   return (
-    <main>
+    <main id="main-content">
       <section className="home-intro">
-        <div className="eyebrow">现场交付工程师知识库 · FIELD DELIVERY ENGINEERING</div>
+        <div className="eyebrow">FORWARD DEPLOYED ENGINEER · 前沿部署工程师</div>
         <h1>FDE 从入门到精通</h1>
-        <p>从岗位能力和交付流程开始，系统掌握 AI 应用实施、RAG 知识工程、故障排查、项目验收与持续运维。</p>
-        <SearchBox />
-        <div className="quick-links">
-          <span>常用入口</span>
-          <Link href="/docs/delivery-lifecycle/">交付生命周期</Link>
-          <Link href="/docs/ai-delivery/">AI 应用交付</Link>
-          <Link href="/docs/troubleshooting-method/">故障排查方法</Link>
-        </div>
+        <p>深入客户问题，构建软件与 AI 方案，交付可验证的业务结果。</p>
+        <div className="intro-actions"><Link className="primary-link" href="#learning-paths">选择学习路线 <ArrowRight size={17} /></Link><Link href="/docs/knowledge-map/">查看完整知识地图 <ArrowRight size={16} /></Link></div>
+        <p className="intro-note">{categories.length} 个知识域 · {docs.length} 个主题 · {guides} 篇基础指南 · {outlines} 篇待完善大纲</p>
+      </section>
+
+      <section className="learning-section" id="learning-paths" aria-labelledby="learning-title">
+        <div className="section-heading"><div><span>LEARNING PATHS</span><h2 id="learning-title">从你的阶段开始</h2></div><p>沿着项目产出学习，按需补齐能力</p></div>
+        <div className="learning-grid">{learningPaths.map((path, index) => (
+          <article className="learning-card" key={path.title}>
+            <span className="path-step">路线 {index + 1}</span><h3>{path.title}</h3><p>{path.description}</p>
+            <ol>{path.slugs.map((slug) => { const doc = docs.find((item) => item.slug === slug)!; return <li key={slug}><Link href={`/docs/${slug}/`}>{doc.title}</Link>{doc.status === "outline" && <span className="mini-status">大纲</span>}</li>; })}</ol>
+            <strong className="path-outcome">{path.outcome}</strong>
+          </article>
+        ))}</div>
       </section>
 
       <section className="home-grid" aria-labelledby="knowledge-map-title">
-        <div className="section-heading">
-          <div><span>KNOWLEDGE MAP</span><h2 id="knowledge-map-title">知识库大纲</h2></div>
-          <p>{docs.length} 篇基础文档 · 8 个知识域</p>
-        </div>
-        <div className="category-grid">
-          {categories.map((category) => {
-            const first = docs.find((doc) => doc.category === category.id);
-            const Icon = categoryIcons[category.id as keyof typeof categoryIcons];
-            return (
-              <Link className="category-card" href={first ? `/docs/${first.slug}/` : "/"} key={category.id}>
-                <div className="category-top"><Icon size={21} /><span>{String(docs.filter((doc) => doc.category === category.id).length).padStart(2, "0")}</span></div>
-                <h3>{category.title}</h3>
-                <p>{category.description}</p>
-                <span className="card-link">查看文档 <ArrowRight size={16} /></span>
-              </Link>
-            );
-          })}
-        </div>
+        <div className="section-heading"><div><span>KNOWLEDGE MAP</span><h2 id="knowledge-map-title">完整知识大纲</h2></div><p>{categories.length} 个知识域 · {docs.length} 个主题</p></div>
+        <p className="section-description">按能力与项目任务查找内容。每个知识域直接列出全部主题，标注当前完成状态。</p>
+        <nav className="domain-nav" aria-label="知识域快速跳转">{categories.map((category) => <a href={`#domain-${category.id}`} key={category.id}>{category.title}</a>)}</nav>
+        <div className="category-grid">{categories.map((category) => {
+          const articles = docs.filter((doc) => doc.category === category.id);
+          return <section className="category-card" id={`domain-${category.id}`} key={category.id} aria-labelledby={`title-${category.id}`}>
+            <div className="category-top"><h3 id={`title-${category.id}`}>{category.title}</h3><span>{articles.length} 篇文档</span></div>
+            <p>{category.description}</p><p className="domain-outcome">{category.outcome}</p>
+            <ul className="topic-list">{articles.map((doc) => <li key={doc.slug}><Link href={`/docs/${doc.slug}/`}><span>{doc.title}</span><span className={`status-badge ${doc.status}`}>{statusLabels[doc.status]}</span></Link></li>)}</ul>
+          </section>;
+        })}</div>
       </section>
 
-      <section className="principles">
-        <div><span className="principle-number">01</span><h2>按现场任务组织</h2><p>从现象和交付阶段进入，而不是从部门架构进入。</p></div>
-        <div><span className="principle-number">02</span><h2>每篇都能执行</h2><p>统一包含前置条件、步骤、验证、回退和风险提示。</p></div>
-        <div><span className="principle-number">03</span><h2>对机器同样清晰</h2><p>结构化元数据、原始 Markdown 和可追踪引用共同服务 AI 索引。</p></div>
-      </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }} />
+      <section className="build-status" aria-labelledby="build-title"><div><span className="eyebrow">持续建设</span><h2 id="build-title">先建立地图，再逐步补齐实战</h2><p>基础指南提供方法与检查要点；待完善大纲只列出学习目标、章节和交付物。操作手册需补齐步骤、验证、回退与审核证据后再发布。</p></div><Link href="/docs/knowledge-map/#分阶段完善计划">查看内容建设计划 <ArrowRight size={16} /></Link></section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     </main>
   );
 }

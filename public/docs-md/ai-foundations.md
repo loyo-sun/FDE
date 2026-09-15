@@ -1,6 +1,8 @@
 # AI 基础与能力边界
 
-FDE 需要掌握的大模型、Prompt、RAG、Agent 和部署基础。
+状态：基础指南
+
+理解模型、Prompt、RAG、Agent 与部署选择。
 
 ## 核心概念
 

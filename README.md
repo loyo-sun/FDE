@@ -1,129 +1,91 @@
 # FDE 从入门到精通
 
-一套面向现场交付工程师的中文知识库，覆盖岗位成长、项目交付、AI 应用实施、故障排查、验收运维和知识治理。
+面向 **Forward Deployed Engineer（前沿部署工程师）** 的中文知识库。从客户问题出发，学习设计、编写和集成软件与 AI 系统，验证业务价值，并把项目经验反馈给产品。
 
-[访问在线知识库](https://fde.loyo.work/) · [查看知识地图](https://fde.loyo.work/docs/knowledge-map/) · [开始学习交付流程](https://fde.loyo.work/docs/delivery-lifecycle/)
+[在线知识库](https://fde.loyo.work/) · [完整知识地图](https://fde.loyo.work/docs/knowledge-map/) · [岗位与能力模型](https://fde.loyo.work/docs/role-and-competency/)
 
-## 为什么做这个项目
+## 新版知识架构
 
-FDE 的工作横跨产品、技术、项目和客户现场。很多关键经验散落在聊天记录、项目文档和个人笔记里，遇到问题时很难快速找到，更难复用。
+| 知识域 | 能力目标 | 主题数 |
+| --- | --- | --- |
+| 岗位与学习基础 | 理解职责，补齐基础并规划成长 | 4 |
+| 客户问题与业务价值 | 访谈、流程分析、场景筛选与成功指标 | 4 |
+| 方案设计与技术决策 | 架构、数据建模、集成设计与原型验证 | 4 |
+| 软件工程与数据实现 | 服务、数据管道、业务应用与工程质量 | 4 |
+| AI 应用与知识工程 | 模型边界、AI 交付、RAG、Agent 与评测 | 5 |
+| 项目交付与上线验收 | 项目生命周期、部署联调与验收移交 | 3 |
+| 可靠性与故障诊断 | 可观测性、诊断、AI 故障与变更运维 | 4 |
+| 安全、权限与数据治理 | 身份权限、隐私、AI 治理与威胁建模 | 4 |
+| 客户协作与产品反馈 | 项目协作、用户采用、产品反馈与方案复用 | 4 |
+| 实战、模板与知识沉淀 | 端到端项目、案例工具、模板与文档治理 | 4 |
 
-这个项目尝试把这些经验整理成一套可以直接执行的知识体系。文档按现场任务和问题组织，每篇内容尽量写清适用范围、操作步骤、验证方法、失败回退和风险提示。
+共 40 个主题：17 篇基础指南、23 篇待完善大纲。大纲提供学习目标、计划章节与预期交付物，**不代表已经完成教程或经过实战验证**。原有 17 篇文档的 URL 保持不变。
 
-它适合：
+## 学习路线
 
-- 正在了解或准备转向 FDE 岗位的人
-- 需要独立负责客户现场交付的工程师
-- 负责 AI 应用、RAG 或 Agent 项目落地的交付人员
-- 希望统一团队交付标准和文档规范的负责人
+- **新人入门**：岗位认知 → 工程基础 → 客户问题定义 → 交付生命周期。产出最小服务与一页问题定义。
+- **项目实战**：成功指标 → 方案架构 → AI 应用交付 → 评测验收 → 运维移交。产出实现、评测与交接项目包。
+- **进阶提升**：Agent → 可观测性 → 威胁建模 → 产品反馈 → 方案复用。产出运行证据与可复用方案。
 
-## 知识库包含什么
+首页展示三条路线和各知识域的全部文章。待完善主题在首页、搜索、侧栏、文档正文和 Markdown 索引中均有标识。
 
-| 知识域 | 主要内容 |
-| --- | --- |
-| 开始使用 | FDE 岗位认知、职责边界、能力模型和成长路径 |
-| 项目交付 | 售前交接、启动、现场勘查、部署、联调、试运行和验收 |
-| AI 应用交付 | 大模型基础、Prompt、RAG、Agent、数据工程和模型选型 |
-| 故障排查 | 影响判断、证据链、根因定位、应急止损和复盘方法 |
-| 运维与安全 | 监控、告警、变更、备份、权限、隐私和 AI 安全 |
-| 项目管理 | 计划、沟通、风险、问题升级和范围变更 |
-| 案例与工具 | 项目案例、现场检查工具、调试方法和交付模板 |
-| 知识治理 | 文档标准、内容审核、版本管理、培训和能力认证 |
+## 内容建设顺序
 
-当前已经整理 17 篇基础文档。它们构成第一版知识骨架，后续内容会继续从真实交付场景中补充。
+1. 补齐入门与客户问题定义，建立一个贯穿示例。
+2. 围绕该示例编写架构、接口、数据管道、工作流应用与测试。
+3. 增补 AI 评测、可靠性、安全和上线回退证据。
+4. 沉淀真实案例、模板、产品反馈和参考方案。
 
-## 推荐阅读路径
+详细主题与交付物见 [FDE 知识地图](content/docs/01-knowledge-map.mdx)。
 
-初次接触 FDE，可以按下面的顺序阅读：
+## 内容维护
 
-1. [FDE 知识地图](https://fde.loyo.work/docs/knowledge-map/)
-2. [FDE 岗位与能力模型](https://fde.loyo.work/docs/role-and-competency/)
-3. [交付生命周期](https://fde.loyo.work/docs/delivery-lifecycle/)
-4. [现场实施标准作业](https://fde.loyo.work/docs/site-delivery-sop/)
-5. [故障排查方法](https://fde.loyo.work/docs/troubleshooting-method/)
-
-如果主要负责 AI 项目，可以从这些内容开始：
-
-1. [AI 基础与能力边界](https://fde.loyo.work/docs/ai-foundations/)
-2. [AI 应用交付](https://fde.loyo.work/docs/ai-delivery/)
-3. [RAG 知识工程](https://fde.loyo.work/docs/rag-knowledge-engineering/)
-4. [AI 评测与验收](https://fde.loyo.work/docs/ai-evaluation-and-acceptance/)
-5. [AI 系统常见故障](https://fde.loyo.work/docs/ai-troubleshooting/)
-
-## 网站特点
-
-- 纯静态生成，页面打开快，部署简单
-- 支持中文全文搜索，可查标题、正文、标签和故障关键词
-- 每篇文档有独立标题、描述、canonical 和结构化数据
-- 自动生成 Sitemap、robots、`llms.txt` 和机器可读内容索引
-- 同时提供网页和原始 Markdown，方便搜索引擎与 AI 工具读取
-- 内容使用 Git 管理，可以审阅、追踪和回退
-- 桌面端和移动端均可使用
-
-这个版本没有接入收费模型、数据库或在线 AI 问答，因此可以保持较低的运行成本。AI 相关能力目前集中在内容结构和索引适配上。
-
-## 参与建设
-
-知识库使用 Markdown 和 MDX 编写。欢迎补充真实、可复现、已脱敏的交付经验，例如：
-
-- 一个有明确现象和根因的故障案例
-- 一份经过项目验证的检查清单
-- 某个交付阶段容易遗漏的风险
-- AI 项目中的评测、召回或成本问题
-- 可以跨项目复用的脚本、模板和方法
-
-提交内容前，请删除客户名称、账号、密钥、内网地址、未脱敏日志和其他敏感信息。
-
-## 内容如何维护
-
-文档存放在 `content/docs/`。新增文档时创建一个 `.mdx` 文件，并填写头信息：
+文档存放在 `content/docs/`，分类元数据在 `content/architecture.json`，首页路线在 `lib/learning-paths.ts`。
 
 ```yaml
 ---
 title: 文档标题
-description: 一句话说明文档解决的问题
+description: 一句话说明要解决的问题
 slug: unique-slug
-category: troubleshooting
-order: 10
-updatedAt: 2026-09-14
-status: published
-tags:
-  - 故障排查
+category: engineering
+order: 300
+updatedAt: "2026-09-15"
+status: outline
+tags: [软件工程, FDE]
 aiIndex: true
 searchIndex: true
 ---
 ```
 
-构建程序会根据这些信息更新站内搜索、Sitemap、原始 Markdown、`llms.txt` 和 `content.json`。
+状态说明：
 
-## 技术实现
+- `outline`：待完善大纲，列出学习目标、计划章节和交付物。
+- `guide`：基础指南，提供概念、方法、判断依据或检查要点。
+- `playbook`：操作手册，补齐适用版本、前置条件、步骤、验证、回退、风险与审核证据后才能使用此状态。
 
-- Next.js App Router
-- TypeScript
-- Markdown / MDX
-- 静态导出
-- GitHub 版本管理
-- Vercel 部署
+新增或调整内容时同步维护知识地图与学习路线。公开资料只能使用合成数据或已脱敏材料，不能包含客户密钥、账号、内网地址或未脱敏日志。
 
-项目不依赖数据库。正式站点地址通过环境变量配置：
+## 网站与搜索
 
-```text
-NEXT_PUBLIC_SITE_URL=https://fde.loyo.work
-```
+- Next.js App Router、TypeScript、MDX，生产环境静态导出。
+- 全站使用同一个顶部搜索框，支持中文全文检索、方向键、回车、Escape 与点击外部关闭。
+- 搜索按标题相关性排序，同等相关性优先基础指南；多关键词需全部匹配。
+- 提供 sitemap、robots、JSON-LD、原始 Markdown、`llms.txt` 和全文索引。
+- 不接入收费模型、数据库或在线 AI 问答。
 
-## 本地运行
+## 运行与验证
 
-```bash
+```sh
 npm install
 npm run dev
 ```
 
-打开 `http://localhost:3000` 查看本地网站。
+打开 `http://localhost:3000`。
 
-生产构建：
-
-```bash
+```sh
 npm run build
+npm run typecheck
+npm run check:content
 ```
 
-静态文件会输出到 `out/`。Vercel 导入本仓库后可以直接完成构建和发布。
+构建前自动生成内容索引。`check:content` 验证分类、状态、唯一地址、内容链接和静态输出。导出文件位于 `out/`，可由静态托管平台发布。正式域名通过 `NEXT_PUBLIC_SITE_URL` 配置，默认 `https://fde.loyo.work`。

@@ -6,6 +6,7 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
 import remarkGfm from "remark-gfm";
 import { DocsSidebar } from "@/components/docs-sidebar";
+import { statusLabels } from "@/lib/content-status";
 import { getAllDocs, getCategory, getDoc } from "@/lib/docs";
 
 export function generateStaticParams() {
@@ -55,16 +56,17 @@ export default async function DocPage({ params }: { params: Promise<{ slug: stri
   };
 
   return (
-    <main className="docs-layout">
+    <main className="docs-layout" id="main-content">
       <DocsSidebar docs={docs} current={slug} />
       <article className="doc-article">
-        <div className="breadcrumbs"><Link href="/">知识库</Link><span>/</span><span>{category?.title}</span></div>
+        <div className="breadcrumbs"><Link href="/">知识库</Link><span>/</span><Link href={`/#domain-${doc.category}`}>{category?.title}</Link></div>
         <header className="doc-header">
-          <span className="doc-type"><FileText size={15} /> STANDARD PLAYBOOK</span>
+          <span className="doc-type"><FileText size={15} /> {statusLabels[doc.status]}</span>
           <h1>{doc.title}</h1>
           <p>{doc.description}</p>
           <div className="doc-meta"><span><CalendarDays size={15} /> 更新于 {doc.updatedAt}</span><span>{doc.tags.join(" · ")}</span></div>
         </header>
+        <div className={`content-notice ${doc.status}`}><strong>{statusLabels[doc.status]}</strong><p>{doc.status === "outline" ? "本页是建设大纲，列出学习目标、计划章节和预期交付物，正文与示例尚待完善。" : doc.status === "guide" ? "本页提供概念、方法与检查要点；具体操作仍需结合环境、版本和验证结果。" : "执行前请核对适用版本、前置条件、风险与回退方案。"}</p></div>
         <div className="mdx-content">
           <MDXRemote source={doc.content} options={{ mdxOptions: { remarkPlugins: [remarkGfm], rehypePlugins: [rehypeSlug] } }} />
         </div>
