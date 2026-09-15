@@ -56,8 +56,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <SiteHeader />
         {children}
         <footer className="site-footer">
-          <span>{siteName}</span>
-          <span>内容版本化 · 搜索友好 · AI 可索引</span>
+          <div className="footer-about"><span>{siteName}</span><p>面向前沿部署工程师，持续完善的学习与实践知识库。</p></div>
+          <nav aria-label="页脚导航">
+            <a href="https://github.com/loyo-sun/FDE" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://github.com/loyo-sun/FDE/issues" target="_blank" rel="noreferrer">内容纠错 ↗</a>
+            <a href="https://github.com/loyo-sun/FDE#参与贡献" target="_blank" rel="noreferrer">参与贡献 ↗</a>
+          </nav>
         </footer>
       </body>
     </html>
