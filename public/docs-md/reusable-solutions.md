@@ -4,9 +4,9 @@
 
 将一次性实现沉淀为可配置、可维护的复用方案。
 
-## 主题图解
+## 框架位置
 
-[![方案复用与规模化交付章节图解](/diagrams/articles/reusable-solutions.svg)](/diagrams/articles/reusable-solutions.svg)
+[![方案复用与规模化交付局部知识框架](/diagrams/articles/reusable-solutions.svg)](/diagrams/articles/reusable-solutions.svg)
 
 
 ## 复用需要稳定边界

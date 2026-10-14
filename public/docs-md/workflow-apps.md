@@ -4,9 +4,9 @@
 
 把模型和接口变成用户能完成任务的工具。
 
-## 主题图解
+## 框架位置
 
-[![业务应用与工作流界面章节图解](/diagrams/articles/workflow-apps.svg)](/diagrams/articles/workflow-apps.svg)
+[![业务应用与工作流界面局部知识框架](/diagrams/articles/workflow-apps.svg)](/diagrams/articles/workflow-apps.svg)
 
 
 ## 围绕任务设计工作台

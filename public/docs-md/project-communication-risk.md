@@ -4,9 +4,9 @@
 
 管理里程碑、范围、风险和升级机制。
 
-## 主题图解
+## 框架位置
 
-[![项目沟通、风险与变更章节图解](/diagrams/articles/project-communication-risk.svg)](/diagrams/articles/project-communication-risk.svg)
+[![项目沟通、风险与变更局部知识框架](/diagrams/articles/project-communication-risk.svg)](/diagrams/articles/project-communication-risk.svg)
 
 
 ## 沟通机制

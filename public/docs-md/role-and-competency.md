@@ -4,9 +4,9 @@
 
 理解 Forward Deployed Engineer 的责任、工程能力与协作边界。
 
-## 主题图解
+## 框架位置
 
-[![FDE 岗位与能力模型章节图解](/diagrams/articles/role-and-competency.svg)](/diagrams/articles/role-and-competency.svg)
+[![FDE 岗位与能力模型局部知识框架](/diagrams/articles/role-and-competency.svg)](/diagrams/articles/role-and-competency.svg)
 
 
 ## FDE 是什么

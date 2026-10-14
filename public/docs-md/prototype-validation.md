@@ -4,9 +4,9 @@
 
 通过最小原型验证高风险假设，明确继续或停止的条件。
 
-## 主题图解
+## 框架位置
 
-[![原型与技术验证章节图解](/diagrams/articles/prototype-validation.svg)](/diagrams/articles/prototype-validation.svg)
+[![原型与技术验证局部知识框架](/diagrams/articles/prototype-validation.svg)](/diagrams/articles/prototype-validation.svg)
 
 
 ## 原型服务于决策

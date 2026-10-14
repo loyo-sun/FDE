@@ -4,9 +4,9 @@
 
 定义评测集、业务指标、失败门槛与上线标准。
 
-## 主题图解
+## 框架位置
 
-[![AI 评测与验收章节图解](/diagrams/articles/ai-evaluation-and-acceptance.svg)](/diagrams/articles/ai-evaluation-and-acceptance.svg)
+[![AI 评测与验收局部知识框架](/diagrams/articles/ai-evaluation-and-acceptance.svg)](/diagrams/articles/ai-evaluation-and-acceptance.svg)
 
 
 ## 测试集建设

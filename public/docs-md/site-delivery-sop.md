@@ -4,9 +4,9 @@
 
 检查环境、配置、依赖、联调和回退准备。
 
-## 主题图解
+## 框架位置
 
-[![部署、联调与上线准备章节图解](/diagrams/articles/site-delivery-sop.svg)](/diagrams/articles/site-delivery-sop.svg)
+[![部署、联调与上线准备局部知识框架](/diagrams/articles/site-delivery-sop.svg)](/diagrams/articles/site-delivery-sop.svg)
 
 
 ## 实施前检查
@@ -62,6 +62,9 @@
 ## 演练与记录
 
 先在等价测试环境演练，再在窗口中执行批准步骤。记录启动时间、版本、验证结果、操作者与证据。用[上线检查单](/templates/release-checklist.md)区分“设计了回退”和“实际成功回退”。上线后观察时间、指标与值班责任由项目约定，不使用通用固定数字替代。
+
+
+环境、网络、制品与平台迁移的前置设计见[部署平台与环境](/docs/deployment-platform/)。
 
 ## 参考阅读与使用边界
 

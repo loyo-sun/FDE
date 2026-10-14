@@ -15,7 +15,7 @@ export function DocsSidebar({ docs, current }: { docs: DocMeta[]; current: strin
     <aside className={`docs-sidebar ${mobileOpen ? "is-open" : ""}`} aria-label="知识库导航">
       <button type="button" className="sidebar-toggle" aria-expanded={mobileOpen} aria-controls={id} onClick={() => setMobileOpen(!mobileOpen)}><BookOpenText size={17} />知识库目录<ChevronDown size={16} /></button>
       <nav id={id} className="sidebar-content" aria-label="知识库目录">
-        <Link className="sidebar-map" href="/docs/knowledge-map/">学习路线与进度</Link>
+        <Link className="sidebar-map" href="/docs/knowledge-map/">知识框架与学习路线</Link>
         {categories.map((category) => {
           const categoryDocs = docs.filter((doc) => doc.category === category.id);
           if (!categoryDocs.length) return null;

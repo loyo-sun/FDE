@@ -4,9 +4,9 @@
 
 构建有校验、鉴权、错误处理与可观测性的服务。
 
-## 主题图解
+## 框架位置
 
-[![后端服务与 API 实现章节图解](/diagrams/articles/api-engineering.svg)](/diagrams/articles/api-engineering.svg)
+[![后端服务与 API 实现局部知识框架](/diagrams/articles/api-engineering.svg)](/diagrams/articles/api-engineering.svg)
 
 
 ## 将接口契约落实到运行行为

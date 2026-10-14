@@ -4,9 +4,9 @@
 
 说明案例记录方法与工具准入标准，真实案例逐步补充。
 
-## 主题图解
+## 框架位置
 
-[![案例沉淀与工具管理章节图解](/diagrams/articles/cases-and-toolkit.svg)](/diagrams/articles/cases-and-toolkit.svg)
+[![案例沉淀与工具管理局部知识框架](/diagrams/articles/cases-and-toolkit.svg)](/diagrams/articles/cases-and-toolkit.svg)
 
 
 ## 案例分类

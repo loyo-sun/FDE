@@ -4,9 +4,9 @@
 
 推动业务负责人、使用者和技术团队共同验收价值。
 
-## 主题图解
+## 框架位置
 
-[![干系人协作与用户采用章节图解](/diagrams/articles/stakeholder-adoption.svg)](/diagrams/articles/stakeholder-adoption.svg)
+[![干系人协作与用户采用局部知识框架](/diagrams/articles/stakeholder-adoption.svg)](/diagrams/articles/stakeholder-adoption.svg)
 
 
 ## 采用从协作设计开始

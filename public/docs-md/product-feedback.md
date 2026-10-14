@@ -4,9 +4,9 @@
 
 区分单一客户定制和具有复用价值的产品需求。
 
-## 主题图解
+## 框架位置
 
-[![产品反馈与需求抽象章节图解](/diagrams/articles/product-feedback.svg)](/diagrams/articles/product-feedback.svg)
+[![产品反馈与需求抽象局部知识框架](/diagrams/articles/product-feedback.svg)](/diagrams/articles/product-feedback.svg)
 
 
 ## 将客户诉求还原为可复用问题

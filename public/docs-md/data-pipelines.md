@@ -4,9 +4,9 @@
 
 构建可重跑、可追踪并能处理脏数据的接入链路。
 
-## 主题图解
+## 框架位置
 
-[![数据接入与处理管道章节图解](/diagrams/articles/data-pipelines.svg)](/diagrams/articles/data-pipelines.svg)
+[![数据接入与处理管道局部知识框架](/diagrams/articles/data-pipelines.svg)](/diagrams/articles/data-pipelines.svg)
 
 
 ## 数据接入是可恢复的过程

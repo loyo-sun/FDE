@@ -4,9 +4,9 @@
 
 用项目产出检验从入门到独立负责项目的成长。
 
-## 主题图解
+## 框架位置
 
-[![学习路线与能力评估章节图解](/diagrams/articles/training-and-certification.svg)](/diagrams/articles/training-and-certification.svg)
+[![学习路线与能力评估局部知识框架](/diagrams/articles/training-and-certification.svg)](/diagrams/articles/training-and-certification.svg)
 
 
 ## 用产出检验成长

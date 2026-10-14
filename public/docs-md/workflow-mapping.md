@@ -4,9 +4,9 @@
 
 找出真实工作流中的瓶颈、例外与人工判断。
 
-## 主题图解
+## 框架位置
 
-[![业务流程与用户研究章节图解](/diagrams/articles/workflow-mapping.svg)](/diagrams/articles/workflow-mapping.svg)
+[![业务流程与用户研究局部知识框架](/diagrams/articles/workflow-mapping.svg)](/diagrams/articles/workflow-mapping.svg)
 
 
 ## 用真实任务还原流程

@@ -4,9 +4,9 @@
 
 诊断召回、输出、工具调用、性能和成本异常。
 
-## 主题图解
+## 框架位置
 
-[![AI 系统常见故障章节图解](/diagrams/articles/ai-troubleshooting.svg)](/diagrams/articles/ai-troubleshooting.svg)
+[![AI 系统常见故障局部知识框架](/diagrams/articles/ai-troubleshooting.svg)](/diagrams/articles/ai-troubleshooting.svg)
 
 
 ## 回答错误或幻觉

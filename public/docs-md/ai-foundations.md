@@ -4,9 +4,9 @@
 
 理解模型、Prompt、RAG、Agent 与部署选择。
 
-## 主题图解
+## 框架位置
 
-[![AI 基础与能力边界章节图解](/diagrams/articles/ai-foundations.svg)](/diagrams/articles/ai-foundations.svg)
+[![AI 基础与能力边界局部知识框架](/diagrams/articles/ai-foundations.svg)](/diagrams/articles/ai-foundations.svg)
 
 
 ## 核心概念
@@ -58,6 +58,9 @@
 ## 练习
 
 用同一批合成任务比较搜索、仅提示词和 RAG 设计，记录正确、拒答、时间与成本。未实际调用模型时标为设计比较，不填写虚构结果。
+
+
+模型的任务比较、部署约束和升级替换，见[模型选型、部署与替换策略](/docs/model-selection/)。
 
 ## 参考阅读与使用边界
 

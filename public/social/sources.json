@@ -8,7 +8,7 @@
   },
   {
     "file": "/social/knowledge-map.png",
-    "title": "FDE 学习路线",
+    "title": "FDE 知识框架与学习路线",
     "source": "FDE 知识库原创分享图，Codex 绘制",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
@@ -161,6 +161,13 @@
     "createdAt": "2026-10-14"
   },
   {
+    "file": "/social/commercial-scoping.png",
+    "title": "立项与交付经济性",
+    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "generator": "scripts/build-social-images.mjs",
+    "createdAt": "2026-10-14"
+  },
+  {
     "file": "/social/data-architecture.png",
     "title": "数据建模与业务语义",
     "source": "FDE 知识库原创分享图，Codex 绘制",
@@ -184,6 +191,13 @@
   {
     "file": "/social/delivery-templates.png",
     "title": "项目交付模板目录",
+    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "generator": "scripts/build-social-images.mjs",
+    "createdAt": "2026-10-14"
+  },
+  {
+    "file": "/social/deployment-platform.png",
+    "title": "部署平台、环境与迁移",
     "source": "FDE 知识库原创分享图，Codex 绘制",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
@@ -217,8 +231,22 @@
     "createdAt": "2026-10-14"
   },
   {
+    "file": "/social/model-selection.png",
+    "title": "模型选型、部署与替换策略",
+    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "generator": "scripts/build-social-images.mjs",
+    "createdAt": "2026-10-14"
+  },
+  {
     "file": "/social/observability.png",
     "title": "可观测性与服务目标",
+    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "generator": "scripts/build-social-images.mjs",
+    "createdAt": "2026-10-14"
+  },
+  {
+    "file": "/social/performance-cost.png",
+    "title": "性能、容量与单任务成本",
     "source": "FDE 知识库原创分享图，Codex 绘制",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
@@ -252,6 +280,13 @@
     "createdAt": "2026-10-14"
   },
   {
+    "file": "/social/solution-exit.png",
+    "title": "系统退出、凭据撤销与数据善后",
+    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "generator": "scripts/build-social-images.mjs",
+    "createdAt": "2026-10-14"
+  },
+  {
     "file": "/social/stakeholder-adoption.png",
     "title": "干系人协作与用户采用",
     "source": "FDE 知识库原创分享图，Codex 绘制",
@@ -268,6 +303,13 @@
   {
     "file": "/social/use-case-prioritization.png",
     "title": "场景筛选与范围界定",
+    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "generator": "scripts/build-social-images.mjs",
+    "createdAt": "2026-10-14"
+  },
+  {
+    "file": "/social/value-realization.png",
+    "title": "上线价值复核与持续采用",
     "source": "FDE 知识库原创分享图，Codex 绘制",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"

@@ -42,12 +42,14 @@ for (const page of pages) {
     assert(html.includes('keyword-tags'), `Missing visible keyword navigation: ${page.path}`);
     assert(fs.readFileSync(`public/diagrams/articles/${page.doc.slug}.svg`, 'utf8').includes('来源：'), `Missing in-image source: ${page.path}`);
     if (page.doc.slug !== 'knowledge-map') {
-      assert(html.includes('aria-label="随阅读高亮的章节图解"'), `Missing interactive diagram: ${page.path}`);
+      assert(html.includes('aria-label="当前主题的局部知识框架"'), `Missing local framework context: ${page.path}`);
       assert(!html.includes('*图片来源：') && !html.includes('图片来源：FDE 知识库原创 SVG 示意图'), `Duplicate image caption: ${page.path}`);
-      for (const step of diagrams[page.doc.slug].steps) {
-        assert(html.includes(`id="${step.id}"`), `Diagram points to missing chapter: ${page.path}#${step.id}`);
-        assert(html.includes(`data-step="${step.id}"`), `Diagram missing chapter node: ${page.path}#${step.id}`);
-      }
+      const context = diagrams[page.doc.slug];
+      assert(html.includes(`data-framework-process="${context.processId}"`), `Wrong primary framework position: ${page.path}`);
+      assert(!html.includes('reading-map') && !html.includes('data-step='), `Chapter navigation returned as a diagram: ${page.path}`);
+      const imageSource = fs.readFileSync(`public/diagrams/articles/${page.doc.slug}.svg`, 'utf8');
+      assert(imageSource.includes(`data-process="${context.processId}" data-current="true"`), `Local framework does not highlight current work: ${page.path}`);
+
     }
   }
 }
@@ -62,4 +64,4 @@ assert(robots.includes(`Sitemap: ${site}/sitemap.xml`), 'Missing robots sitemap'
 assert(!robots.includes('Disallow: /_next/'), 'Search engines must access rendering assets');
 const learning = fs.readFileSync('out/docs/knowledge-map/index.html', 'utf8');
 for (const doc of docs) assert(learning.includes(`href="/docs/${doc.slug}/"`), `Learning topic not available in initial HTML: ${doc.slug}`);
-console.log(`SEO verified: ${pages.length} unique pages, titles and canonicals; ${docs.length} chapter diagrams and sitemap images; crawlable topic links, metadata, alt and JSON-LD.`);
+console.log(`SEO verified: ${pages.length} unique pages, titles and canonicals; ${docs.length} local framework diagrams and sitemap images; crawlable topic links, metadata, alt and JSON-LD.`);

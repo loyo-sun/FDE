@@ -4,9 +4,9 @@
 
 把模糊诉求拆成用户、场景、问题与约束。
 
-## 主题图解
+## 框架位置
 
-[![客户访谈与问题定义章节图解](/diagrams/articles/business-discovery.svg)](/diagrams/articles/business-discovery.svg)
+[![客户访谈与问题定义局部知识框架](/diagrams/articles/business-discovery.svg)](/diagrams/articles/business-discovery.svg)
 
 
 ## 从解决方案诉求退回业务事实

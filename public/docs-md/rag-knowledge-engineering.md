@@ -4,9 +4,9 @@
 
 设计文档接入、检索、引用与知识更新链路。
 
-## 主题图解
+## 框架位置
 
-[![RAG 知识工程章节图解](/diagrams/articles/rag-knowledge-engineering.svg)](/diagrams/articles/rag-knowledge-engineering.svg)
+[![RAG 知识工程局部知识框架](/diagrams/articles/rag-knowledge-engineering.svg)](/diagrams/articles/rag-knowledge-engineering.svg)
 
 
 ## 内容接入

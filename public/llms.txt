@@ -1,12 +1,12 @@
 # FDE 从入门到精通
 
-> 面向 Forward Deployed Engineer（前沿部署工程师）的中文知识库，覆盖客户问题、软件工程、AI 系统、业务价值与产品反馈。全部 40 个主题已提供基础指南，包含随阅读高亮的章节图解、合成案例、练习与可下载模板；生产操作需实际环境验证。
+> 面向 Forward Deployed Engineer（前沿部署工程师）的中文知识库，覆盖客户问题、软件工程、AI 系统、业务价值与产品反馈。全部 46 个主题已提供基础指南，使用六个阶段与七个能力领域的 FDE 整体框架；文章只呈现相关局部，包含合成案例、练习与可下载模板；生产操作需实际环境验证。
 
 Canonical: https://fde.loyo.work/
 
 ## Documentation
 
-- [FDE 学习路线](/docs/knowledge-map/) — 基础指南：按入门、项目实战与进阶路线学习 FDE，筛选 40 个主题并记录个人学习进度。
+- [FDE 知识框架与学习路线](/docs/knowledge-map/) — 基础指南：用六个交付阶段、七个能力领域和 58 项工作理解 FDE 全局，沿 46 个主题安排学习并形成交付证据。
 - [FDE 岗位与能力模型](/docs/role-and-competency/) — 基础指南：理解 Forward Deployed Engineer 的责任、工程能力与协作边界。
 - [工程基础与开发环境](/docs/engineering-foundations/) — 基础指南：补齐编程、系统、网络、Git 与调试的基础。
 - [学习路线与能力评估](/docs/training-and-certification/) — 基础指南：用项目产出检验从入门到独立负责项目的成长。
@@ -14,6 +14,7 @@ Canonical: https://fde.loyo.work/
 - [业务流程与用户研究](/docs/workflow-mapping/) — 基础指南：找出真实工作流中的瓶颈、例外与人工判断。
 - [场景筛选与范围界定](/docs/use-case-prioritization/) — 基础指南：按价值、可行性、数据准备度和风险选择首个场景。
 - [价值假设与成功指标](/docs/success-metrics/) — 基础指南：把业务目标转成可测量的基线、目标和验收证据。
+- [立项与交付经济性](/docs/commercial-scoping/) — 基础指南：在承诺交付前明确价值假设、总投入、责任与停止条件。
 - [解决方案架构与技术取舍](/docs/solution-architecture/) — 基础指南：建立组件、边界、部署形态与关键决策记录。
 - [数据建模与业务语义](/docs/data-architecture/) — 基础指南：把业务对象、关系、事件和指标映射到可用的数据模型。
 - [系统集成与接口契约](/docs/integration-design/) — 基础指南：设计跨系统的数据流、接口、错误处理与一致性边界。
@@ -27,13 +28,17 @@ Canonical: https://fde.loyo.work/
 - [RAG 知识工程](/docs/rag-knowledge-engineering/) — 基础指南：设计文档接入、检索、引用与知识更新链路。
 - [Agent 与工具工作流](/docs/agent-workflows/) — 基础指南：设计工具调用、状态管理、权限边界与人工介入。
 - [AI 评测与验收](/docs/ai-evaluation-and-acceptance/) — 基础指南：定义评测集、业务指标、失败门槛与上线标准。
+- [模型选型、部署与替换策略](/docs/model-selection/) — 基础指南：按任务比较模型效果、部署约束、总成本与可替换性。
 - [交付生命周期](/docs/delivery-lifecycle/) — 基础指南：串联问题定义、开发迭代、试运行、验收与移交。
 - [部署、联调与上线准备](/docs/site-delivery-sop/) — 基础指南：检查环境、配置、依赖、联调和回退准备。
 - [验收与运维移交](/docs/acceptance-and-handover/) — 基础指南：明确验收证据、责任边界和遗留事项。
+- [部署平台、环境与迁移](/docs/deployment-platform/) — 基础指南：规划网络、身份、配置、构建、发布及平台迁移的边界。
+- [系统退出、凭据撤销与数据善后](/docs/solution-exit/) — 基础指南：在停止或迁移系统时完成数据处置、撤权、对账和责任终止。
 - [可观测性与服务目标](/docs/observability/) — 基础指南：用日志、指标、链路和 SLO 发现用户受到的影响。
 - [故障排查方法](/docs/troubleshooting-method/) — 基础指南：建立从现象、假设、证据到根因的诊断过程。
 - [AI 系统常见故障](/docs/ai-troubleshooting/) — 基础指南：诊断召回、输出、工具调用、性能和成本异常。
 - [运维、监控与变更](/docs/operations-and-change/) — 基础指南：管理版本、容量、备份、回退和日常运维。
+- [性能、容量与单任务成本](/docs/performance-cost/) — 基础指南：把任务延迟、系统容量、调用预算和审核负担放在一起优化。
 - [安全、隐私与 AI 治理](/docs/security-privacy-ai-governance/) — 基础指南：理解项目中的安全控制与治理责任。
 - [身份认证与权限设计](/docs/identity-access/) — 基础指南：设计用户、服务、租户和资源的访问边界。
 - [数据分级与隐私保护](/docs/data-privacy/) — 基础指南：定义数据的收集、处理、保留和删除边界。
@@ -42,6 +47,7 @@ Canonical: https://fde.loyo.work/
 - [干系人协作与用户采用](/docs/stakeholder-adoption/) — 基础指南：推动业务负责人、使用者和技术团队共同验收价值。
 - [产品反馈与需求抽象](/docs/product-feedback/) — 基础指南：区分单一客户定制和具有复用价值的产品需求。
 - [方案复用与规模化交付](/docs/reusable-solutions/) — 基础指南：将一次性实现沉淀为可配置、可维护的复用方案。
+- [上线价值复核与持续采用](/docs/value-realization/) — 基础指南：持续核对业务收益、采用情况、复核负担与运行成本。
 - [端到端实战项目](/docs/capstone-project/) — 基础指南：从问题访谈到上线复盘，完成一个可评审的示范项目。
 - [案例沉淀与工具管理](/docs/cases-and-toolkit/) — 基础指南：说明案例记录方法与工具准入标准，真实案例逐步补充。
 - [项目交付模板目录](/docs/delivery-templates/) — 基础指南：规划问题定义、架构决策、评测、上线和复盘模板。

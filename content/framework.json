@@ -1,0 +1,827 @@
+{
+  "version": 2,
+  "title": "FDE 交付能力全景",
+  "description": "六个交付阶段 × 七个能力领域，以工作、依赖和证据组织知识。",
+  "phases": [
+    {
+      "id": "discover",
+      "title": "发现与立项",
+      "intent": "确认值得解决的问题",
+      "gate": "问题、范围、数据权限与投入上限获得共识"
+    },
+    {
+      "id": "design",
+      "title": "方案与计划",
+      "intent": "把约束变成可执行方案",
+      "gate": "架构、契约、评测与风险控制可以被验证"
+    },
+    {
+      "id": "build",
+      "title": "构建与验证",
+      "intent": "实现最小完整业务链路",
+      "gate": "实现、数据、质量与权限通过预定验证"
+    },
+    {
+      "id": "launch",
+      "title": "上线与采用",
+      "intent": "在受控范围证明可用",
+      "gate": "灰度、培训、验收与运行责任准备齐全"
+    },
+    {
+      "id": "operate",
+      "title": "运行与改进",
+      "intent": "持续兑现质量和业务价值",
+      "gate": "服务、成本、知识与用户效果持续被核对"
+    },
+    {
+      "id": "evolve",
+      "title": "复用与演进",
+      "intent": "把项目变成长期能力",
+      "gate": "产品反馈、复用边界或退出安排明确"
+    }
+  ],
+  "lanes": [
+    {
+      "id": "value",
+      "title": "业务与价值",
+      "color": "#a35242"
+    },
+    {
+      "id": "architecture",
+      "title": "架构与集成",
+      "color": "#945f24"
+    },
+    {
+      "id": "data",
+      "title": "数据与知识",
+      "color": "#687526"
+    },
+    {
+      "id": "ai",
+      "title": "AI 与自动化",
+      "color": "#24736f"
+    },
+    {
+      "id": "engineering",
+      "title": "工程与运行",
+      "color": "#4673a3"
+    },
+    {
+      "id": "trust",
+      "title": "安全与治理",
+      "color": "#81589a"
+    },
+    {
+      "id": "collaboration",
+      "title": "协作与产品",
+      "color": "#98617e"
+    }
+  ],
+  "processes": [
+    {
+      "id": "problem",
+      "phase": "discover",
+      "lane": "value",
+      "label": "识别用户问题",
+      "slug": "business-discovery",
+      "output": "一页问题定义",
+      "requires": []
+    },
+    {
+      "id": "scope",
+      "phase": "discover",
+      "lane": "value",
+      "label": "筛选场景与边界",
+      "slug": "use-case-prioritization",
+      "output": "首期范围与排除项",
+      "requires": [
+        "problem",
+        "workflow"
+      ]
+    },
+    {
+      "id": "economics",
+      "phase": "discover",
+      "lane": "value",
+      "label": "判断交付经济性",
+      "slug": "commercial-scoping",
+      "output": "投入上限与停止条件",
+      "requires": [
+        "problem",
+        "scope"
+      ]
+    },
+    {
+      "id": "system-landscape",
+      "phase": "discover",
+      "lane": "architecture",
+      "label": "摸清现有系统",
+      "slug": "integration-design",
+      "output": "系统边界与依赖清单",
+      "requires": []
+    },
+    {
+      "id": "source-inventory",
+      "phase": "discover",
+      "lane": "data",
+      "label": "清点资料与数据",
+      "slug": "data-architecture",
+      "output": "对象、来源与数据缺口",
+      "requires": []
+    },
+    {
+      "id": "ai-fit",
+      "phase": "discover",
+      "lane": "ai",
+      "label": "判断是否需要 AI",
+      "slug": "ai-foundations",
+      "output": "规则、搜索与模型的方案边界",
+      "requires": []
+    },
+    {
+      "id": "delivery-gates",
+      "phase": "discover",
+      "lane": "engineering",
+      "label": "约定交付阶段",
+      "slug": "delivery-lifecycle",
+      "output": "里程碑与阶段门禁",
+      "requires": []
+    },
+    {
+      "id": "data-purpose",
+      "phase": "discover",
+      "lane": "trust",
+      "label": "确认数据用途",
+      "slug": "data-privacy",
+      "output": "数据台账与授权条件",
+      "requires": []
+    },
+    {
+      "id": "workflow",
+      "phase": "discover",
+      "lane": "collaboration",
+      "label": "观察真实工作流",
+      "slug": "workflow-mapping",
+      "output": "现状流程与交接瓶颈",
+      "requires": []
+    },
+    {
+      "id": "stakeholders",
+      "phase": "discover",
+      "lane": "collaboration",
+      "label": "识别决策与使用者",
+      "slug": "stakeholder-adoption",
+      "output": "责任与协作关系",
+      "requires": []
+    },
+    {
+      "id": "baseline",
+      "phase": "design",
+      "lane": "value",
+      "label": "定义价值基线",
+      "slug": "success-metrics",
+      "output": "指标、分母与采样计划",
+      "requires": [
+        "problem",
+        "scope"
+      ]
+    },
+    {
+      "id": "architecture",
+      "phase": "design",
+      "lane": "architecture",
+      "label": "设计组件与边界",
+      "slug": "solution-architecture",
+      "output": "架构与技术决策",
+      "requires": [
+        "system-landscape",
+        "scope",
+        "data-purpose"
+      ]
+    },
+    {
+      "id": "contracts",
+      "phase": "design",
+      "lane": "architecture",
+      "label": "约定集成契约",
+      "slug": "integration-design",
+      "output": "接口、错误与幂等规则",
+      "requires": [
+        "architecture",
+        "business-model"
+      ]
+    },
+    {
+      "id": "business-model",
+      "phase": "design",
+      "lane": "data",
+      "label": "统一业务语义",
+      "slug": "data-architecture",
+      "output": "实体、状态与不变量",
+      "requires": [
+        "source-inventory",
+        "workflow"
+      ]
+    },
+    {
+      "id": "model-choice",
+      "phase": "design",
+      "lane": "ai",
+      "label": "比较模型与部署形态",
+      "slug": "model-selection",
+      "output": "任务级选型与替换策略",
+      "requires": [
+        "ai-fit",
+        "data-purpose",
+        "economics"
+      ]
+    },
+    {
+      "id": "eval-plan",
+      "phase": "design",
+      "lane": "ai",
+      "label": "设计评测与门槛",
+      "slug": "ai-evaluation-and-acceptance",
+      "output": "冻结样本与风险门槛",
+      "requires": [
+        "baseline",
+        "model-choice"
+      ]
+    },
+    {
+      "id": "prototype",
+      "phase": "design",
+      "lane": "engineering",
+      "label": "验证最大技术风险",
+      "slug": "prototype-validation",
+      "output": "实验结果与继续决定",
+      "requires": [
+        "architecture",
+        "eval-plan"
+      ]
+    },
+    {
+      "id": "platform-plan",
+      "phase": "design",
+      "lane": "engineering",
+      "label": "规划部署与环境",
+      "slug": "deployment-platform",
+      "output": "环境拓扑与配置边界",
+      "requires": [
+        "architecture",
+        "data-purpose"
+      ]
+    },
+    {
+      "id": "authorization",
+      "phase": "design",
+      "lane": "trust",
+      "label": "设计身份与资源授权",
+      "slug": "identity-access",
+      "output": "权限矩阵与拒绝用例",
+      "requires": [
+        "data-purpose",
+        "business-model"
+      ]
+    },
+    {
+      "id": "threats",
+      "phase": "design",
+      "lane": "trust",
+      "label": "建模攻击面",
+      "slug": "ai-threat-modeling",
+      "output": "威胁、控制与验证计划",
+      "requires": [
+        "authorization",
+        "architecture"
+      ]
+    },
+    {
+      "id": "delivery-plan",
+      "phase": "design",
+      "lane": "collaboration",
+      "label": "建立风险与变更机制",
+      "slug": "project-communication-risk",
+      "output": "责任、升级与变更清单",
+      "requires": [
+        "economics",
+        "delivery-gates",
+        "stakeholders"
+      ]
+    },
+    {
+      "id": "business-check",
+      "phase": "build",
+      "lane": "value",
+      "label": "核对范围与验收假设",
+      "slug": "use-case-prioritization",
+      "output": "变更影响与范围确认",
+      "requires": []
+    },
+    {
+      "id": "api",
+      "phase": "build",
+      "lane": "architecture",
+      "label": "实现确定性接口",
+      "slug": "api-engineering",
+      "output": "有鉴权和幂等的服务",
+      "requires": [
+        "contracts",
+        "authorization"
+      ]
+    },
+    {
+      "id": "pipeline",
+      "phase": "build",
+      "lane": "data",
+      "label": "建立可重跑数据管道",
+      "slug": "data-pipelines",
+      "output": "批次、隔离、对账与恢复",
+      "requires": [
+        "business-model",
+        "data-purpose"
+      ]
+    },
+    {
+      "id": "rag",
+      "phase": "build",
+      "lane": "data",
+      "label": "构建知识检索与引用",
+      "slug": "rag-knowledge-engineering",
+      "output": "授权证据与知识版本",
+      "requires": [
+        "pipeline",
+        "authorization",
+        "eval-plan"
+      ]
+    },
+    {
+      "id": "ai-application",
+      "phase": "build",
+      "lane": "ai",
+      "label": "接入受控 AI 能力",
+      "slug": "ai-delivery",
+      "output": "可降级的草稿生成",
+      "requires": [
+        "model-choice",
+        "rag"
+      ]
+    },
+    {
+      "id": "agent",
+      "phase": "build",
+      "lane": "ai",
+      "label": "约束工具与动作",
+      "slug": "agent-workflows",
+      "output": "工具契约、审批与执行状态",
+      "requires": [
+        "contracts",
+        "authorization",
+        "threats"
+      ]
+    },
+    {
+      "id": "workbench",
+      "phase": "build",
+      "lane": "engineering",
+      "label": "构建任务工作台",
+      "slug": "workflow-apps",
+      "output": "正常、异常与人工接管界面",
+      "requires": [
+        "workflow",
+        "api"
+      ]
+    },
+    {
+      "id": "quality",
+      "phase": "build",
+      "lane": "engineering",
+      "label": "运行测试与审查",
+      "slug": "engineering-quality",
+      "output": "测试、契约和审查证据",
+      "requires": [
+        "api",
+        "eval-plan",
+        "threats"
+      ]
+    },
+    {
+      "id": "evidence",
+      "phase": "build",
+      "lane": "engineering",
+      "label": "组织项目证据包",
+      "slug": "delivery-templates",
+      "output": "设计、验证与发布记录",
+      "requires": [
+        "quality",
+        "delivery-plan"
+      ]
+    },
+    {
+      "id": "safety-tests",
+      "phase": "build",
+      "lane": "trust",
+      "label": "验证安全控制",
+      "slug": "security-privacy-ai-governance",
+      "output": "越权、注入与泄露反例",
+      "requires": []
+    },
+    {
+      "id": "co-review",
+      "phase": "build",
+      "lane": "collaboration",
+      "label": "与用户共同验证",
+      "slug": "stakeholder-adoption",
+      "output": "任务观察与问题清单",
+      "requires": []
+    },
+    {
+      "id": "pilot-value",
+      "phase": "launch",
+      "lane": "value",
+      "label": "比较试点价值",
+      "slug": "value-realization",
+      "output": "基线对照与继续/停止决定",
+      "requires": [
+        "baseline",
+        "co-review"
+      ]
+    },
+    {
+      "id": "integration-test",
+      "phase": "launch",
+      "lane": "architecture",
+      "label": "验证跨系统业务链",
+      "slug": "integration-design",
+      "output": "契约与一致性核对",
+      "requires": []
+    },
+    {
+      "id": "index-release",
+      "phase": "launch",
+      "lane": "data",
+      "label": "发布并核验知识版本",
+      "slug": "rag-knowledge-engineering",
+      "output": "激活、撤权与旧引用验证",
+      "requires": [
+        "rag",
+        "safety-tests"
+      ]
+    },
+    {
+      "id": "ai-acceptance",
+      "phase": "launch",
+      "lane": "ai",
+      "label": "评测 AI 质量与失败",
+      "slug": "ai-evaluation-and-acceptance",
+      "output": "分层评测与人工评分",
+      "requires": [
+        "eval-plan",
+        "ai-application"
+      ]
+    },
+    {
+      "id": "release",
+      "phase": "launch",
+      "lane": "engineering",
+      "label": "部署联调与灰度",
+      "slug": "site-delivery-sop",
+      "output": "发布、降级与回退演练",
+      "requires": [
+        "quality",
+        "platform-plan",
+        "security-gate"
+      ]
+    },
+    {
+      "id": "handover",
+      "phase": "launch",
+      "lane": "engineering",
+      "label": "完成验收和运维移交",
+      "slug": "acceptance-and-handover",
+      "output": "接手演练与遗留责任",
+      "requires": [
+        "release",
+        "adoption"
+      ]
+    },
+    {
+      "id": "security-gate",
+      "phase": "launch",
+      "lane": "trust",
+      "label": "审核上线风险",
+      "slug": "security-privacy-ai-governance",
+      "output": "阻断项与残余风险决定",
+      "requires": [
+        "threats",
+        "safety-tests"
+      ]
+    },
+    {
+      "id": "adoption",
+      "phase": "launch",
+      "lane": "collaboration",
+      "label": "培训与试点采用",
+      "slug": "stakeholder-adoption",
+      "output": "任务完成、放弃与复核负担",
+      "requires": [
+        "workbench",
+        "stakeholders"
+      ]
+    },
+    {
+      "id": "realized-value",
+      "phase": "operate",
+      "lane": "value",
+      "label": "复核实际业务收益",
+      "slug": "value-realization",
+      "output": "采用、工时、错误与真实投入",
+      "requires": [
+        "pilot-value",
+        "adoption",
+        "cost-performance"
+      ]
+    },
+    {
+      "id": "architecture-review",
+      "phase": "operate",
+      "lane": "architecture",
+      "label": "复审容量与架构约束",
+      "slug": "solution-architecture",
+      "output": "重审触发与演进决定",
+      "requires": []
+    },
+    {
+      "id": "knowledge-refresh",
+      "phase": "operate",
+      "lane": "data",
+      "label": "更新、删除与撤权",
+      "slug": "data-pipelines",
+      "output": "新鲜度与删除传播证据",
+      "requires": [
+        "pipeline",
+        "index-release"
+      ]
+    },
+    {
+      "id": "ai-diagnosis",
+      "phase": "operate",
+      "lane": "ai",
+      "label": "定位模型与检索退化",
+      "slug": "ai-troubleshooting",
+      "output": "分层故障与回归结果",
+      "requires": [
+        "ai-acceptance",
+        "knowledge-refresh"
+      ]
+    },
+    {
+      "id": "slo",
+      "phase": "operate",
+      "lane": "engineering",
+      "label": "观测用户任务与 SLO",
+      "slug": "observability",
+      "output": "用户影响与错误预算",
+      "requires": [
+        "baseline",
+        "release"
+      ]
+    },
+    {
+      "id": "incident",
+      "phase": "operate",
+      "lane": "engineering",
+      "label": "控制影响并诊断故障",
+      "slug": "troubleshooting-method",
+      "output": "恢复、根因与改进",
+      "requires": [
+        "slo",
+        "operations"
+      ]
+    },
+    {
+      "id": "cost-performance",
+      "phase": "operate",
+      "lane": "engineering",
+      "label": "优化性能与单任务成本",
+      "slug": "performance-cost",
+      "output": "容量、时延与成本预算",
+      "requires": [
+        "slo",
+        "model-choice",
+        "economics"
+      ]
+    },
+    {
+      "id": "operations",
+      "phase": "operate",
+      "lane": "engineering",
+      "label": "执行变更与恢复",
+      "slug": "operations-and-change",
+      "output": "备份、容量与变更记录",
+      "requires": [
+        "handover",
+        "platform-plan"
+      ]
+    },
+    {
+      "id": "access-review",
+      "phase": "operate",
+      "lane": "trust",
+      "label": "复核权限与数据保留",
+      "slug": "data-privacy",
+      "output": "撤权、清理与审计",
+      "requires": [
+        "authorization",
+        "data-purpose"
+      ]
+    },
+    {
+      "id": "case-review",
+      "phase": "operate",
+      "lane": "collaboration",
+      "label": "沉淀运行与失败案例",
+      "slug": "cases-and-toolkit",
+      "output": "有证据的案例和工具准入",
+      "requires": [
+        "incident",
+        "realized-value"
+      ]
+    },
+    {
+      "id": "expansion",
+      "phase": "evolve",
+      "lane": "value",
+      "label": "决定扩大、调整或退出",
+      "slug": "commercial-scoping",
+      "output": "下一阶段价值与投入边界",
+      "requires": [
+        "realized-value",
+        "cost-performance"
+      ]
+    },
+    {
+      "id": "reuse-boundary",
+      "phase": "evolve",
+      "lane": "architecture",
+      "label": "提炼可配置的方案边界",
+      "slug": "reusable-solutions",
+      "output": "核心、配置与扩展契约",
+      "requires": [
+        "architecture-review",
+        "product-feedback"
+      ]
+    },
+    {
+      "id": "knowledge-governance",
+      "phase": "evolve",
+      "lane": "data",
+      "label": "治理文档与知识资产",
+      "slug": "knowledge-governance",
+      "output": "负责人、版本与复审",
+      "requires": [
+        "knowledge-refresh",
+        "case-review"
+      ]
+    },
+    {
+      "id": "ai-evolution",
+      "phase": "evolve",
+      "lane": "ai",
+      "label": "比较模型升级与替换",
+      "slug": "model-selection",
+      "output": "版本回归与兼容性结论",
+      "requires": [
+        "ai-diagnosis",
+        "eval-plan"
+      ]
+    },
+    {
+      "id": "platform-upgrade",
+      "phase": "evolve",
+      "lane": "engineering",
+      "label": "演练平台升级与迁移",
+      "slug": "deployment-platform",
+      "output": "迁移、兼容与恢复证据",
+      "requires": [
+        "operations",
+        "reuse-boundary"
+      ]
+    },
+    {
+      "id": "exit",
+      "phase": "evolve",
+      "lane": "trust",
+      "label": "退出与数据善后",
+      "slug": "solution-exit",
+      "output": "凭据撤销、数据处置与责任终止",
+      "requires": [
+        "access-review",
+        "handover",
+        "expansion"
+      ]
+    },
+    {
+      "id": "product-feedback",
+      "phase": "evolve",
+      "lane": "collaboration",
+      "label": "把现场问题反馈产品",
+      "slug": "product-feedback",
+      "output": "共性问题与产品决策",
+      "requires": [
+        "co-review",
+        "realized-value",
+        "case-review"
+      ]
+    },
+    {
+      "id": "capstone",
+      "phase": "evolve",
+      "lane": "collaboration",
+      "label": "用综合项目检验能力",
+      "slug": "capstone-project",
+      "output": "端到端实现与评审包",
+      "requires": [
+        "evidence",
+        "handover",
+        "realized-value"
+      ]
+    }
+  ],
+  "foundations": [
+    {
+      "id": "role",
+      "label": "岗位与责任边界",
+      "slug": "role-and-competency",
+      "output": "能解释工程、业务与客户协作责任"
+    },
+    {
+      "id": "engineering-base",
+      "label": "工程基础与开发环境",
+      "slug": "engineering-foundations",
+      "output": "能复现服务、数据、网络与测试"
+    },
+    {
+      "id": "growth",
+      "label": "学习与能力评估",
+      "slug": "training-and-certification",
+      "output": "以项目证据检验独立交付能力"
+    }
+  ],
+  "focus": {
+    "capstone-project": "capstone",
+    "product-feedback": "product-feedback",
+    "solution-exit": "exit",
+    "deployment-platform": "platform-plan",
+    "model-selection": "model-choice",
+    "knowledge-governance": "knowledge-governance",
+    "reusable-solutions": "reuse-boundary",
+    "commercial-scoping": "economics",
+    "cases-and-toolkit": "case-review",
+    "data-privacy": "data-purpose",
+    "operations-and-change": "operations",
+    "performance-cost": "cost-performance",
+    "troubleshooting-method": "incident",
+    "observability": "slo",
+    "ai-troubleshooting": "ai-diagnosis",
+    "data-pipelines": "pipeline",
+    "solution-architecture": "architecture",
+    "value-realization": "realized-value",
+    "stakeholder-adoption": "adoption",
+    "security-privacy-ai-governance": "safety-tests",
+    "acceptance-and-handover": "handover",
+    "site-delivery-sop": "release",
+    "ai-evaluation-and-acceptance": "ai-acceptance",
+    "rag-knowledge-engineering": "rag",
+    "integration-design": "contracts",
+    "delivery-templates": "evidence",
+    "engineering-quality": "quality",
+    "workflow-apps": "workbench",
+    "agent-workflows": "agent",
+    "ai-delivery": "ai-application",
+    "api-engineering": "api",
+    "use-case-prioritization": "scope",
+    "project-communication-risk": "delivery-plan",
+    "ai-threat-modeling": "threats",
+    "identity-access": "authorization",
+    "prototype-validation": "prototype",
+    "data-architecture": "business-model",
+    "success-metrics": "baseline",
+    "workflow-mapping": "workflow",
+    "delivery-lifecycle": "delivery-gates",
+    "ai-foundations": "ai-fit",
+    "business-discovery": "problem",
+    "role-and-competency": "foundation:role",
+    "engineering-foundations": "foundation:engineering-base",
+    "training-and-certification": "foundation:growth"
+  },
+  "neighbors": {
+    "value": "collaboration",
+    "architecture": "engineering",
+    "data": "ai",
+    "ai": "data",
+    "engineering": "trust",
+    "trust": "engineering",
+    "collaboration": "value"
+  }
+}

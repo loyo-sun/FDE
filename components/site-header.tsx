@@ -9,7 +9,7 @@ export function SiteHeader() {
       <div className="header-inner">
         <Link className="brand" href="/" aria-label="FDE 从入门到精通首页"><span className="brand-mark"><BookOpenText size={20} /></span><span><strong>FDE</strong><small>从入门到精通</small></span></Link>
         <div className="header-search"><SearchBox /></div>
-        <nav aria-label="主导航"><Link href="/docs/knowledge-map/">学习路线</Link><Link href="/docs/capstone-project/">项目实战</Link></nav>
+        <nav aria-label="主导航"><Link href="/docs/knowledge-map/#framework">知识框架</Link><Link href="/docs/knowledge-map/#learning-routes">学习路线</Link><Link href="/docs/capstone-project/">项目实战</Link></nav>
       </div>
     </header>
   );

@@ -4,9 +4,9 @@
 
 定义数据的收集、处理、保留和删除边界。
 
-## 主题图解
+## 框架位置
 
-[![数据分级与隐私保护章节图解](/diagrams/articles/data-privacy.svg)](/diagrams/articles/data-privacy.svg)
+[![数据分级与隐私保护局部知识框架](/diagrams/articles/data-privacy.svg)](/diagrams/articles/data-privacy.svg)
 
 
 ## 用数据生命周期组织保护措施

@@ -4,9 +4,9 @@
 
 把业务对象、关系、事件和指标映射到可用的数据模型。
 
-## 主题图解
+## 框架位置
 
-[![数据建模与业务语义章节图解](/diagrams/articles/data-architecture.svg)](/diagrams/articles/data-architecture.svg)
+[![数据建模与业务语义局部知识框架](/diagrams/articles/data-architecture.svg)](/diagrams/articles/data-architecture.svg)
 
 
 ## 先统一业务语义

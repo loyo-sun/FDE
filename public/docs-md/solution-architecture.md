@@ -4,9 +4,9 @@
 
 建立组件、边界、部署形态与关键决策记录。
 
-## 主题图解
+## 框架位置
 
-[![解决方案架构与技术取舍章节图解](/diagrams/articles/solution-architecture.svg)](/diagrams/articles/solution-architecture.svg)
+[![解决方案架构与技术取舍局部知识框架](/diagrams/articles/solution-architecture.svg)](/diagrams/articles/solution-architecture.svg)
 
 
 ## 架构从约束出发

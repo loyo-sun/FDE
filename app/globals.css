@@ -413,22 +413,6 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--cyan-dark); out
 .topic-reading-list h2 { font-size: 1.18rem; margin: 0 0 7px; }
 .topic-reading-list p { color: var(--muted); font-size: .86rem; margin: 0; }
 
-/* A real chapter diagram stays in view and follows the section being read. */
-.reading-map { position: sticky; top: var(--header-height, 68px); z-index: 20; margin: 18px -16px 0; padding: 10px 10px 0; background: #f1f7f6; border: 1px solid #d2e3e1; border-radius: 8px; box-shadow: 0 5px 14px rgba(12,46,53,.05); }
-.reading-map-header { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 0 7px 5px; color: #527078; font-size: .67rem; }
-.reading-map-header strong { margin-left: 10px; color: #166d76; }
-.reading-map-header a { color: #32787d; }
-.reading-strip { overflow-x: auto; scrollbar-width: thin; scrollbar-color: #b7d4ce transparent; overscroll-behavior-x: contain; }
-.reading-strip svg { display: block; max-width: none; font-family: inherit; }
-.diagram-node { fill: white; stroke: #d0e0dd; transition: fill .18s, stroke .18s; }
-.diagram-step-number { font-size: 10px; fill: #5d898b; letter-spacing: 1px; }
-.diagram-step-title { font-size: 15px; font-weight: 650; fill: #244c58; }
-.diagram-step-summary { font-size: 10px; fill: #6b8288; }
-.reading-map [data-active="true"] .diagram-node { fill: #0d737b; stroke: #0d737b; }
-.reading-map [data-active="true"] .diagram-step-title { fill: white; }
-.reading-map [data-active="true"] .diagram-step-number, .reading-map [data-active="true"] .diagram-step-summary { fill: #c0e9e8; }
-.reading-map a:focus-visible .diagram-node { stroke: #e28b31; stroke-width: 3; }
-.mdx-content :is(h2,h3) { scroll-margin-top: calc(var(--reading-offset, 260px) - 90px); }
 .related-reading { margin-top: 32px; border-top: 1px solid var(--line); padding-top: 20px; }
 .related-reading h2 { font-size: 1.12rem; }
 .related-reading > div { display: grid; gap: 12px; }
@@ -480,10 +464,86 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--cyan-dark); out
   .topic-reading-list { padding: 0 18px; }
   .topic-reading-list article { gap: 16px; }
   .topic-reading-list h2 { font-size: 1.05rem; }
-  .reading-map { top: var(--header-height, 104px); margin: 16px -10px 0; }
-  .mdx-content :is(h2,h3) { scroll-margin-top: calc(var(--reading-offset, 300px) - 126px); }
 }
 
 .curriculum-grid.is-route { grid-template-columns: 1fr; }
 .curriculum-grid.is-route .curriculum-domain li > div { flex: 1; }
 .sequence-number { flex: 0 0 26px; margin-top: 2px; color: #418c8e; font: 600 .78rem/2 ui-monospace, monospace; }
+
+/* Capability matrix: project stages and knowledge lanes, independent of document headings. */
+.learning-page { max-width: 1500px; }
+.framework-page-nav { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 22px; color: #246d7a; font-size: .85rem; }
+.knowledge-framework { margin-top: 10px; }
+.framework-intro { display: flex; justify-content: space-between; align-items: end; gap: 24px; }
+.framework-intro h2 { font-size: 1.6rem; margin: 7px 0; }
+.framework-intro p { color: var(--muted); font-size: .88rem; max-width: 780px; margin: 7px 0; }
+.framework-intro > a { color: #207582; white-space: nowrap; font-size: .82rem; margin-bottom: 8px; }
+.framework-intro .eyebrow { color: #397a85; }
+.framework-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 12px 18px; margin: 22px 0 16px; }
+.framework-controls label { display: flex; flex-direction: column; gap: 5px; font-size: .72rem; color: #536f7c; }
+.framework-controls select { min-height: 42px; padding: 8px 30px 8px 12px; border: 1px solid #bfd0d7; border-radius: 4px; background: white; color: #294d5c; font: inherit; font-size: .85rem; }
+.framework-controls button { min-height: 42px; padding: 8px 16px; border: 1px solid #c7d7dc; border-radius: 4px; background: #edf4f5; color: #366b79; font-size: .8rem; cursor: pointer; }
+.framework-controls > span { margin-left: auto; color: #6a818c; padding-bottom: 12px; font-size: .75rem; }
+.framework-scroll { max-height: 78vh; overflow: auto; border: 1px solid #c5d3dc; border-radius: 5px; background: white; overscroll-behavior-x: contain; }
+.framework-matrix { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 0; font-size: .78rem; }
+.framework-matrix th, .framework-matrix td { border-right: 1px solid #d6dfe5; border-bottom: 1px solid #d6dfe5; }
+.framework-matrix thead th { position: sticky; top: 0; z-index: 4; padding: 17px 10px; background: var(--lane-color, #244859); color: white; font-size: .86rem; text-align: center; font-weight: 650; }
+.framework-matrix .framework-axis { left: 0; width: 160px; z-index: 6; background: #244859; text-align: left; padding-left: 18px; }
+.framework-axis small { display: block; color: #bcd4df; font-size: .67rem; font-weight: 400; margin-top: 4px; }
+.framework-matrix tbody th { position: sticky; left: 0; z-index: 3; width: 160px; padding: 16px 16px; text-align: left; vertical-align: top; background: #edf2f6; }
+.framework-matrix tbody th > span { color: #7c949f; font-size: .67rem; letter-spacing: .1em; }
+.framework-matrix tbody th > strong { display: block; font-size: .95rem; color: #294d5f; margin: 6px 0; }
+.framework-matrix tbody th > small { display: block; font-size: .71rem; color: #69818d; font-weight: 400; line-height: 1.7; }
+.framework-matrix details { margin-top: 12px; font-size: .65rem; font-weight: 400; }
+.framework-matrix summary { cursor: pointer; color: #577989; }
+.framework-matrix details p { max-width: 125px; margin: 8px 0 0; line-height: 1.8; color: #56717c; }
+.framework-matrix td { padding: 10px 8px; vertical-align: top; background: color-mix(in srgb, var(--lane-color) 6%, white); }
+.framework-process { display: block; padding: 11px 9px; margin-bottom: 8px; border: 1px solid color-mix(in srgb, var(--lane-color) 45%, white); border-left: 3px solid var(--lane-color); border-radius: 3px; color: var(--lane-color); background: white; transition: box-shadow .15s, background .15s; scroll-margin: 100px 200px; }
+.framework-process:last-child { margin-bottom: 0; }
+.framework-process strong { display: block; font-size: .77rem; font-weight: 650; line-height: 1.6; }
+.framework-process span { display: block; font-size: .66rem; color: #596d78; margin-top: 6px; line-height: 1.6; }
+.framework-process:hover, .framework-process:focus-visible, .framework-process.is-current { background: var(--lane-color); box-shadow: 0 3px 10px #102d4020; color: white; }
+.framework-process:is(:hover,:focus-visible,.is-current) span { color: #ffffffd9; }
+.framework-process.is-current { outline: 3px solid #d69a3d; outline-offset: 2px; }
+.framework-location { position: relative; display: flex; flex-direction: column; gap: 6px; padding: 15px 40px 15px 18px; background: #fff8e9; border: 1px solid #e5d5ad; margin-bottom: 14px; font-size: .79rem; }
+.framework-location > strong { color: #705824; }
+.framework-location > span { color: #7a725b; }
+.framework-location a { text-decoration: underline; text-underline-offset: 3px; }
+.framework-location button { position: absolute; top: 6px; right: 9px; border: 0; background: none; color: #8d784d; font-size: 24px; cursor: pointer; }
+.framework-use-note { color: #6a7d87; font-size: .74rem; margin: 12px 0 20px; }
+.framework-foundations { display: grid; grid-template-columns: 210px repeat(3, 1fr); gap: 12px; padding: 20px; background: #eaf0f3; border-radius: 4px; }
+.framework-foundations .eyebrow { color: #577d8e; font-size: .62rem; }
+.framework-foundations h3 { font-size: 1.05rem; margin: 6px 0 0; }
+.framework-foundations > a { padding: 12px 14px; background: white; border: 1px solid #d8e2e7; border-radius: 3px; }
+.framework-foundations strong { font-size: .84rem; display: block; color: #325b6a; }
+.framework-foundations a span { font-size: .7rem; color: #758993; display: block; margin-top: 7px; }
+.learning-routes-section { margin-top: 58px; border-top: 1px solid var(--line); padding-top: 32px; }
+.framework-context { margin: 25px -10px 10px; padding: 0; background: #fff; border: 1px solid #d4e0e6; border-radius: 5px; overflow: hidden; }
+.framework-context-heading { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 11px 14px; font-size: .7rem; background: #edf3f6; }
+.framework-context-heading > span { color: #52727f; }
+.framework-context-heading a { color: #2c6b7e; white-space: nowrap; }
+.framework-context > a { display: block; overflow-x: auto; overscroll-behavior-x: contain; }
+.framework-context img { display: block; width: 100%; height: auto; }
+.mdx-content :is(h2,h3) { scroll-margin-top: 10px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
+@media (max-width: 760px) {
+ .framework-intro { align-items: start; flex-direction: column; gap: 10px; }
+ .framework-intro h2 { font-size: 1.3rem; }
+ .framework-controls { gap: 10px; }
+ .framework-controls label { flex: 1; }
+ .framework-controls select { max-width: 170px; font-size: 16px; }
+ .framework-controls > span { flex-basis: 100%; margin: 0; padding: 0; }
+ .framework-scroll { max-height: 70vh; }
+ .framework-matrix .framework-axis, .framework-matrix tbody th { width: 120px; }
+ .framework-matrix tbody th { padding: 12px; }
+ .framework-foundations { grid-template-columns: 1fr; padding: 18px; }
+ .framework-foundations > div { margin-bottom: 3px; }
+ .framework-context { margin-left: -12px; margin-right: -12px; }
+ .framework-context-heading { font-size: .66rem; padding: 10px; }
+ .learning-routes-section { margin-top: 38px; }
+}
+
+@media (max-width: 760px) { .framework-context img { min-width: 640px; } }
+
+.framework-matrix.is-compact .framework-process { padding: 10px 8px; }
+.framework-matrix.is-compact .framework-process > span { display: none; }

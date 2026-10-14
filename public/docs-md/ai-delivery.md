@@ -4,9 +4,9 @@
 
 把业务需求转成可测试、可上线的 AI 方案。
 
-## 主题图解
+## 框架位置
 
-[![AI 应用交付章节图解](/diagrams/articles/ai-delivery.svg)](/diagrams/articles/ai-delivery.svg)
+[![AI 应用交付局部知识框架](/diagrams/articles/ai-delivery.svg)](/diagrams/articles/ai-delivery.svg)
 
 
 ## 需求澄清

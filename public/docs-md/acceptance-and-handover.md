@@ -4,9 +4,9 @@
 
 明确验收证据、责任边界和遗留事项。
 
-## 主题图解
+## 框架位置
 
-[![验收与运维移交章节图解](/diagrams/articles/acceptance-and-handover.svg)](/diagrams/articles/acceptance-and-handover.svg)
+[![验收与运维移交局部知识框架](/diagrams/articles/acceptance-and-handover.svg)](/diagrams/articles/acceptance-and-handover.svg)
 
 
 ## 验收准备

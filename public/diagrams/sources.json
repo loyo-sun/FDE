@@ -108,322 +108,842 @@
     "usage": "本知识库配图；外部参考资料的授权不适用于这些原创示意图"
   },
   {
+    "file": "/diagrams/fde-framework.svg",
+    "title": "FDE 交付能力全景",
+    "alt": "六个交付阶段 × 七个能力领域，以工作、依赖和证据组织知识。",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
     "file": "/diagrams/articles/knowledge-map.svg",
-    "title": "FDE 学习路线章节图解",
-    "alt": "定位与使用方式 → 选择你的学习路线 → 贯穿案例与资源 → 按主题查阅 → 分阶段完善计划 → 内容状态、来源与维护",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "FDE 知识框架与学习路线局部知识框架",
+    "alt": "六个交付阶段 × 七个能力领域，以工作、依赖和证据组织知识。",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/role-and-competency.svg",
-    "title": "FDE 岗位与能力模型章节图解",
-    "alt": "FDE 是什么 → 核心工作循环 → 协作边界 → 六项核心能力 → 以产出评估能力 → 术语参考 → 角色边界与协作示例 → 每周应留下什么 → 自我评估练习",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "FDE 岗位与能力模型局部知识框架",
+    "alt": "岗位与责任边界为六个交付阶段提供基础；深色板块为当前主题",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/delivery-lifecycle.svg",
-    "title": "交付生命周期章节图解",
-    "alt": "FDE 项目起点 → 端到端流程 → 阶段门禁 → 阶段状态 → 交付完成定义 → 合成案例的阶段证据 → 处理阻塞与变化 → 练习",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "交付生命周期局部知识框架",
+    "alt": "发现与立项 × 工程与运行：当前工作是约定交付阶段，产出里程碑与阶段门禁；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/site-delivery-sop.svg",
-    "title": "部署、联调与上线准备章节图解",
-    "alt": "实施前检查 → 标准作业顺序 → 验证原则 → 回退触发条件 → 现场记录 → 上线验证矩阵 → 回退必须覆盖什么 → 演练与记录",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "部署、联调与上线准备局部知识框架",
+    "alt": "上线与采用 × 工程与运行：当前工作是部署联调与灰度，产出发布、降级与回退演练；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/acceptance-and-handover.svg",
-    "title": "验收与运维移交章节图解",
-    "alt": "验收准备 → 验收维度 → 移交清单 → 遗留问题要求 → 验收判定表 → 接手演练 → 遗留事项的关闭",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "验收与运维移交局部知识框架",
+    "alt": "上线与采用 × 工程与运行：当前工作是完成验收和运维移交，产出接手演练与遗留责任；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/ai-foundations.svg",
-    "title": "AI 基础与能力边界章节图解",
-    "alt": "核心概念 → 方案选择 → 典型能力边界 → 部署形态 → 用任务分解选择方案 → 成本与上下文 → 提示词的最小结构 → 练习",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "AI 基础与能力边界局部知识框架",
+    "alt": "发现与立项 × AI 与自动化：当前工作是判断是否需要 AI，产出规则、搜索与模型的方案边界；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/ai-delivery.svg",
-    "title": "AI 应用交付章节图解",
-    "alt": "需求澄清 → 交付设计 → 上线门禁 → 灰度与回退 → 从实验到受控试点 → 版本包与发布记录 → 回退与降级的区别 → 练习",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "AI 应用交付局部知识框架",
+    "alt": "构建与验证 × AI 与自动化：当前工作是接入受控 AI 能力，产出可降级的草稿生成；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/rag-knowledge-engineering.svg",
-    "title": "RAG 知识工程章节图解",
-    "alt": "内容接入 → 切片原则 → 检索链路 → 必测问题 → 更新验证 → 贯穿案例的最小切片元数据 → 分开评测检索与回答 → 更新与撤销演练",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "RAG 知识工程局部知识框架",
+    "alt": "构建与验证 × 数据与知识：当前工作是构建知识检索与引用，产出授权证据与知识版本；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/ai-evaluation-and-acceptance.svg",
-    "title": "AI 评测与验收章节图解",
-    "alt": "测试集建设 → 质量指标 → 验收方式 → 版本回归 → 样本结构与评分规则 → 人工评分的一致性 → 教学种子集与生产验收 → 发布结论",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "AI 评测与验收局部知识框架",
+    "alt": "上线与采用 × AI 与自动化：当前工作是评测 AI 质量与失败，产出分层评测与人工评分；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/troubleshooting-method.svg",
-    "title": "故障排查方法章节图解",
-    "alt": "第一步：控制影响 → 第二步：建立时间线 → 第三步：形成假设 → 第四步：分层定位 → 第五步：验证恢复 → 故障案例模板 → 可证伪的诊断表 → 合成故障时间线 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "故障排查方法局部知识框架",
+    "alt": "运行与改进 × 工程与运行：当前工作是控制影响并诊断故障，产出恢复、根因与改进；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/ai-troubleshooting.svg",
-    "title": "AI 系统常见故障章节图解",
-    "alt": "回答错误或幻觉 → 知识没有召回 → Agent 工具失败 → 延迟突然升高 → 成本异常 → 不要同时修改所有变量 → 合成案例：回答引用旧版本 → 恢复后的验证 → 练习",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "AI 系统常见故障局部知识框架",
+    "alt": "运行与改进 × AI 与自动化：当前工作是定位模型与检索退化，产出分层故障与回归结果；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/operations-and-change.svg",
-    "title": "运维、监控与变更章节图解",
-    "alt": "监控分层 → 告警要求 → 备份与恢复 → 变更管理 → 容量管理 → 日常运行节奏 → RPO / RTO 示例 → 变更关闭条件 → 练习",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "运维、监控与变更局部知识框架",
+    "alt": "运行与改进 × 工程与运行：当前工作是执行变更与恢复，产出备份、容量与变更记录；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/security-privacy-ai-governance.svg",
-    "title": "安全、隐私与 AI 治理章节图解",
-    "alt": "基础安全 → 数据分级 → AI 特有风险 → 防护原则 → 审计 → 将风险治理落到项目责任 → 首期工单助手的治理决定 → 验证与例外",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "安全、隐私与 AI 治理局部知识框架",
+    "alt": "构建与验证 × 安全与治理：当前工作是验证安全控制，产出越权、注入与泄露反例；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/project-communication-risk.svg",
-    "title": "项目沟通、风险与变更章节图解",
-    "alt": "沟通机制 → 周报最小结构 → 风险管理 → 问题升级 → 变更控制 → 可直接套用的周报内容 → 风险、问题与变更分开管理 → 练习",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "项目沟通、风险与变更局部知识框架",
+    "alt": "方案与计划 × 协作与产品：当前工作是建立风险与变更机制，产出责任、升级与变更清单；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/cases-and-toolkit.svg",
-    "title": "案例沉淀与工具管理章节图解",
-    "alt": "案例分类 → 案例模板 → 工具箱分类 → 工具准入 → 三个合成案例供练习 → 工具选择表 → 练习",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "案例沉淀与工具管理局部知识框架",
+    "alt": "运行与改进 × 协作与产品：当前工作是沉淀运行与失败案例，产出有证据的案例和工具准入；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/knowledge-governance.svg",
-    "title": "知识库治理与文档标准章节图解",
-    "alt": "按内容类型约定结构 → 文档元数据 → 发布流程 → 生命周期 → 质量指标 → AI 索引要求 → 本仓库的实际字段与发布边界 → 内容维护责任与节奏 → 图片和资料来源 → 质量门禁",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "知识库治理与文档标准局部知识框架",
+    "alt": "复用与演进 × 数据与知识：当前工作是治理文档与知识资产，产出负责人、版本与复审；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/training-and-certification.svg",
-    "title": "学习路线与能力评估章节图解",
-    "alt": "用产出检验成长 → 阅读与实践 → 评审问题 → 继续深化 → 八周学习安排示例 → 评分方式 → 复核与补练",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "学习路线与能力评估局部知识框架",
+    "alt": "学习与能力评估为六个交付阶段提供基础；深色板块为当前主题",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/agent-workflows.svg",
-    "title": "Agent 与工具工作流章节图解",
-    "alt": "先选择确定性工作流 → 工具边界设计 → 有状态执行与人工介入 → 不可信工具结果 → 评测与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "Agent 与工具工作流局部知识框架",
+    "alt": "构建与验证 × AI 与自动化：当前工作是约束工具与动作，产出工具契约、审批与执行状态；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/ai-threat-modeling.svg",
-    "title": "AI 威胁建模与防护验证章节图解",
-    "alt": "从资产和边界识别威胁 → 威胁、控制与验证 → 安全实验的执行边界 → 工单助手的测试示例 → 处置与验收 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "AI 威胁建模与防护验证局部知识框架",
+    "alt": "方案与计划 × 安全与治理：当前工作是建模攻击面，产出威胁、控制与验证计划；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/api-engineering.svg",
-    "title": "后端服务与 API 实现章节图解",
-    "alt": "将接口契约落实到运行行为 → 一次创建草稿请求的实现顺序 → 伪代码：权限与幂等的边界 → 错误与资源控制 → 验证与交付 → 常见误区",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "后端服务与 API 实现局部知识框架",
+    "alt": "构建与验证 × 架构与集成：当前工作是实现确定性接口，产出有鉴权和幂等的服务；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/business-discovery.svg",
-    "title": "客户访谈与问题定义章节图解",
-    "alt": "从解决方案诉求退回业务事实 → 访谈如何执行 → 可以直接使用的提问表 → 贯穿案例的一页问题定义 → 事实与假设的分离 → 练习与评审",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "客户访谈与问题定义局部知识框架",
+    "alt": "发现与立项 × 业务与价值：当前工作是识别用户问题，产出一页问题定义；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/capstone-project.svg",
-    "title": "端到端实战项目章节图解",
-    "alt": "实战目标与边界 → 六个里程碑与产出 → 可下载的练习起点 → 评审与计分 → 进阶任务",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "端到端实战项目局部知识框架",
+    "alt": "复用与演进 × 协作与产品：当前工作是用综合项目检验能力，产出端到端实现与评审包；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/commercial-scoping.svg",
+    "title": "立项与交付经济性局部知识框架",
+    "alt": "发现与立项 × 业务与价值：当前工作是判断交付经济性，产出投入上限与停止条件；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/data-architecture.svg",
-    "title": "数据建模与业务语义章节图解",
-    "alt": "先统一业务语义 → 贯穿案例的最小模型 → 状态与事件 → 数据质量检查 → 模型变化与迁移 → 练习与评审",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "数据建模与业务语义局部知识框架",
+    "alt": "方案与计划 × 数据与知识：当前工作是统一业务语义，产出实体、状态与不变量；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/data-pipelines.svg",
-    "title": "数据接入与处理管道章节图解",
-    "alt": "数据接入是可恢复的过程 → 接入步骤与控制点 → 增量、重跑与删除 → 贯穿案例的异常处理 → 对账与质量报告 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "数据接入与处理管道局部知识框架",
+    "alt": "构建与验证 × 数据与知识：当前工作是建立可重跑数据管道，产出批次、隔离、对账与恢复；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/data-privacy.svg",
-    "title": "数据分级与隐私保护章节图解",
-    "alt": "用数据生命周期组织保护措施 → 合成案例的数据台账 → 接入前检查 → 删除与撤权的实现 → 验证与练习",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "数据分级与隐私保护局部知识框架",
+    "alt": "发现与立项 × 安全与治理：当前工作是确认数据用途，产出数据台账与授权条件；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/delivery-templates.svg",
-    "title": "项目交付模板目录章节图解",
-    "alt": "模板如何使用 → 模板目录与使用时机 → 示例：评测证据如何填写 → 证据组织 → 评审与维护",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "项目交付模板目录局部知识框架",
+    "alt": "构建与验证 × 工程与运行：当前工作是组织项目证据包，产出设计、验证与发布记录；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/deployment-platform.svg",
+    "title": "部署平台、环境与迁移局部知识框架",
+    "alt": "方案与计划 × 工程与运行：当前工作是规划部署与环境，产出环境拓扑与配置边界；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/engineering-foundations.svg",
-    "title": "工程基础与开发环境章节图解",
-    "alt": "适用场景与学习目标 → 建立最小工程闭环 → 应掌握的基础与验证方式 → 贯穿案例：先做查询，再做 AI → 常见失败与改进 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "工程基础与开发环境局部知识框架",
+    "alt": "工程基础与开发环境为六个交付阶段提供基础；深色板块为当前主题",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/engineering-quality.svg",
-    "title": "测试、代码审查与持续集成章节图解",
-    "alt": "质量检查围绕业务风险 → 最小验证矩阵 → 持续集成的门禁 → 代码审查的问题 → 失败用例与回归 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "测试、代码审查与持续集成局部知识框架",
+    "alt": "构建与验证 × 工程与运行：当前工作是运行测试与审查，产出测试、契约和审查证据；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/identity-access.svg",
-    "title": "身份认证与权限设计章节图解",
-    "alt": "区分身份、权限与资源归属 → 合成案例的权限矩阵 → 授权落点 → 凭据与服务身份 → 必测反例 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "身份认证与权限设计局部知识框架",
+    "alt": "方案与计划 × 安全与治理：当前工作是设计身份与资源授权，产出权限矩阵与拒绝用例；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/integration-design.svg",
-    "title": "系统集成与接口契约章节图解",
-    "alt": "契约先于联调 → 贯穿案例的接口清单 → 请求与错误约定 → 超时、重试与幂等 → 联调与兼容性验证 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "系统集成与接口契约局部知识框架",
+    "alt": "方案与计划 × 架构与集成：当前工作是约定集成契约，产出接口、错误与幂等规则；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/model-selection.svg",
+    "title": "模型选型、部署与替换策略局部知识框架",
+    "alt": "方案与计划 × AI 与自动化：当前工作是比较模型与部署形态，产出任务级选型与替换策略；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/observability.svg",
-    "title": "可观测性与服务目标章节图解",
-    "alt": "从用户任务定义服务目标 → 信号与定位 → 示例 SLI、SLO 与预算 → 告警与行动 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "可观测性与服务目标局部知识框架",
+    "alt": "运行与改进 × 工程与运行：当前工作是观测用户任务与 SLO，产出用户影响与错误预算；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/performance-cost.svg",
+    "title": "性能、容量与单任务成本局部知识框架",
+    "alt": "运行与改进 × 工程与运行：当前工作是优化性能与单任务成本，产出容量、时延与成本预算；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/product-feedback.svg",
-    "title": "产品反馈与需求抽象章节图解",
-    "alt": "将客户诉求还原为可复用问题 → 现场反馈卡 → 区分项目、配置与产品 → 与产品团队对齐 → 关闭反馈的标准 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "产品反馈与需求抽象局部知识框架",
+    "alt": "复用与演进 × 协作与产品：当前工作是把现场问题反馈产品，产出共性问题与产品决策；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/prototype-validation.svg",
-    "title": "原型与技术验证章节图解",
-    "alt": "原型服务于决策 → 实验卡片 → 用最小技术切片验证集成 → 时间盒与产出 → 从原型走向生产的缺口 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "原型与技术验证局部知识框架",
+    "alt": "方案与计划 × 工程与运行：当前工作是验证最大技术风险，产出实验结果与继续决定；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/reusable-solutions.svg",
-    "title": "方案复用与规模化交付章节图解",
-    "alt": "复用需要稳定边界 → 合成案例的分层 → 参考方案包 → 升级策略 → 复用收益的测量 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "方案复用与规模化交付局部知识框架",
+    "alt": "复用与演进 × 架构与集成：当前工作是提炼可配置的方案边界，产出核心、配置与扩展契约；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/solution-architecture.svg",
-    "title": "解决方案架构与技术取舍章节图解",
-    "alt": "架构从约束出发 → 贯穿案例的逻辑组件 → 技术取舍的决策记录 → 故障与降级设计 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "解决方案架构与技术取舍局部知识框架",
+    "alt": "方案与计划 × 架构与集成：当前工作是设计组件与边界，产出架构与技术决策；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/solution-exit.svg",
+    "title": "系统退出、凭据撤销与数据善后局部知识框架",
+    "alt": "复用与演进 × 安全与治理：当前工作是退出与数据善后，产出凭据撤销、数据处置与责任终止；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/stakeholder-adoption.svg",
-    "title": "干系人协作与用户采用章节图解",
-    "alt": "采用从协作设计开始 → 干系人责任表 → 试点设计 → 采用指标与反馈 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "干系人协作与用户采用局部知识框架",
+    "alt": "上线与采用 × 协作与产品：当前工作是培训与试点采用，产出任务完成、放弃与复核负担；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/success-metrics.svg",
-    "title": "价值假设与成功指标章节图解",
-    "alt": "建立业务、质量与风险三层指标 → 合成案例的指标字典 → 基线和试点如何比较 → 经济性估计 → 练习与评审",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "价值假设与成功指标局部知识框架",
+    "alt": "方案与计划 × 业务与价值：当前工作是定义价值基线，产出指标、分母与采样计划；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/use-case-prioritization.svg",
-    "title": "场景筛选与范围界定章节图解",
-    "alt": "先判断是否值得做 → 一个可调整的筛选方法 → 从排名到范围契约 → 处理范围变化 → 敏感性与停止条件 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "场景筛选与范围界定局部知识框架",
+    "alt": "发现与立项 × 业务与价值：当前工作是筛选场景与边界，产出首期范围与排除项；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/value-realization.svg",
+    "title": "上线价值复核与持续采用局部知识框架",
+    "alt": "运行与改进 × 业务与价值：当前工作是复核实际业务收益，产出采用、工时、错误与真实投入；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/workflow-apps.svg",
-    "title": "业务应用与工作流界面章节图解",
-    "alt": "围绕任务设计工作台 → 最小工作台布局 → 状态与错误体验 → 可访问性与现场可用性 → 练习与评审",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "业务应用与工作流界面局部知识框架",
+    "alt": "构建与验证 × 工程与运行：当前工作是构建任务工作台，产出正常、异常与人工接管界面；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   },
   {
     "file": "/diagrams/articles/workflow-mapping.svg",
-    "title": "业务流程与用户研究章节图解",
-    "alt": "用真实任务还原流程 → 建模步骤 → 贯穿案例的现状与目标 → 识别瓶颈与验证收益 → 常见失败 → 练习与完成标准",
-    "source": "FDE 知识库原创；Codex 绘制",
+    "title": "业务流程与用户研究局部知识框架",
+    "alt": "发现与立项 × 协作与产品：当前工作是观察真实工作流，产出现状流程与交接瓶颈；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/problem.svg",
+    "title": "识别用户问题局部知识框架",
+    "alt": "发现与立项 × 业务与价值：当前工作是识别用户问题，产出一页问题定义；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/scope.svg",
+    "title": "筛选场景与边界局部知识框架",
+    "alt": "发现与立项 × 业务与价值：当前工作是筛选场景与边界，产出首期范围与排除项；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/economics.svg",
+    "title": "判断交付经济性局部知识框架",
+    "alt": "发现与立项 × 业务与价值：当前工作是判断交付经济性，产出投入上限与停止条件；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/system-landscape.svg",
+    "title": "摸清现有系统局部知识框架",
+    "alt": "发现与立项 × 架构与集成：当前工作是摸清现有系统，产出系统边界与依赖清单；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/source-inventory.svg",
+    "title": "清点资料与数据局部知识框架",
+    "alt": "发现与立项 × 数据与知识：当前工作是清点资料与数据，产出对象、来源与数据缺口；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/ai-fit.svg",
+    "title": "判断是否需要 AI局部知识框架",
+    "alt": "发现与立项 × AI 与自动化：当前工作是判断是否需要 AI，产出规则、搜索与模型的方案边界；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/delivery-gates.svg",
+    "title": "约定交付阶段局部知识框架",
+    "alt": "发现与立项 × 工程与运行：当前工作是约定交付阶段，产出里程碑与阶段门禁；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/data-purpose.svg",
+    "title": "确认数据用途局部知识框架",
+    "alt": "发现与立项 × 安全与治理：当前工作是确认数据用途，产出数据台账与授权条件；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/workflow.svg",
+    "title": "观察真实工作流局部知识框架",
+    "alt": "发现与立项 × 协作与产品：当前工作是观察真实工作流，产出现状流程与交接瓶颈；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/stakeholders.svg",
+    "title": "识别决策与使用者局部知识框架",
+    "alt": "发现与立项 × 协作与产品：当前工作是识别决策与使用者，产出责任与协作关系；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/baseline.svg",
+    "title": "定义价值基线局部知识框架",
+    "alt": "方案与计划 × 业务与价值：当前工作是定义价值基线，产出指标、分母与采样计划；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/architecture.svg",
+    "title": "设计组件与边界局部知识框架",
+    "alt": "方案与计划 × 架构与集成：当前工作是设计组件与边界，产出架构与技术决策；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/contracts.svg",
+    "title": "约定集成契约局部知识框架",
+    "alt": "方案与计划 × 架构与集成：当前工作是约定集成契约，产出接口、错误与幂等规则；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/business-model.svg",
+    "title": "统一业务语义局部知识框架",
+    "alt": "方案与计划 × 数据与知识：当前工作是统一业务语义，产出实体、状态与不变量；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/model-choice.svg",
+    "title": "比较模型与部署形态局部知识框架",
+    "alt": "方案与计划 × AI 与自动化：当前工作是比较模型与部署形态，产出任务级选型与替换策略；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/eval-plan.svg",
+    "title": "设计评测与门槛局部知识框架",
+    "alt": "方案与计划 × AI 与自动化：当前工作是设计评测与门槛，产出冻结样本与风险门槛；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/prototype.svg",
+    "title": "验证最大技术风险局部知识框架",
+    "alt": "方案与计划 × 工程与运行：当前工作是验证最大技术风险，产出实验结果与继续决定；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/platform-plan.svg",
+    "title": "规划部署与环境局部知识框架",
+    "alt": "方案与计划 × 工程与运行：当前工作是规划部署与环境，产出环境拓扑与配置边界；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/authorization.svg",
+    "title": "设计身份与资源授权局部知识框架",
+    "alt": "方案与计划 × 安全与治理：当前工作是设计身份与资源授权，产出权限矩阵与拒绝用例；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/threats.svg",
+    "title": "建模攻击面局部知识框架",
+    "alt": "方案与计划 × 安全与治理：当前工作是建模攻击面，产出威胁、控制与验证计划；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/delivery-plan.svg",
+    "title": "建立风险与变更机制局部知识框架",
+    "alt": "方案与计划 × 协作与产品：当前工作是建立风险与变更机制，产出责任、升级与变更清单；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/business-check.svg",
+    "title": "核对范围与验收假设局部知识框架",
+    "alt": "构建与验证 × 业务与价值：当前工作是核对范围与验收假设，产出变更影响与范围确认；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/api.svg",
+    "title": "实现确定性接口局部知识框架",
+    "alt": "构建与验证 × 架构与集成：当前工作是实现确定性接口，产出有鉴权和幂等的服务；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/pipeline.svg",
+    "title": "建立可重跑数据管道局部知识框架",
+    "alt": "构建与验证 × 数据与知识：当前工作是建立可重跑数据管道，产出批次、隔离、对账与恢复；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/rag.svg",
+    "title": "构建知识检索与引用局部知识框架",
+    "alt": "构建与验证 × 数据与知识：当前工作是构建知识检索与引用，产出授权证据与知识版本；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/ai-application.svg",
+    "title": "接入受控 AI 能力局部知识框架",
+    "alt": "构建与验证 × AI 与自动化：当前工作是接入受控 AI 能力，产出可降级的草稿生成；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/agent.svg",
+    "title": "约束工具与动作局部知识框架",
+    "alt": "构建与验证 × AI 与自动化：当前工作是约束工具与动作，产出工具契约、审批与执行状态；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/workbench.svg",
+    "title": "构建任务工作台局部知识框架",
+    "alt": "构建与验证 × 工程与运行：当前工作是构建任务工作台，产出正常、异常与人工接管界面；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/quality.svg",
+    "title": "运行测试与审查局部知识框架",
+    "alt": "构建与验证 × 工程与运行：当前工作是运行测试与审查，产出测试、契约和审查证据；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/evidence.svg",
+    "title": "组织项目证据包局部知识框架",
+    "alt": "构建与验证 × 工程与运行：当前工作是组织项目证据包，产出设计、验证与发布记录；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/safety-tests.svg",
+    "title": "验证安全控制局部知识框架",
+    "alt": "构建与验证 × 安全与治理：当前工作是验证安全控制，产出越权、注入与泄露反例；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/co-review.svg",
+    "title": "与用户共同验证局部知识框架",
+    "alt": "构建与验证 × 协作与产品：当前工作是与用户共同验证，产出任务观察与问题清单；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/pilot-value.svg",
+    "title": "比较试点价值局部知识框架",
+    "alt": "上线与采用 × 业务与价值：当前工作是比较试点价值，产出基线对照与继续/停止决定；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/integration-test.svg",
+    "title": "验证跨系统业务链局部知识框架",
+    "alt": "上线与采用 × 架构与集成：当前工作是验证跨系统业务链，产出契约与一致性核对；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/index-release.svg",
+    "title": "发布并核验知识版本局部知识框架",
+    "alt": "上线与采用 × 数据与知识：当前工作是发布并核验知识版本，产出激活、撤权与旧引用验证；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/ai-acceptance.svg",
+    "title": "评测 AI 质量与失败局部知识框架",
+    "alt": "上线与采用 × AI 与自动化：当前工作是评测 AI 质量与失败，产出分层评测与人工评分；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/release.svg",
+    "title": "部署联调与灰度局部知识框架",
+    "alt": "上线与采用 × 工程与运行：当前工作是部署联调与灰度，产出发布、降级与回退演练；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/handover.svg",
+    "title": "完成验收和运维移交局部知识框架",
+    "alt": "上线与采用 × 工程与运行：当前工作是完成验收和运维移交，产出接手演练与遗留责任；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/security-gate.svg",
+    "title": "审核上线风险局部知识框架",
+    "alt": "上线与采用 × 安全与治理：当前工作是审核上线风险，产出阻断项与残余风险决定；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/adoption.svg",
+    "title": "培训与试点采用局部知识框架",
+    "alt": "上线与采用 × 协作与产品：当前工作是培训与试点采用，产出任务完成、放弃与复核负担；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/realized-value.svg",
+    "title": "复核实际业务收益局部知识框架",
+    "alt": "运行与改进 × 业务与价值：当前工作是复核实际业务收益，产出采用、工时、错误与真实投入；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/architecture-review.svg",
+    "title": "复审容量与架构约束局部知识框架",
+    "alt": "运行与改进 × 架构与集成：当前工作是复审容量与架构约束，产出重审触发与演进决定；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/knowledge-refresh.svg",
+    "title": "更新、删除与撤权局部知识框架",
+    "alt": "运行与改进 × 数据与知识：当前工作是更新、删除与撤权，产出新鲜度与删除传播证据；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/ai-diagnosis.svg",
+    "title": "定位模型与检索退化局部知识框架",
+    "alt": "运行与改进 × AI 与自动化：当前工作是定位模型与检索退化，产出分层故障与回归结果；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/slo.svg",
+    "title": "观测用户任务与 SLO局部知识框架",
+    "alt": "运行与改进 × 工程与运行：当前工作是观测用户任务与 SLO，产出用户影响与错误预算；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/incident.svg",
+    "title": "控制影响并诊断故障局部知识框架",
+    "alt": "运行与改进 × 工程与运行：当前工作是控制影响并诊断故障，产出恢复、根因与改进；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/cost-performance.svg",
+    "title": "优化性能与单任务成本局部知识框架",
+    "alt": "运行与改进 × 工程与运行：当前工作是优化性能与单任务成本，产出容量、时延与成本预算；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/operations.svg",
+    "title": "执行变更与恢复局部知识框架",
+    "alt": "运行与改进 × 工程与运行：当前工作是执行变更与恢复，产出备份、容量与变更记录；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/access-review.svg",
+    "title": "复核权限与数据保留局部知识框架",
+    "alt": "运行与改进 × 安全与治理：当前工作是复核权限与数据保留，产出撤权、清理与审计；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/case-review.svg",
+    "title": "沉淀运行与失败案例局部知识框架",
+    "alt": "运行与改进 × 协作与产品：当前工作是沉淀运行与失败案例，产出有证据的案例和工具准入；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/expansion.svg",
+    "title": "决定扩大、调整或退出局部知识框架",
+    "alt": "复用与演进 × 业务与价值：当前工作是决定扩大、调整或退出，产出下一阶段价值与投入边界；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/reuse-boundary.svg",
+    "title": "提炼可配置的方案边界局部知识框架",
+    "alt": "复用与演进 × 架构与集成：当前工作是提炼可配置的方案边界，产出核心、配置与扩展契约；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/knowledge-governance.svg",
+    "title": "治理文档与知识资产局部知识框架",
+    "alt": "复用与演进 × 数据与知识：当前工作是治理文档与知识资产，产出负责人、版本与复审；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/ai-evolution.svg",
+    "title": "比较模型升级与替换局部知识框架",
+    "alt": "复用与演进 × AI 与自动化：当前工作是比较模型升级与替换，产出版本回归与兼容性结论；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/platform-upgrade.svg",
+    "title": "演练平台升级与迁移局部知识框架",
+    "alt": "复用与演进 × 工程与运行：当前工作是演练平台升级与迁移，产出迁移、兼容与恢复证据；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/exit.svg",
+    "title": "退出与数据善后局部知识框架",
+    "alt": "复用与演进 × 安全与治理：当前工作是退出与数据善后，产出凭据撤销、数据处置与责任终止；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/product-feedback.svg",
+    "title": "把现场问题反馈产品局部知识框架",
+    "alt": "复用与演进 × 协作与产品：当前工作是把现场问题反馈产品，产出共性问题与产品决策；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/processes/capstone.svg",
+    "title": "用综合项目检验能力局部知识框架",
+    "alt": "复用与演进 × 协作与产品：当前工作是用综合项目检验能力，产出端到端实现与评审包；显示相关阶段和相邻领域",
+    "source": "来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图",
     "createdAt": "2026-10-14",
     "generator": "scripts/build-article-diagrams.mjs"
   }

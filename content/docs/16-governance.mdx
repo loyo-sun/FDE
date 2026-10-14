@@ -11,9 +11,9 @@ aiIndex: true
 searchIndex: true
 ---
 
-## 主题图解
+## 框架位置
 
-[![知识库治理与文档标准章节图解](/diagrams/articles/knowledge-governance.svg)](/diagrams/articles/knowledge-governance.svg)
+[![知识库治理与文档标准局部知识框架](/diagrams/articles/knowledge-governance.svg)](/diagrams/articles/knowledge-governance.svg)
 
 
 ## 按内容类型约定结构
@@ -52,7 +52,7 @@ searchIndex: true
 
 当前已实现的元数据为 title、description、slug、category、order、updatedAt、status、tags、aiIndex、searchIndex。作者、负责人、审核人与适用版本应在需要时写入正文或项目审核记录；不能声称程序已经强制校验了未实现字段。
 
-目前 40 篇文章均为基础指南，包含教学示例与练习；没有标记为经过客户现场验证的操作手册。GitHub 同步确认的是仓库提交，线上托管是否成功需要另查部署结果，不能由 push 成功推断。
+目前 46 篇文章均为基础指南，包含教学示例与练习；没有标记为经过客户现场验证的操作手册。GitHub 同步确认的是仓库提交，线上托管是否成功需要另查部署结果，不能由 push 成功推断。
 
 ## 内容维护责任与节奏
 
@@ -72,6 +72,9 @@ searchIndex: true
 ## 质量门禁
 
 构建检查 MDX、类型、内容链接、静态页面、配图存在与来源、模板与练习文件。自动检查不能替代事实审核；新结论仍需明确来源、条件与证据。
+
+
+知识框架使用 `content/framework.json` 维护阶段、能力、工作、前置与产出。新增文章必须明确映射；局部图由全局框架裁取，不由章节标题生成。
 
 ## 参考阅读与使用边界
 

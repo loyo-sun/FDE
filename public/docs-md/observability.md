@@ -4,9 +4,9 @@
 
 用日志、指标、链路和 SLO 发现用户受到的影响。
 
-## 主题图解
+## 框架位置
 
-[![可观测性与服务目标章节图解](/diagrams/articles/observability.svg)](/diagrams/articles/observability.svg)
+[![可观测性与服务目标局部知识框架](/diagrams/articles/observability.svg)](/diagrams/articles/observability.svg)
 
 
 ## 从用户任务定义服务目标

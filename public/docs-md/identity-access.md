@@ -4,9 +4,9 @@
 
 设计用户、服务、租户和资源的访问边界。
 
-## 主题图解
+## 框架位置
 
-[![身份认证与权限设计章节图解](/diagrams/articles/identity-access.svg)](/diagrams/articles/identity-access.svg)
+[![身份认证与权限设计局部知识框架](/diagrams/articles/identity-access.svg)](/diagrams/articles/identity-access.svg)
 
 
 ## 区分身份、权限与资源归属

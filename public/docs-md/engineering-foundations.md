@@ -4,9 +4,9 @@
 
 补齐编程、系统、网络、Git 与调试的基础。
 
-## 主题图解
+## 框架位置
 
-[![工程基础与开发环境章节图解](/diagrams/articles/engineering-foundations.svg)](/diagrams/articles/engineering-foundations.svg)
+[![工程基础与开发环境局部知识框架](/diagrams/articles/engineering-foundations.svg)](/diagrams/articles/engineering-foundations.svg)
 
 
 ## 适用场景与学习目标

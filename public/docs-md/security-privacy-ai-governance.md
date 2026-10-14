@@ -4,9 +4,9 @@
 
 理解项目中的安全控制与治理责任。
 
-## 主题图解
+## 框架位置
 
-[![安全、隐私与 AI 治理章节图解](/diagrams/articles/security-privacy-ai-governance.svg)](/diagrams/articles/security-privacy-ai-governance.svg)
+[![安全、隐私与 AI 治理局部知识框架](/diagrams/articles/security-privacy-ai-governance.svg)](/diagrams/articles/security-privacy-ai-governance.svg)
 
 
 ## 基础安全

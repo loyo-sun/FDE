@@ -4,9 +4,9 @@
 
 按价值、可行性、数据准备度和风险选择首个场景。
 
-## 主题图解
+## 框架位置
 
-[![场景筛选与范围界定章节图解](/diagrams/articles/use-case-prioritization.svg)](/diagrams/articles/use-case-prioritization.svg)
+[![场景筛选与范围界定局部知识框架](/diagrams/articles/use-case-prioritization.svg)](/diagrams/articles/use-case-prioritization.svg)
 
 
 ## 先判断是否值得做

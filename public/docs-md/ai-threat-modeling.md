@@ -4,9 +4,9 @@
 
 识别提示注入、数据泄露和工具滥用的攻击面。
 
-## 主题图解
+## 框架位置
 
-[![AI 威胁建模与防护验证章节图解](/diagrams/articles/ai-threat-modeling.svg)](/diagrams/articles/ai-threat-modeling.svg)
+[![AI 威胁建模与防护验证局部知识框架](/diagrams/articles/ai-threat-modeling.svg)](/diagrams/articles/ai-threat-modeling.svg)
 
 
 ## 从资产和边界识别威胁

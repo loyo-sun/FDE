@@ -4,9 +4,9 @@
 
 建立从现象、假设、证据到根因的诊断过程。
 
-## 主题图解
+## 框架位置
 
-[![故障排查方法章节图解](/diagrams/articles/troubleshooting-method.svg)](/diagrams/articles/troubleshooting-method.svg)
+[![故障排查方法局部知识框架](/diagrams/articles/troubleshooting-method.svg)](/diagrams/articles/troubleshooting-method.svg)
 
 
 ## 第一步：控制影响

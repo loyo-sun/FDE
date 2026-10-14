@@ -4,9 +4,9 @@
 
 用自动检查与评审控制变更质量。
 
-## 主题图解
+## 框架位置
 
-[![测试、代码审查与持续集成章节图解](/diagrams/articles/engineering-quality.svg)](/diagrams/articles/engineering-quality.svg)
+[![测试、代码审查与持续集成局部知识框架](/diagrams/articles/engineering-quality.svg)](/diagrams/articles/engineering-quality.svg)
 
 
 ## 质量检查围绕业务风险

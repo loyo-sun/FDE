@@ -4,9 +4,9 @@
 
 设计工具调用、状态管理、权限边界与人工介入。
 
-## 主题图解
+## 框架位置
 
-[![Agent 与工具工作流章节图解](/diagrams/articles/agent-workflows.svg)](/diagrams/articles/agent-workflows.svg)
+[![Agent 与工具工作流局部知识框架](/diagrams/articles/agent-workflows.svg)](/diagrams/articles/agent-workflows.svg)
 
 
 ## 先选择确定性工作流

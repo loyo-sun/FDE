@@ -4,9 +4,9 @@
 
 规划问题定义、架构决策、评测、上线和复盘模板。
 
-## 主题图解
+## 框架位置
 
-[![项目交付模板目录章节图解](/diagrams/articles/delivery-templates.svg)](/diagrams/articles/delivery-templates.svg)
+[![项目交付模板目录局部知识框架](/diagrams/articles/delivery-templates.svg)](/diagrams/articles/delivery-templates.svg)
 
 
 ## 模板如何使用

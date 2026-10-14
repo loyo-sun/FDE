@@ -4,9 +4,9 @@
 
 设计跨系统的数据流、接口、错误处理与一致性边界。
 
-## 主题图解
+## 框架位置
 
-[![系统集成与接口契约章节图解](/diagrams/articles/integration-design.svg)](/diagrams/articles/integration-design.svg)
+[![系统集成与接口契约局部知识框架](/diagrams/articles/integration-design.svg)](/diagrams/articles/integration-design.svg)
 
 
 ## 契约先于联调

@@ -4,9 +4,9 @@
 
 从问题访谈到上线复盘，完成一个可评审的示范项目。
 
-## 主题图解
+## 框架位置
 
-[![端到端实战项目章节图解](/diagrams/articles/capstone-project.svg)](/diagrams/articles/capstone-project.svg)
+[![端到端实战项目局部知识框架](/diagrams/articles/capstone-project.svg)](/diagrams/articles/capstone-project.svg)
 
 
 ## 实战目标与边界

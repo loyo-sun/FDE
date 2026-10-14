@@ -1,0 +1,1407 @@
+{
+  "problem": {
+    "title": "识别用户问题",
+    "alt": "发现与立项 × 业务与价值：当前工作是识别用户问题，产出一页问题定义；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "problem",
+    "focusColumn": 0,
+    "phase": "发现与立项",
+    "lane": "业务与价值",
+    "width": 900,
+    "height": 475,
+    "phaseIds": [
+      "discover",
+      "design"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [],
+    "output": "一页问题定义"
+  },
+  "scope": {
+    "title": "筛选场景与边界",
+    "alt": "发现与立项 × 业务与价值：当前工作是筛选场景与边界，产出首期范围与排除项；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "scope",
+    "focusColumn": 0,
+    "phase": "发现与立项",
+    "lane": "业务与价值",
+    "width": 900,
+    "height": 475,
+    "phaseIds": [
+      "discover",
+      "design"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [
+      "problem",
+      "workflow"
+    ],
+    "output": "首期范围与排除项"
+  },
+  "economics": {
+    "title": "判断交付经济性",
+    "alt": "发现与立项 × 业务与价值：当前工作是判断交付经济性，产出投入上限与停止条件；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "economics",
+    "focusColumn": 0,
+    "phase": "发现与立项",
+    "lane": "业务与价值",
+    "width": 900,
+    "height": 475,
+    "phaseIds": [
+      "discover",
+      "design"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [
+      "problem",
+      "scope"
+    ],
+    "output": "投入上限与停止条件"
+  },
+  "system-landscape": {
+    "title": "摸清现有系统",
+    "alt": "发现与立项 × 架构与集成：当前工作是摸清现有系统，产出系统边界与依赖清单；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "system-landscape",
+    "focusColumn": 0,
+    "phase": "发现与立项",
+    "lane": "架构与集成",
+    "width": 900,
+    "height": 425,
+    "phaseIds": [
+      "discover",
+      "design"
+    ],
+    "laneIds": [
+      "architecture",
+      "engineering"
+    ],
+    "requires": [],
+    "output": "系统边界与依赖清单"
+  },
+  "source-inventory": {
+    "title": "清点资料与数据",
+    "alt": "发现与立项 × 数据与知识：当前工作是清点资料与数据，产出对象、来源与数据缺口；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "source-inventory",
+    "focusColumn": 0,
+    "phase": "发现与立项",
+    "lane": "数据与知识",
+    "width": 900,
+    "height": 425,
+    "phaseIds": [
+      "discover",
+      "design"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [],
+    "output": "对象、来源与数据缺口"
+  },
+  "ai-fit": {
+    "title": "判断是否需要 AI",
+    "alt": "发现与立项 × AI 与自动化：当前工作是判断是否需要 AI，产出规则、搜索与模型的方案边界；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "ai-fit",
+    "focusColumn": 1,
+    "phase": "发现与立项",
+    "lane": "AI 与自动化",
+    "width": 900,
+    "height": 425,
+    "phaseIds": [
+      "discover",
+      "design"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [],
+    "output": "规则、搜索与模型的方案边界"
+  },
+  "delivery-gates": {
+    "title": "约定交付阶段",
+    "alt": "发现与立项 × 工程与运行：当前工作是约定交付阶段，产出里程碑与阶段门禁；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "delivery-gates",
+    "focusColumn": 0,
+    "phase": "发现与立项",
+    "lane": "工程与运行",
+    "width": 900,
+    "height": 425,
+    "phaseIds": [
+      "discover",
+      "design"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [],
+    "output": "里程碑与阶段门禁"
+  },
+  "data-purpose": {
+    "title": "确认数据用途",
+    "alt": "发现与立项 × 安全与治理：当前工作是确认数据用途，产出数据台账与授权条件；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "data-purpose",
+    "focusColumn": 1,
+    "phase": "发现与立项",
+    "lane": "安全与治理",
+    "width": 900,
+    "height": 425,
+    "phaseIds": [
+      "discover",
+      "design"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [],
+    "output": "数据台账与授权条件"
+  },
+  "workflow": {
+    "title": "观察真实工作流",
+    "alt": "发现与立项 × 协作与产品：当前工作是观察真实工作流，产出现状流程与交接瓶颈；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "workflow",
+    "focusColumn": 1,
+    "phase": "发现与立项",
+    "lane": "协作与产品",
+    "width": 900,
+    "height": 475,
+    "phaseIds": [
+      "discover",
+      "design"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [],
+    "output": "现状流程与交接瓶颈"
+  },
+  "stakeholders": {
+    "title": "识别决策与使用者",
+    "alt": "发现与立项 × 协作与产品：当前工作是识别决策与使用者，产出责任与协作关系；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "stakeholders",
+    "focusColumn": 1,
+    "phase": "发现与立项",
+    "lane": "协作与产品",
+    "width": 900,
+    "height": 475,
+    "phaseIds": [
+      "discover",
+      "design"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [],
+    "output": "责任与协作关系"
+  },
+  "baseline": {
+    "title": "定义价值基线",
+    "alt": "方案与计划 × 业务与价值：当前工作是定义价值基线，产出指标、分母与采样计划；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "baseline",
+    "focusColumn": 0,
+    "phase": "方案与计划",
+    "lane": "业务与价值",
+    "width": 900,
+    "height": 545,
+    "phaseIds": [
+      "discover",
+      "design",
+      "build"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [
+      "problem",
+      "scope"
+    ],
+    "output": "指标、分母与采样计划"
+  },
+  "architecture": {
+    "title": "设计组件与边界",
+    "alt": "方案与计划 × 架构与集成：当前工作是设计组件与边界，产出架构与技术决策；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "architecture",
+    "focusColumn": 0,
+    "phase": "方案与计划",
+    "lane": "架构与集成",
+    "width": 900,
+    "height": 595,
+    "phaseIds": [
+      "discover",
+      "design",
+      "build"
+    ],
+    "laneIds": [
+      "architecture",
+      "engineering"
+    ],
+    "requires": [
+      "system-landscape",
+      "scope",
+      "data-purpose"
+    ],
+    "output": "架构与技术决策"
+  },
+  "contracts": {
+    "title": "约定集成契约",
+    "alt": "方案与计划 × 架构与集成：当前工作是约定集成契约，产出接口、错误与幂等规则；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "contracts",
+    "focusColumn": 0,
+    "phase": "方案与计划",
+    "lane": "架构与集成",
+    "width": 900,
+    "height": 595,
+    "phaseIds": [
+      "discover",
+      "design",
+      "build"
+    ],
+    "laneIds": [
+      "architecture",
+      "engineering"
+    ],
+    "requires": [
+      "architecture",
+      "business-model"
+    ],
+    "output": "接口、错误与幂等规则"
+  },
+  "business-model": {
+    "title": "统一业务语义",
+    "alt": "方案与计划 × 数据与知识：当前工作是统一业务语义，产出实体、状态与不变量；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "business-model",
+    "focusColumn": 0,
+    "phase": "方案与计划",
+    "lane": "数据与知识",
+    "width": 900,
+    "height": 545,
+    "phaseIds": [
+      "discover",
+      "design",
+      "build"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [
+      "source-inventory",
+      "workflow"
+    ],
+    "output": "实体、状态与不变量"
+  },
+  "model-choice": {
+    "title": "比较模型与部署形态",
+    "alt": "方案与计划 × AI 与自动化：当前工作是比较模型与部署形态，产出任务级选型与替换策略；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "model-choice",
+    "focusColumn": 1,
+    "phase": "方案与计划",
+    "lane": "AI 与自动化",
+    "width": 900,
+    "height": 545,
+    "phaseIds": [
+      "discover",
+      "design",
+      "build"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [
+      "ai-fit",
+      "data-purpose",
+      "economics"
+    ],
+    "output": "任务级选型与替换策略"
+  },
+  "eval-plan": {
+    "title": "设计评测与门槛",
+    "alt": "方案与计划 × AI 与自动化：当前工作是设计评测与门槛，产出冻结样本与风险门槛；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "eval-plan",
+    "focusColumn": 1,
+    "phase": "方案与计划",
+    "lane": "AI 与自动化",
+    "width": 900,
+    "height": 545,
+    "phaseIds": [
+      "discover",
+      "design",
+      "build"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [
+      "baseline",
+      "model-choice"
+    ],
+    "output": "冻结样本与风险门槛"
+  },
+  "prototype": {
+    "title": "验证最大技术风险",
+    "alt": "方案与计划 × 工程与运行：当前工作是验证最大技术风险，产出实验结果与继续决定；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "prototype",
+    "focusColumn": 0,
+    "phase": "方案与计划",
+    "lane": "工程与运行",
+    "width": 900,
+    "height": 595,
+    "phaseIds": [
+      "discover",
+      "design",
+      "build"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "architecture",
+      "eval-plan"
+    ],
+    "output": "实验结果与继续决定"
+  },
+  "platform-plan": {
+    "title": "规划部署与环境",
+    "alt": "方案与计划 × 工程与运行：当前工作是规划部署与环境，产出环境拓扑与配置边界；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "platform-plan",
+    "focusColumn": 0,
+    "phase": "方案与计划",
+    "lane": "工程与运行",
+    "width": 900,
+    "height": 595,
+    "phaseIds": [
+      "discover",
+      "design",
+      "build"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "architecture",
+      "data-purpose"
+    ],
+    "output": "环境拓扑与配置边界"
+  },
+  "authorization": {
+    "title": "设计身份与资源授权",
+    "alt": "方案与计划 × 安全与治理：当前工作是设计身份与资源授权，产出权限矩阵与拒绝用例；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "authorization",
+    "focusColumn": 1,
+    "phase": "方案与计划",
+    "lane": "安全与治理",
+    "width": 900,
+    "height": 595,
+    "phaseIds": [
+      "discover",
+      "design",
+      "build"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "data-purpose",
+      "business-model"
+    ],
+    "output": "权限矩阵与拒绝用例"
+  },
+  "threats": {
+    "title": "建模攻击面",
+    "alt": "方案与计划 × 安全与治理：当前工作是建模攻击面，产出威胁、控制与验证计划；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "threats",
+    "focusColumn": 1,
+    "phase": "方案与计划",
+    "lane": "安全与治理",
+    "width": 900,
+    "height": 595,
+    "phaseIds": [
+      "discover",
+      "design",
+      "build"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "authorization",
+      "architecture"
+    ],
+    "output": "威胁、控制与验证计划"
+  },
+  "delivery-plan": {
+    "title": "建立风险与变更机制",
+    "alt": "方案与计划 × 协作与产品：当前工作是建立风险与变更机制，产出责任、升级与变更清单；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "delivery-plan",
+    "focusColumn": 1,
+    "phase": "方案与计划",
+    "lane": "协作与产品",
+    "width": 900,
+    "height": 545,
+    "phaseIds": [
+      "discover",
+      "design",
+      "build"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [
+      "economics",
+      "delivery-gates",
+      "stakeholders"
+    ],
+    "output": "责任、升级与变更清单"
+  },
+  "business-check": {
+    "title": "核对范围与验收假设",
+    "alt": "构建与验证 × 业务与价值：当前工作是核对范围与验收假设，产出变更影响与范围确认；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "business-check",
+    "focusColumn": 0,
+    "phase": "构建与验证",
+    "lane": "业务与价值",
+    "width": 900,
+    "height": 445,
+    "phaseIds": [
+      "design",
+      "build",
+      "launch"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [],
+    "output": "变更影响与范围确认"
+  },
+  "api": {
+    "title": "实现确定性接口",
+    "alt": "构建与验证 × 架构与集成：当前工作是实现确定性接口，产出有鉴权和幂等的服务；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "api",
+    "focusColumn": 0,
+    "phase": "构建与验证",
+    "lane": "架构与集成",
+    "width": 900,
+    "height": 645,
+    "phaseIds": [
+      "design",
+      "build",
+      "launch"
+    ],
+    "laneIds": [
+      "architecture",
+      "engineering"
+    ],
+    "requires": [
+      "contracts",
+      "authorization"
+    ],
+    "output": "有鉴权和幂等的服务"
+  },
+  "pipeline": {
+    "title": "建立可重跑数据管道",
+    "alt": "构建与验证 × 数据与知识：当前工作是建立可重跑数据管道，产出批次、隔离、对账与恢复；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "pipeline",
+    "focusColumn": 0,
+    "phase": "构建与验证",
+    "lane": "数据与知识",
+    "width": 900,
+    "height": 545,
+    "phaseIds": [
+      "design",
+      "build",
+      "launch"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [
+      "business-model",
+      "data-purpose"
+    ],
+    "output": "批次、隔离、对账与恢复"
+  },
+  "rag": {
+    "title": "构建知识检索与引用",
+    "alt": "构建与验证 × 数据与知识：当前工作是构建知识检索与引用，产出授权证据与知识版本；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "rag",
+    "focusColumn": 0,
+    "phase": "构建与验证",
+    "lane": "数据与知识",
+    "width": 900,
+    "height": 545,
+    "phaseIds": [
+      "design",
+      "build",
+      "launch"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [
+      "pipeline",
+      "authorization",
+      "eval-plan"
+    ],
+    "output": "授权证据与知识版本"
+  },
+  "ai-application": {
+    "title": "接入受控 AI 能力",
+    "alt": "构建与验证 × AI 与自动化：当前工作是接入受控 AI 能力，产出可降级的草稿生成；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "ai-application",
+    "focusColumn": 1,
+    "phase": "构建与验证",
+    "lane": "AI 与自动化",
+    "width": 900,
+    "height": 545,
+    "phaseIds": [
+      "design",
+      "build",
+      "launch"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [
+      "model-choice",
+      "rag"
+    ],
+    "output": "可降级的草稿生成"
+  },
+  "agent": {
+    "title": "约束工具与动作",
+    "alt": "构建与验证 × AI 与自动化：当前工作是约束工具与动作，产出工具契约、审批与执行状态；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "agent",
+    "focusColumn": 1,
+    "phase": "构建与验证",
+    "lane": "AI 与自动化",
+    "width": 900,
+    "height": 545,
+    "phaseIds": [
+      "design",
+      "build",
+      "launch"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [
+      "contracts",
+      "authorization",
+      "threats"
+    ],
+    "output": "工具契约、审批与执行状态"
+  },
+  "workbench": {
+    "title": "构建任务工作台",
+    "alt": "构建与验证 × 工程与运行：当前工作是构建任务工作台，产出正常、异常与人工接管界面；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "workbench",
+    "focusColumn": 0,
+    "phase": "构建与验证",
+    "lane": "工程与运行",
+    "width": 900,
+    "height": 645,
+    "phaseIds": [
+      "design",
+      "build",
+      "launch"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "workflow",
+      "api"
+    ],
+    "output": "正常、异常与人工接管界面"
+  },
+  "quality": {
+    "title": "运行测试与审查",
+    "alt": "构建与验证 × 工程与运行：当前工作是运行测试与审查，产出测试、契约和审查证据；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "quality",
+    "focusColumn": 0,
+    "phase": "构建与验证",
+    "lane": "工程与运行",
+    "width": 900,
+    "height": 645,
+    "phaseIds": [
+      "design",
+      "build",
+      "launch"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "api",
+      "eval-plan",
+      "threats"
+    ],
+    "output": "测试、契约和审查证据"
+  },
+  "evidence": {
+    "title": "组织项目证据包",
+    "alt": "构建与验证 × 工程与运行：当前工作是组织项目证据包，产出设计、验证与发布记录；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "evidence",
+    "focusColumn": 0,
+    "phase": "构建与验证",
+    "lane": "工程与运行",
+    "width": 900,
+    "height": 645,
+    "phaseIds": [
+      "design",
+      "build",
+      "launch"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "quality",
+      "delivery-plan"
+    ],
+    "output": "设计、验证与发布记录"
+  },
+  "safety-tests": {
+    "title": "验证安全控制",
+    "alt": "构建与验证 × 安全与治理：当前工作是验证安全控制，产出越权、注入与泄露反例；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "safety-tests",
+    "focusColumn": 1,
+    "phase": "构建与验证",
+    "lane": "安全与治理",
+    "width": 900,
+    "height": 645,
+    "phaseIds": [
+      "design",
+      "build",
+      "launch"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [],
+    "output": "越权、注入与泄露反例"
+  },
+  "co-review": {
+    "title": "与用户共同验证",
+    "alt": "构建与验证 × 协作与产品：当前工作是与用户共同验证，产出任务观察与问题清单；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "co-review",
+    "focusColumn": 1,
+    "phase": "构建与验证",
+    "lane": "协作与产品",
+    "width": 900,
+    "height": 445,
+    "phaseIds": [
+      "design",
+      "build",
+      "launch"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [],
+    "output": "任务观察与问题清单"
+  },
+  "pilot-value": {
+    "title": "比较试点价值",
+    "alt": "上线与采用 × 业务与价值：当前工作是比较试点价值，产出基线对照与继续/停止决定；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "pilot-value",
+    "focusColumn": 0,
+    "phase": "上线与采用",
+    "lane": "业务与价值",
+    "width": 900,
+    "height": 445,
+    "phaseIds": [
+      "build",
+      "launch",
+      "operate"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [
+      "baseline",
+      "co-review"
+    ],
+    "output": "基线对照与继续/停止决定"
+  },
+  "integration-test": {
+    "title": "验证跨系统业务链",
+    "alt": "上线与采用 × 架构与集成：当前工作是验证跨系统业务链，产出契约与一致性核对；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "integration-test",
+    "focusColumn": 0,
+    "phase": "上线与采用",
+    "lane": "架构与集成",
+    "width": 900,
+    "height": 745,
+    "phaseIds": [
+      "build",
+      "launch",
+      "operate"
+    ],
+    "laneIds": [
+      "architecture",
+      "engineering"
+    ],
+    "requires": [],
+    "output": "契约与一致性核对"
+  },
+  "index-release": {
+    "title": "发布并核验知识版本",
+    "alt": "上线与采用 × 数据与知识：当前工作是发布并核验知识版本，产出激活、撤权与旧引用验证；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "index-release",
+    "focusColumn": 0,
+    "phase": "上线与采用",
+    "lane": "数据与知识",
+    "width": 900,
+    "height": 495,
+    "phaseIds": [
+      "build",
+      "launch",
+      "operate"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [
+      "rag",
+      "safety-tests"
+    ],
+    "output": "激活、撤权与旧引用验证"
+  },
+  "ai-acceptance": {
+    "title": "评测 AI 质量与失败",
+    "alt": "上线与采用 × AI 与自动化：当前工作是评测 AI 质量与失败，产出分层评测与人工评分；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "ai-acceptance",
+    "focusColumn": 1,
+    "phase": "上线与采用",
+    "lane": "AI 与自动化",
+    "width": 900,
+    "height": 495,
+    "phaseIds": [
+      "build",
+      "launch",
+      "operate"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [
+      "eval-plan",
+      "ai-application"
+    ],
+    "output": "分层评测与人工评分"
+  },
+  "release": {
+    "title": "部署联调与灰度",
+    "alt": "上线与采用 × 工程与运行：当前工作是部署联调与灰度，产出发布、降级与回退演练；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "release",
+    "focusColumn": 0,
+    "phase": "上线与采用",
+    "lane": "工程与运行",
+    "width": 900,
+    "height": 745,
+    "phaseIds": [
+      "build",
+      "launch",
+      "operate"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "quality",
+      "platform-plan",
+      "security-gate"
+    ],
+    "output": "发布、降级与回退演练"
+  },
+  "handover": {
+    "title": "完成验收和运维移交",
+    "alt": "上线与采用 × 工程与运行：当前工作是完成验收和运维移交，产出接手演练与遗留责任；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "handover",
+    "focusColumn": 0,
+    "phase": "上线与采用",
+    "lane": "工程与运行",
+    "width": 900,
+    "height": 745,
+    "phaseIds": [
+      "build",
+      "launch",
+      "operate"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "release",
+      "adoption"
+    ],
+    "output": "接手演练与遗留责任"
+  },
+  "security-gate": {
+    "title": "审核上线风险",
+    "alt": "上线与采用 × 安全与治理：当前工作是审核上线风险，产出阻断项与残余风险决定；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "security-gate",
+    "focusColumn": 1,
+    "phase": "上线与采用",
+    "lane": "安全与治理",
+    "width": 900,
+    "height": 745,
+    "phaseIds": [
+      "build",
+      "launch",
+      "operate"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "threats",
+      "safety-tests"
+    ],
+    "output": "阻断项与残余风险决定"
+  },
+  "adoption": {
+    "title": "培训与试点采用",
+    "alt": "上线与采用 × 协作与产品：当前工作是培训与试点采用，产出任务完成、放弃与复核负担；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "adoption",
+    "focusColumn": 1,
+    "phase": "上线与采用",
+    "lane": "协作与产品",
+    "width": 900,
+    "height": 445,
+    "phaseIds": [
+      "build",
+      "launch",
+      "operate"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [
+      "workbench",
+      "stakeholders"
+    ],
+    "output": "任务完成、放弃与复核负担"
+  },
+  "realized-value": {
+    "title": "复核实际业务收益",
+    "alt": "运行与改进 × 业务与价值：当前工作是复核实际业务收益，产出采用、工时、错误与真实投入；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "realized-value",
+    "focusColumn": 0,
+    "phase": "运行与改进",
+    "lane": "业务与价值",
+    "width": 900,
+    "height": 495,
+    "phaseIds": [
+      "launch",
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [
+      "pilot-value",
+      "adoption",
+      "cost-performance"
+    ],
+    "output": "采用、工时、错误与真实投入"
+  },
+  "architecture-review": {
+    "title": "复审容量与架构约束",
+    "alt": "运行与改进 × 架构与集成：当前工作是复审容量与架构约束，产出重审触发与演进决定；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "architecture-review",
+    "focusColumn": 0,
+    "phase": "运行与改进",
+    "lane": "架构与集成",
+    "width": 900,
+    "height": 645,
+    "phaseIds": [
+      "launch",
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "architecture",
+      "engineering"
+    ],
+    "requires": [],
+    "output": "重审触发与演进决定"
+  },
+  "knowledge-refresh": {
+    "title": "更新、删除与撤权",
+    "alt": "运行与改进 × 数据与知识：当前工作是更新、删除与撤权，产出新鲜度与删除传播证据；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "knowledge-refresh",
+    "focusColumn": 0,
+    "phase": "运行与改进",
+    "lane": "数据与知识",
+    "width": 900,
+    "height": 445,
+    "phaseIds": [
+      "launch",
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [
+      "pipeline",
+      "index-release"
+    ],
+    "output": "新鲜度与删除传播证据"
+  },
+  "ai-diagnosis": {
+    "title": "定位模型与检索退化",
+    "alt": "运行与改进 × AI 与自动化：当前工作是定位模型与检索退化，产出分层故障与回归结果；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "ai-diagnosis",
+    "focusColumn": 1,
+    "phase": "运行与改进",
+    "lane": "AI 与自动化",
+    "width": 900,
+    "height": 445,
+    "phaseIds": [
+      "launch",
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [
+      "ai-acceptance",
+      "knowledge-refresh"
+    ],
+    "output": "分层故障与回归结果"
+  },
+  "slo": {
+    "title": "观测用户任务与 SLO",
+    "alt": "运行与改进 × 工程与运行：当前工作是观测用户任务与 SLO，产出用户影响与错误预算；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "slo",
+    "focusColumn": 0,
+    "phase": "运行与改进",
+    "lane": "工程与运行",
+    "width": 900,
+    "height": 645,
+    "phaseIds": [
+      "launch",
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "baseline",
+      "release"
+    ],
+    "output": "用户影响与错误预算"
+  },
+  "incident": {
+    "title": "控制影响并诊断故障",
+    "alt": "运行与改进 × 工程与运行：当前工作是控制影响并诊断故障，产出恢复、根因与改进；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "incident",
+    "focusColumn": 0,
+    "phase": "运行与改进",
+    "lane": "工程与运行",
+    "width": 900,
+    "height": 645,
+    "phaseIds": [
+      "launch",
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "slo",
+      "operations"
+    ],
+    "output": "恢复、根因与改进"
+  },
+  "cost-performance": {
+    "title": "优化性能与单任务成本",
+    "alt": "运行与改进 × 工程与运行：当前工作是优化性能与单任务成本，产出容量、时延与成本预算；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "cost-performance",
+    "focusColumn": 0,
+    "phase": "运行与改进",
+    "lane": "工程与运行",
+    "width": 900,
+    "height": 645,
+    "phaseIds": [
+      "launch",
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "slo",
+      "model-choice",
+      "economics"
+    ],
+    "output": "容量、时延与成本预算"
+  },
+  "operations": {
+    "title": "执行变更与恢复",
+    "alt": "运行与改进 × 工程与运行：当前工作是执行变更与恢复，产出备份、容量与变更记录；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "operations",
+    "focusColumn": 0,
+    "phase": "运行与改进",
+    "lane": "工程与运行",
+    "width": 900,
+    "height": 645,
+    "phaseIds": [
+      "launch",
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "handover",
+      "platform-plan"
+    ],
+    "output": "备份、容量与变更记录"
+  },
+  "access-review": {
+    "title": "复核权限与数据保留",
+    "alt": "运行与改进 × 安全与治理：当前工作是复核权限与数据保留，产出撤权、清理与审计；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "access-review",
+    "focusColumn": 1,
+    "phase": "运行与改进",
+    "lane": "安全与治理",
+    "width": 900,
+    "height": 645,
+    "phaseIds": [
+      "launch",
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "authorization",
+      "data-purpose"
+    ],
+    "output": "撤权、清理与审计"
+  },
+  "case-review": {
+    "title": "沉淀运行与失败案例",
+    "alt": "运行与改进 × 协作与产品：当前工作是沉淀运行与失败案例，产出有证据的案例和工具准入；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "case-review",
+    "focusColumn": 1,
+    "phase": "运行与改进",
+    "lane": "协作与产品",
+    "width": 900,
+    "height": 495,
+    "phaseIds": [
+      "launch",
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [
+      "incident",
+      "realized-value"
+    ],
+    "output": "有证据的案例和工具准入"
+  },
+  "expansion": {
+    "title": "决定扩大、调整或退出",
+    "alt": "复用与演进 × 业务与价值：当前工作是决定扩大、调整或退出，产出下一阶段价值与投入边界；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "expansion",
+    "focusColumn": 0,
+    "phase": "复用与演进",
+    "lane": "业务与价值",
+    "width": 900,
+    "height": 425,
+    "phaseIds": [
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [
+      "realized-value",
+      "cost-performance"
+    ],
+    "output": "下一阶段价值与投入边界"
+  },
+  "reuse-boundary": {
+    "title": "提炼可配置的方案边界",
+    "alt": "复用与演进 × 架构与集成：当前工作是提炼可配置的方案边界，产出核心、配置与扩展契约；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "reuse-boundary",
+    "focusColumn": 0,
+    "phase": "复用与演进",
+    "lane": "架构与集成",
+    "width": 900,
+    "height": 525,
+    "phaseIds": [
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "architecture",
+      "engineering"
+    ],
+    "requires": [
+      "architecture-review",
+      "product-feedback"
+    ],
+    "output": "核心、配置与扩展契约"
+  },
+  "knowledge-governance": {
+    "title": "治理文档与知识资产",
+    "alt": "复用与演进 × 数据与知识：当前工作是治理文档与知识资产，产出负责人、版本与复审；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "knowledge-governance",
+    "focusColumn": 0,
+    "phase": "复用与演进",
+    "lane": "数据与知识",
+    "width": 900,
+    "height": 375,
+    "phaseIds": [
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [
+      "knowledge-refresh",
+      "case-review"
+    ],
+    "output": "负责人、版本与复审"
+  },
+  "ai-evolution": {
+    "title": "比较模型升级与替换",
+    "alt": "复用与演进 × AI 与自动化：当前工作是比较模型升级与替换，产出版本回归与兼容性结论；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "ai-evolution",
+    "focusColumn": 1,
+    "phase": "复用与演进",
+    "lane": "AI 与自动化",
+    "width": 900,
+    "height": 375,
+    "phaseIds": [
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "data",
+      "ai"
+    ],
+    "requires": [
+      "ai-diagnosis",
+      "eval-plan"
+    ],
+    "output": "版本回归与兼容性结论"
+  },
+  "platform-upgrade": {
+    "title": "演练平台升级与迁移",
+    "alt": "复用与演进 × 工程与运行：当前工作是演练平台升级与迁移，产出迁移、兼容与恢复证据；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "platform-upgrade",
+    "focusColumn": 0,
+    "phase": "复用与演进",
+    "lane": "工程与运行",
+    "width": 900,
+    "height": 525,
+    "phaseIds": [
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "operations",
+      "reuse-boundary"
+    ],
+    "output": "迁移、兼容与恢复证据"
+  },
+  "exit": {
+    "title": "退出与数据善后",
+    "alt": "复用与演进 × 安全与治理：当前工作是退出与数据善后，产出凭据撤销、数据处置与责任终止；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "exit",
+    "focusColumn": 1,
+    "phase": "复用与演进",
+    "lane": "安全与治理",
+    "width": 900,
+    "height": 525,
+    "phaseIds": [
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "engineering",
+      "trust"
+    ],
+    "requires": [
+      "access-review",
+      "handover",
+      "expansion"
+    ],
+    "output": "凭据撤销、数据处置与责任终止"
+  },
+  "product-feedback": {
+    "title": "把现场问题反馈产品",
+    "alt": "复用与演进 × 协作与产品：当前工作是把现场问题反馈产品，产出共性问题与产品决策；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "product-feedback",
+    "focusColumn": 1,
+    "phase": "复用与演进",
+    "lane": "协作与产品",
+    "width": 900,
+    "height": 425,
+    "phaseIds": [
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [
+      "co-review",
+      "realized-value",
+      "case-review"
+    ],
+    "output": "共性问题与产品决策"
+  },
+  "capstone": {
+    "title": "用综合项目检验能力",
+    "alt": "复用与演进 × 协作与产品：当前工作是用综合项目检验能力，产出端到端实现与评审包；显示相关阶段和相邻领域",
+    "kind": "matrix",
+    "processId": "capstone",
+    "focusColumn": 1,
+    "phase": "复用与演进",
+    "lane": "协作与产品",
+    "width": 900,
+    "height": 425,
+    "phaseIds": [
+      "operate",
+      "evolve"
+    ],
+    "laneIds": [
+      "value",
+      "collaboration"
+    ],
+    "requires": [
+      "evidence",
+      "handover",
+      "realized-value"
+    ],
+    "output": "端到端实现与评审包"
+  }
+}
