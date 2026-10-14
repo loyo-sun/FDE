@@ -1,5 +1,3 @@
-[![FDE 知识全景：六个交付阶段 × 七个能力领域，包含 58 项工作](https://fde.loyo.work/diagrams/fde-framework.svg)](https://fde.loyo.work/diagrams/fde-framework.svg)
-
 # FDE 从入门到精通
 
 FDE（Forward Deployed Engineer，前沿部署工程师）深入客户的真实工作场景，将业务问题转化为可运行的解决方案，并持续验证它是否带来价值。
@@ -9,6 +7,8 @@ FDE（Forward Deployed Engineer，前沿部署工程师）深入客户的真实�
 **[进入知识库](https://fde.loyo.work/) · [浏览交互全景](https://fde.loyo.work/docs/knowledge-map/#framework) · [选择学习路线](https://fde.loyo.work/docs/knowledge-map/#learning-routes)**
 
 ## 用一张图理解 FDE
+
+[![FDE 知识全景：六个交付阶段 × 七个能力领域，包含 58 项工作](https://fde.loyo.work/diagrams/fde-framework.svg)](https://fde.loyo.work/diagrams/fde-framework.svg)
 
 上方全景图以 **6 个交付阶段 × 7 个能力领域** 展开 **58 项工作**，关联 **46 个学习主题**。点击图片可查看完整大图，也可以进入交互全景，按当前任务阅读对应内容。
 
