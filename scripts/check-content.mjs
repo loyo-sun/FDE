@@ -34,17 +34,18 @@ for (const { data, content } of docs) {
   }
   for (const [, slug] of content.matchAll(/\]\(\/docs\/([^/#)]+)\/?(?:#[^)]*)?\)/g)) assert(slugs.has(slug), `Broken content link: ${slug}`);
   for (const [, target] of content.matchAll(/\]\((\/(?!\/)[^#)\s]+)(?:#[^)]*)?\)/g)) {
-    if (target.startsWith("/docs/")) continue;
+    if (target.startsWith("/docs/") || target.startsWith("/topics/")) continue;
     assert(fs.existsSync(path.join("public", target)), `Missing content asset: ${data.slug}: ${target}`);
     assert(fs.existsSync(path.join("out", target)), `Missing exported asset: ${target}`);
   }
   const images = [...content.matchAll(/!\[([^\]]*)\]\((\/diagrams\/[^)]+)\)/g)];
   if (data.status !== "outline") {
     assert(images.length > 0, `Missing topic diagram: ${data.slug}`);
-    assert(content.includes("图片来源："), `Missing visible image credit: ${data.slug}`);
+    assert(!content.includes("*图片来源："), `Redundant external image caption: ${data.slug}`);
   }
   for (const [, alt, target] of images) {
     assert(alt && attributedImages.has(target), `Unattributed image: ${data.slug}: ${target}`);
+    assert(fs.readFileSync(path.join("public", target), "utf8").includes("来源："), `Missing in-image credit: ${target}`);
   }
 }
 const fixtures = JSON.parse(fs.readFileSync("public/examples/ticket-fixtures.json", "utf8"));

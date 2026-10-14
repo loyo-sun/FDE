@@ -1,12 +1,12 @@
 # FDE 从入门到精通
 
-> 面向 Forward Deployed Engineer（前沿部署工程师）的中文知识库，覆盖客户问题、软件工程、AI 系统、业务价值与产品反馈。全部 40 个主题已提供基础指南，包含原创图解、合成案例、练习与可下载模板；生产操作需实际环境验证。
+> 面向 Forward Deployed Engineer（前沿部署工程师）的中文知识库，覆盖客户问题、软件工程、AI 系统、业务价值与产品反馈。全部 40 个主题已提供基础指南，包含随阅读高亮的章节图解、合成案例、练习与可下载模板；生产操作需实际环境验证。
 
 Canonical: https://fde.loyo.work/
 
 ## Documentation
 
-- [FDE 知识地图](/docs/knowledge-map/) — 基础指南：全局大纲、学习路线与内容建设进度。
+- [FDE 学习路线](/docs/knowledge-map/) — 基础指南：按入门、项目实战与进阶路线学习 FDE，筛选 40 个主题并记录个人学习进度。
 - [FDE 岗位与能力模型](/docs/role-and-competency/) — 基础指南：理解 Forward Deployed Engineer 的责任、工程能力与协作边界。
 - [工程基础与开发环境](/docs/engineering-foundations/) — 基础指南：补齐编程、系统、网络、Git 与调试的基础。
 - [学习路线与能力评估](/docs/training-and-certification/) — 基础指南：用项目产出检验从入门到独立负责项目的成长。

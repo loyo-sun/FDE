@@ -6,9 +6,8 @@
 
 ## 主题图解
 
-[![身份边界：用户、服务及租户 → 数据入口：分类、用途及最小收集 → 检索边界：权限过滤及缓存隔离 → 模型边界：不可信内容与输出校验 → 动作边界：工具白名单及人工批准 → 审计与删除：证据、保留及撤销验证](/diagrams/security.svg)](/diagrams/security.svg)
+[![安全、隐私与 AI 治理章节图解](/diagrams/articles/security-privacy-ai-governance.svg)](/diagrams/articles/security-privacy-ai-governance.svg)
 
-*图片来源：FDE 知识库原创 SVG 示意图，由 Codex 绘制，2026-10-14；非真实系统截图。[来源记录](/diagrams/sources.json)。*
 
 ## 基础安全
 
@@ -57,6 +56,6 @@
 ## 参考阅读与使用边界
 
 - [OWASP：授权设计](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)：相关概念与方法的延伸阅读，访问核验日期 2026-10-14。本站练习、流程与指标为自主编排，不属于来源机构认证。
-- [完整知识地图](/docs/knowledge-map/) · [项目实战](/docs/capstone-project/) · [可下载模板](/docs/delivery-templates/)
+- [学习路线](/docs/knowledge-map/) · [项目实战](/docs/capstone-project/) · [可下载模板](/docs/delivery-templates/)
 
 本页为基础指南；生产操作需结合实际版本、授权环境与审核证据验证。

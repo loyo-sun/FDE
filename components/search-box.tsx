@@ -113,4 +113,4 @@ export function SearchBox() {
   );
 }
 
-function LinkFallback() { return <a href="/docs/knowledge-map/">浏览知识地图</a>; }
+function LinkFallback() { return <a href="/docs/knowledge-map/">浏览学习路线与全部主题</a>; }

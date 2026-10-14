@@ -6,9 +6,8 @@
 
 ## 主题图解
 
-[![问题包：访谈、范围及指标 → 方案包：架构、契约及决策 → 实现包：代码、数据及运行说明 → 验证包：评测、权限及异常 → 上线包：灰度、监控及回退 → 知识包：复盘、模板及维护计划](/diagrams/practice.svg)](/diagrams/practice.svg)
+[![知识库治理与文档标准章节图解](/diagrams/articles/knowledge-governance.svg)](/diagrams/articles/knowledge-governance.svg)
 
-*图片来源：FDE 知识库原创 SVG 示意图，由 Codex 绘制，2026-10-14；非真实系统截图。[来源记录](/diagrams/sources.json)。*
 
 ## 按内容类型约定结构
 
@@ -46,7 +45,7 @@
 
 当前已实现的元数据为 title、description、slug、category、order、updatedAt、status、tags、aiIndex、searchIndex。作者、负责人、审核人与适用版本应在需要时写入正文或项目审核记录；不能声称程序已经强制校验了未实现字段。
 
-本轮 40 篇文章均为基础指南，包含教学示例与练习；没有标记为经过客户现场验证的操作手册。GitHub 同步确认的是仓库提交，线上托管是否成功需要另查部署结果，不能由 push 成功推断。
+目前 40 篇文章均为基础指南，包含教学示例与练习；没有标记为经过客户现场验证的操作手册。GitHub 同步确认的是仓库提交，线上托管是否成功需要另查部署结果，不能由 push 成功推断。
 
 ## 内容维护责任与节奏
 
@@ -61,7 +60,7 @@
 
 ## 图片和资料来源
 
-所有配图都是本知识库原创 SVG 示意图，由 Codex 绘制。每图附来源，统一清单见[图片来源记录](/diagrams/sources.json)。它们不是外部照片、真实界面截图或 image 模型生成图。外部文档作为参考链接保留其原有权利，不转载原文或图片。
+所有配图都是本知识库原创 SVG 示意图，由 Codex 绘制。图内注明来源，统一清单见[图片来源记录](/diagrams/sources.json)。它们不是外部照片、真实界面截图或 image 模型生成图。外部文档作为参考链接保留其原有权利，不转载原文或图片。
 
 ## 质量门禁
 
@@ -70,6 +69,6 @@
 ## 参考阅读与使用边界
 
 - [GitHub Actions 官方说明](https://docs.github.com/en/actions/get-started/understand-github-actions)：相关概念与方法的延伸阅读，访问核验日期 2026-10-14。本站练习、流程与指标为自主编排，不属于来源机构认证。
-- [完整知识地图](/docs/knowledge-map/) · [项目实战](/docs/capstone-project/) · [可下载模板](/docs/delivery-templates/)
+- [学习路线](/docs/knowledge-map/) · [项目实战](/docs/capstone-project/) · [可下载模板](/docs/delivery-templates/)
 
 本页为基础指南；生产操作需结合实际版本、授权环境与审核证据验证。

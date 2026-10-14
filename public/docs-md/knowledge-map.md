@@ -1,22 +1,21 @@
-# FDE 知识地图
+# FDE 学习路线
 
 状态：基础指南
 
-全局大纲、学习路线与内容建设进度。
+按入门、项目实战与进阶路线学习 FDE，筛选 40 个主题并记录个人学习进度。
 
-## 主题图解
+## 学习路线总览
 
-[![角色与边界：确认责任及协作对象 → 工程基础：服务、数据与测试 → 问题定义：观察真实业务任务 → 端到端实现：构建最小可用流程 → 价值验证：评测、试点与复盘 → 能力复用：沉淀模板及产品反馈](/diagrams/foundations.svg)](/diagrams/foundations.svg)
+[![FDE 学习路线章节图解](/diagrams/articles/knowledge-map.svg)](/diagrams/articles/knowledge-map.svg)
 
-*图片来源：FDE 知识库原创 SVG 示意图，由 Codex 绘制，2026-10-14；非真实系统截图。[来源记录](/diagrams/sources.json)。*
 
 ## 定位与使用方式
 
 FDE 在这里指 Forward Deployed Engineer（前沿部署工程师）：深入客户工作流，识别问题，编写和集成软件，验证业务效果并反馈产品。本知识库以项目产出组织能力，不以工具数量判断水平。
 
-截至 2026-10-14，10 个知识域、40 个主题均已补齐为基础指南，原有地址保持不变。包含 12 张原创示意图、7 份交付模板、20 条合成评测样本和一个离线检索演示。指南提供方法、判断依据与练习，不代表经过客户现场验证的生产操作手册。
+10 个知识域、40 个主题均已补齐为基础指南，原有地址保持不变。每篇文章提供与章节对应的图解，另含 7 份交付模板、20 条合成评测样本和一个离线检索演示。指南提供方法、判断依据与练习，不代表经过客户现场验证的生产操作手册。
 
-## 三条学习路线
+## 选择你的学习路线
 
 | 路线 | 推荐顺序 | 学习产出 |
 | --- | --- | --- |
@@ -32,7 +31,7 @@ FDE 在这里指 Forward Deployed Engineer（前沿部署工程师）：深入�
 
 从[端到端实战](/docs/capstone-project/)下载数据和离线演示，从[模板目录](/docs/delivery-templates/)获得交付材料。当前演示只验证关键词检索与租户/版本过滤，不提供真实模型生成或生产身份系统。
 
-## 完整知识架构
+## 按主题查阅
 
 ### 1. 岗位与学习基础
 
@@ -40,7 +39,7 @@ FDE 在这里指 Forward Deployed Engineer（前沿部署工程师）：深入�
 
 | 主题 | 解决的问题 |
 | --- | --- |
-| [FDE 知识地图](/docs/knowledge-map/) | 全局大纲、学习路线与内容建设进度。 |
+| [FDE 学习路线](/docs/knowledge-map/) | 全局大纲、学习路线与内容建设进度。 |
 | [FDE 岗位与能力模型](/docs/role-and-competency/) | 理解 Forward Deployed Engineer 的责任、工程能力与协作边界。 |
 | [工程基础与开发环境](/docs/engineering-foundations/) | 补齐编程、系统、网络、Git 与调试的基础。 |
 | [学习路线与能力评估](/docs/training-and-certification/) | 用项目产出检验从入门到独立负责项目的成长。 |
@@ -161,13 +160,13 @@ FDE 在这里指 Forward Deployed Engineer（前沿部署工程师）：深入�
 
 基础指南提供概念、方法、实例和练习；操作手册必须补齐适用版本、环境、执行步骤、验证、回退与审核证据。真实项目记录与教学材料分开标注，不以合成测试通过代替客户验收。
 
-所有图都是 FDE 知识库原创 SVG 示意图，由 Codex 绘制，逐图注明来源，完整记录见[图片来源清单](/diagrams/sources.json)。官方资料集中链接于各文末；外部资料未转载为本站正文或图片。
+所有图都是 FDE 知识库原创 SVG 示意图，由 Codex 绘制，图内注明来源，完整记录见[图片来源清单](/diagrams/sources.json)。官方资料集中链接于各文末；外部资料未转载为本站正文或图片。
 
 变更通过 Git 记录。建议每月处理反馈与失效链接，每季度复核架构、安全边界和外部依赖。维护方法见[知识治理](/docs/knowledge-governance/)。
 
 ## 参考阅读与使用边界
 
 - [Palantir 官方 FDSE 工作访谈（角色示例，2020）](https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1)：相关概念与方法的延伸阅读，访问核验日期 2026-10-14。本站练习、流程与指标为自主编排，不属于来源机构认证。
-- [完整知识地图](/docs/knowledge-map/) · [项目实战](/docs/capstone-project/) · [可下载模板](/docs/delivery-templates/)
+- [学习路线](/docs/knowledge-map/) · [项目实战](/docs/capstone-project/) · [可下载模板](/docs/delivery-templates/)
 
 本页为基础指南；生产操作需结合实际版本、授权环境与审核证据验证。

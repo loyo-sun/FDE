@@ -6,9 +6,8 @@
 
 ## 主题图解
 
-[![接入与解析：文档版本、来源及权限 → 切片与索引：语义边界、哈希及删除 → 查询与过滤：身份、租户及当前版本 → 召回与排序：关键词、向量及去重 → 回答与引用：仅使用证据，无据转人工 → 回归与更新：失效、撤权及召回抽检](/diagrams/rag.svg)](/diagrams/rag.svg)
+[![RAG 知识工程章节图解](/diagrams/articles/rag-knowledge-engineering.svg)](/diagrams/articles/rag-knowledge-engineering.svg)
 
-*图片来源：FDE 知识库原创 SVG 示意图，由 Codex 绘制，2026-10-14；非真实系统截图。[来源记录](/diagrams/sources.json)。*
 
 ## 内容接入
 
@@ -75,6 +74,6 @@ Recall@k 可用于衡量前 k 个结果覆盖了多少已标注相关片段，�
 ## 参考阅读与使用边界
 
 - [RAG 原始论文](https://arxiv.org/abs/2005.11401)：相关概念与方法的延伸阅读，访问核验日期 2026-10-14。本站练习、流程与指标为自主编排，不属于来源机构认证。
-- [完整知识地图](/docs/knowledge-map/) · [项目实战](/docs/capstone-project/) · [可下载模板](/docs/delivery-templates/)
+- [学习路线](/docs/knowledge-map/) · [项目实战](/docs/capstone-project/) · [可下载模板](/docs/delivery-templates/)
 
 本页为基础指南；生产操作需结合实际版本、授权环境与审核证据验证。

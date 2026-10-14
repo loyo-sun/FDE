@@ -106,5 +106,325 @@
     "createdAt": "2026-10-14",
     "generator": "scripts/build-diagrams.mjs",
     "usage": "本知识库配图；外部参考资料的授权不适用于这些原创示意图"
+  },
+  {
+    "file": "/diagrams/articles/knowledge-map.svg",
+    "title": "FDE 学习路线章节图解",
+    "alt": "定位与使用方式 → 选择你的学习路线 → 贯穿案例与资源 → 按主题查阅 → 分阶段完善计划 → 内容状态、来源与维护",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/role-and-competency.svg",
+    "title": "FDE 岗位与能力模型章节图解",
+    "alt": "FDE 是什么 → 核心工作循环 → 协作边界 → 六项核心能力 → 以产出评估能力 → 术语参考 → 角色边界与协作示例 → 每周应留下什么 → 自我评估练习",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/delivery-lifecycle.svg",
+    "title": "交付生命周期章节图解",
+    "alt": "FDE 项目起点 → 端到端流程 → 阶段门禁 → 阶段状态 → 交付完成定义 → 合成案例的阶段证据 → 处理阻塞与变化 → 练习",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/site-delivery-sop.svg",
+    "title": "部署、联调与上线准备章节图解",
+    "alt": "实施前检查 → 标准作业顺序 → 验证原则 → 回退触发条件 → 现场记录 → 上线验证矩阵 → 回退必须覆盖什么 → 演练与记录",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/acceptance-and-handover.svg",
+    "title": "验收与运维移交章节图解",
+    "alt": "验收准备 → 验收维度 → 移交清单 → 遗留问题要求 → 验收判定表 → 接手演练 → 遗留事项的关闭",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/ai-foundations.svg",
+    "title": "AI 基础与能力边界章节图解",
+    "alt": "核心概念 → 方案选择 → 典型能力边界 → 部署形态 → 用任务分解选择方案 → 成本与上下文 → 提示词的最小结构 → 练习",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/ai-delivery.svg",
+    "title": "AI 应用交付章节图解",
+    "alt": "需求澄清 → 交付设计 → 上线门禁 → 灰度与回退 → 从实验到受控试点 → 版本包与发布记录 → 回退与降级的区别 → 练习",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/rag-knowledge-engineering.svg",
+    "title": "RAG 知识工程章节图解",
+    "alt": "内容接入 → 切片原则 → 检索链路 → 必测问题 → 更新验证 → 贯穿案例的最小切片元数据 → 分开评测检索与回答 → 更新与撤销演练",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/ai-evaluation-and-acceptance.svg",
+    "title": "AI 评测与验收章节图解",
+    "alt": "测试集建设 → 质量指标 → 验收方式 → 版本回归 → 样本结构与评分规则 → 人工评分的一致性 → 教学种子集与生产验收 → 发布结论",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/troubleshooting-method.svg",
+    "title": "故障排查方法章节图解",
+    "alt": "第一步：控制影响 → 第二步：建立时间线 → 第三步：形成假设 → 第四步：分层定位 → 第五步：验证恢复 → 故障案例模板 → 可证伪的诊断表 → 合成故障时间线 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/ai-troubleshooting.svg",
+    "title": "AI 系统常见故障章节图解",
+    "alt": "回答错误或幻觉 → 知识没有召回 → Agent 工具失败 → 延迟突然升高 → 成本异常 → 不要同时修改所有变量 → 合成案例：回答引用旧版本 → 恢复后的验证 → 练习",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/operations-and-change.svg",
+    "title": "运维、监控与变更章节图解",
+    "alt": "监控分层 → 告警要求 → 备份与恢复 → 变更管理 → 容量管理 → 日常运行节奏 → RPO / RTO 示例 → 变更关闭条件 → 练习",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/security-privacy-ai-governance.svg",
+    "title": "安全、隐私与 AI 治理章节图解",
+    "alt": "基础安全 → 数据分级 → AI 特有风险 → 防护原则 → 审计 → 将风险治理落到项目责任 → 首期工单助手的治理决定 → 验证与例外",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/project-communication-risk.svg",
+    "title": "项目沟通、风险与变更章节图解",
+    "alt": "沟通机制 → 周报最小结构 → 风险管理 → 问题升级 → 变更控制 → 可直接套用的周报内容 → 风险、问题与变更分开管理 → 练习",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/cases-and-toolkit.svg",
+    "title": "案例沉淀与工具管理章节图解",
+    "alt": "案例分类 → 案例模板 → 工具箱分类 → 工具准入 → 三个合成案例供练习 → 工具选择表 → 练习",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/knowledge-governance.svg",
+    "title": "知识库治理与文档标准章节图解",
+    "alt": "按内容类型约定结构 → 文档元数据 → 发布流程 → 生命周期 → 质量指标 → AI 索引要求 → 本仓库的实际字段与发布边界 → 内容维护责任与节奏 → 图片和资料来源 → 质量门禁",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/training-and-certification.svg",
+    "title": "学习路线与能力评估章节图解",
+    "alt": "用产出检验成长 → 阅读与实践 → 评审问题 → 继续深化 → 八周学习安排示例 → 评分方式 → 复核与补练",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/agent-workflows.svg",
+    "title": "Agent 与工具工作流章节图解",
+    "alt": "先选择确定性工作流 → 工具边界设计 → 有状态执行与人工介入 → 不可信工具结果 → 评测与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/ai-threat-modeling.svg",
+    "title": "AI 威胁建模与防护验证章节图解",
+    "alt": "从资产和边界识别威胁 → 威胁、控制与验证 → 安全实验的执行边界 → 工单助手的测试示例 → 处置与验收 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/api-engineering.svg",
+    "title": "后端服务与 API 实现章节图解",
+    "alt": "将接口契约落实到运行行为 → 一次创建草稿请求的实现顺序 → 伪代码：权限与幂等的边界 → 错误与资源控制 → 验证与交付 → 常见误区",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/business-discovery.svg",
+    "title": "客户访谈与问题定义章节图解",
+    "alt": "从解决方案诉求退回业务事实 → 访谈如何执行 → 可以直接使用的提问表 → 贯穿案例的一页问题定义 → 事实与假设的分离 → 练习与评审",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/capstone-project.svg",
+    "title": "端到端实战项目章节图解",
+    "alt": "实战目标与边界 → 六个里程碑与产出 → 可下载的练习起点 → 评审与计分 → 进阶任务",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/data-architecture.svg",
+    "title": "数据建模与业务语义章节图解",
+    "alt": "先统一业务语义 → 贯穿案例的最小模型 → 状态与事件 → 数据质量检查 → 模型变化与迁移 → 练习与评审",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/data-pipelines.svg",
+    "title": "数据接入与处理管道章节图解",
+    "alt": "数据接入是可恢复的过程 → 接入步骤与控制点 → 增量、重跑与删除 → 贯穿案例的异常处理 → 对账与质量报告 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/data-privacy.svg",
+    "title": "数据分级与隐私保护章节图解",
+    "alt": "用数据生命周期组织保护措施 → 合成案例的数据台账 → 接入前检查 → 删除与撤权的实现 → 验证与练习",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/delivery-templates.svg",
+    "title": "项目交付模板目录章节图解",
+    "alt": "模板如何使用 → 模板目录与使用时机 → 示例：评测证据如何填写 → 证据组织 → 评审与维护",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/engineering-foundations.svg",
+    "title": "工程基础与开发环境章节图解",
+    "alt": "适用场景与学习目标 → 建立最小工程闭环 → 应掌握的基础与验证方式 → 贯穿案例：先做查询，再做 AI → 常见失败与改进 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/engineering-quality.svg",
+    "title": "测试、代码审查与持续集成章节图解",
+    "alt": "质量检查围绕业务风险 → 最小验证矩阵 → 持续集成的门禁 → 代码审查的问题 → 失败用例与回归 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/identity-access.svg",
+    "title": "身份认证与权限设计章节图解",
+    "alt": "区分身份、权限与资源归属 → 合成案例的权限矩阵 → 授权落点 → 凭据与服务身份 → 必测反例 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/integration-design.svg",
+    "title": "系统集成与接口契约章节图解",
+    "alt": "契约先于联调 → 贯穿案例的接口清单 → 请求与错误约定 → 超时、重试与幂等 → 联调与兼容性验证 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/observability.svg",
+    "title": "可观测性与服务目标章节图解",
+    "alt": "从用户任务定义服务目标 → 信号与定位 → 示例 SLI、SLO 与预算 → 告警与行动 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/product-feedback.svg",
+    "title": "产品反馈与需求抽象章节图解",
+    "alt": "将客户诉求还原为可复用问题 → 现场反馈卡 → 区分项目、配置与产品 → 与产品团队对齐 → 关闭反馈的标准 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/prototype-validation.svg",
+    "title": "原型与技术验证章节图解",
+    "alt": "原型服务于决策 → 实验卡片 → 用最小技术切片验证集成 → 时间盒与产出 → 从原型走向生产的缺口 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/reusable-solutions.svg",
+    "title": "方案复用与规模化交付章节图解",
+    "alt": "复用需要稳定边界 → 合成案例的分层 → 参考方案包 → 升级策略 → 复用收益的测量 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/solution-architecture.svg",
+    "title": "解决方案架构与技术取舍章节图解",
+    "alt": "架构从约束出发 → 贯穿案例的逻辑组件 → 技术取舍的决策记录 → 故障与降级设计 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/stakeholder-adoption.svg",
+    "title": "干系人协作与用户采用章节图解",
+    "alt": "采用从协作设计开始 → 干系人责任表 → 试点设计 → 采用指标与反馈 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/success-metrics.svg",
+    "title": "价值假设与成功指标章节图解",
+    "alt": "建立业务、质量与风险三层指标 → 合成案例的指标字典 → 基线和试点如何比较 → 经济性估计 → 练习与评审",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/use-case-prioritization.svg",
+    "title": "场景筛选与范围界定章节图解",
+    "alt": "先判断是否值得做 → 一个可调整的筛选方法 → 从排名到范围契约 → 处理范围变化 → 敏感性与停止条件 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/workflow-apps.svg",
+    "title": "业务应用与工作流界面章节图解",
+    "alt": "围绕任务设计工作台 → 最小工作台布局 → 状态与错误体验 → 可访问性与现场可用性 → 练习与评审",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
+  },
+  {
+    "file": "/diagrams/articles/workflow-mapping.svg",
+    "title": "业务流程与用户研究章节图解",
+    "alt": "用真实任务还原流程 → 建模步骤 → 贯穿案例的现状与目标 → 识别瓶颈与验证收益 → 常见失败 → 练习与完成标准",
+    "source": "FDE 知识库原创；Codex 绘制",
+    "createdAt": "2026-10-14",
+    "generator": "scripts/build-article-diagrams.mjs"
   }
 ]

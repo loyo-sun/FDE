@@ -6,9 +6,8 @@
 
 ## 主题图解
 
-[![用户输入：交互校验及任务上下文 → 接口入口：身份、参数及限流 → 业务服务：权限、状态及幂等 → 数据事务：约束、审计及事件 → 异步处理：重试、隔离及补偿 → 结果反馈：进度、失败及追踪编号](/diagrams/engineering.svg)](/diagrams/engineering.svg)
+[![测试、代码审查与持续集成章节图解](/diagrams/articles/engineering-quality.svg)](/diagrams/articles/engineering-quality.svg)
 
-*图片来源：FDE 知识库原创 SVG 示意图，由 Codex 绘制，2026-10-14；非真实系统截图。[来源记录](/diagrams/sources.json)。*
 
 ## 质量检查围绕业务风险
 
@@ -48,6 +47,6 @@ AI 行为增加固定评测集回归，保存模型、提示词、索引与样�
 ## 参考阅读与使用边界
 
 - [GitHub Actions 官方说明](https://docs.github.com/en/actions/get-started/understand-github-actions)：相关概念与方法的延伸阅读，访问核验日期 2026-10-14。本站练习、流程与指标为自主编排，不属于来源机构认证。
-- [完整知识地图](/docs/knowledge-map/) · [项目实战](/docs/capstone-project/) · [可下载模板](/docs/delivery-templates/)
+- [学习路线](/docs/knowledge-map/) · [项目实战](/docs/capstone-project/) · [可下载模板](/docs/delivery-templates/)
 
 本页为基础指南；生产操作需结合实际版本、授权环境与审核证据验证。

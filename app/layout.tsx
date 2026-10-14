@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { SiteHeader } from "@/components/site-header";
 import { siteDescription, siteName, siteUrl } from "@/lib/site";
 import "./globals.css";
+import { structuredData } from "@/lib/seo";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -41,11 +42,13 @@ export const metadata: Metadata = {
     siteName,
     title: `${siteName}｜前沿部署工程师知识库`,
     description: siteDescription,
+    images: [{ url: "/social/site.png", width: 1200, height: 630, alt: "FDE 从入门到精通 — 学习路线与实战知识库" }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: `${siteName}｜前沿部署工程师知识库`,
     description: siteDescription,
+    images: ["/social/site.png"],
   },
 };
 
@@ -53,6 +56,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="zh-CN" data-scroll-behavior="smooth">
       <body>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: structuredData({ "@context": "https://schema.org", "@type": "WebSite", "@id": `${siteUrl}/#website`, name: siteName, alternateName: "FDE 中文知识库", url: `${siteUrl}/`, description: siteDescription, inLanguage: "zh-CN", publisher: { "@type": "Organization", name: "FDE Team" } }) }} />
         <SiteHeader />
         {children}
         <footer className="site-footer">
@@ -60,7 +64,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <nav aria-label="页脚导航">
             <a href="https://github.com/loyo-sun/FDE" target="_blank" rel="noreferrer">GitHub ↗</a>
             <a href="https://github.com/loyo-sun/FDE/issues" target="_blank" rel="noreferrer">内容纠错 ↗</a>
-            <a href="https://github.com/loyo-sun/FDE#参与贡献" target="_blank" rel="noreferrer">参与贡献 ↗</a>
+            <a href="/docs/knowledge-map/" target="_blank" rel="noreferrer">学习路线 →</a>
           </nav>
         </footer>
       </body>

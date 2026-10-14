@@ -6,9 +6,8 @@
 
 ## 主题图解
 
-[![约束清单：时延、成本及数据边界 → 业务模型：对象、关系及状态 → 组件边界：身份、服务及存储 → 集成契约：错误、重试及一致性 → 原型实验：对照基线与失败条件 → 决策记录：证据、代价及重审触发](/diagrams/design.svg)](/diagrams/design.svg)
+[![系统集成与接口契约章节图解](/diagrams/articles/integration-design.svg)](/diagrams/articles/integration-design.svg)
 
-*图片来源：FDE 知识库原创 SVG 示意图，由 Codex 绘制，2026-10-14；非真实系统截图。[来源记录](/diagrams/sources.json)。*
 
 ## 契约先于联调
 
@@ -57,6 +56,6 @@
 ## 参考阅读与使用边界
 
 - [OpenAPI 官方规范](https://spec.openapis.org/oas/latest.html)：相关概念与方法的延伸阅读，访问核验日期 2026-10-14。本站练习、流程与指标为自主编排，不属于来源机构认证。
-- [完整知识地图](/docs/knowledge-map/) · [项目实战](/docs/capstone-project/) · [可下载模板](/docs/delivery-templates/)
+- [学习路线](/docs/knowledge-map/) · [项目实战](/docs/capstone-project/) · [可下载模板](/docs/delivery-templates/)
 
 本页为基础指南；生产操作需结合实际版本、授权环境与审核证据验证。

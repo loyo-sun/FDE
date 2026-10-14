@@ -11,7 +11,7 @@ export function DocToc({ headings, mobile = false }: { headings: Heading[]; mobi
     const elements = headings.map((heading) => document.getElementById(heading.id)).filter((element) => element !== null);
     const update = () => {
       frame = 0;
-      const offset = (document.querySelector(".site-header")?.getBoundingClientRect().height ?? 68) + 40;
+      const offset = (document.querySelector(".site-header")?.getBoundingClientRect().height ?? 68) + (document.querySelector(".reading-map")?.getBoundingClientRect().height ?? 0) + 24;
       let current = "";
       for (const element of elements) {
         if (element.getBoundingClientRect().top <= offset) current = element.id;
