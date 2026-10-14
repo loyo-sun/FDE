@@ -1,132 +1,104 @@
+[![FDE 知识框架：六个交付阶段 × 七个能力领域，包含 58 项工作](https://fde.loyo.work/diagrams/fde-framework.svg)](https://fde.loyo.work/diagrams/fde-framework.svg)
+
 # FDE 从入门到精通
 
-面向 **Forward Deployed Engineer（前沿部署工程师）** 的中文知识库。从客户问题出发，学习设计、编写和集成软件与 AI 系统，验证业务价值，并把项目经验反馈给产品。
+面向 **Forward Deployed Engineer（前沿部署工程师）** 的中文知识库。从客户问题出发，学习设计、编写和集成软件与 AI 系统，验证业务价值，并将项目经验沉淀为可复用的能力。
 
-[在线知识库](https://fde.loyo.work/) · [学习路线](https://fde.loyo.work/docs/knowledge-map/) · [岗位与能力模型](https://fde.loyo.work/docs/role-and-competency/)
+**[在线阅读](https://fde.loyo.work/) · [知识框架](https://fde.loyo.work/docs/knowledge-map/#framework) · [学习路线](https://fde.loyo.work/docs/knowledge-map/#learning-routes) · [项目实战](https://fde.loyo.work/docs/capstone-project/)**
 
-## 整体框架与内容专题
+## 从哪里开始
 
-整体框架以 **六个交付阶段 × 七个能力领域** 组织 58 项工作，每项工作明确关联文章、前置工作和产出。矩阵结构参考用户提供的 PMBOK 流程图，FDE 内容独立编排，未转载参考图片。阶段可迭代，能力贯穿多个阶段；不是所有项目都需要全部 AI 活动。
-
-- 阶段：发现立项、方案计划、构建验证、上线采用、持续运营、复用演进。
-- 能力：业务价值、架构集成、数据知识、AI 自动化、工程运行、安全治理、协作产品。
-- 基础：岗位边界、工程基础与能力评估，支撑全程。
-- 进入文章后只显示相关的局部矩阵；突出当前工作、前置与产出，不显示章节卡片，也不浮动占据阅读区。
-- 同一篇指南可能支持多个阶段。从总图进入时，链接中的上下文保留对应阶段，回到总图可重新定位。
-
-下表是查阅文章的 10 个内容专题，与矩阵的能力轴用途不同：
-
-| 内容专题 | 学习目标 | 主题数 |
+| 你的目标 | 推荐入口 | 预期产出 |
 | --- | --- | --- |
-| 岗位与学习基础 | 能解释角色边界，规划自己的能力成长。 | 4 |
-| 客户问题与业务价值 | 形成可验证的问题定义与成功标准。 | 5 |
-| 方案设计与技术决策 | 能解释方案取舍，并用原型验证最大风险。 | 4 |
-| 软件工程与数据实现 | 交付可运行、有测试、可追踪的软件变更。 | 4 |
-| AI 应用与知识工程 | 能验证 AI 系统的效果、成本与安全边界。 | 6 |
-| 项目交付与上线验收 | 交付上线证据与可接手的运维资料。 | 5 |
-| 可靠性与故障诊断 | 能用证据定位问题，验证恢复和后续改进。 | 5 |
-| 安全、权限与数据治理 | 形成可核验的访问边界和安全测试清单。 | 4 |
-| 客户协作与产品反馈 | 能推动客户采用，并把共性需求反馈给产品团队。 | 5 |
-| 实战、模板与知识沉淀 | 以代码、评测和复盘展示完整项目能力。 | 4 |
+| 了解 FDE 的职责和能力 | [岗位与能力模型](https://fde.loyo.work/docs/role-and-competency/) | 明确职责边界与个人能力差距 |
+| 系统入门 | [新人入门路线](https://fde.loyo.work/docs/knowledge-map/#route-beginner) | 最小服务与一页问题定义 |
+| 完成一个项目 | [项目实战路线](https://fde.loyo.work/docs/knowledge-map/#route-project) | 实现、评测与移交项目包 |
+| 处理复杂交付问题 | [进阶提升路线](https://fde.loyo.work/docs/knowledge-map/#route-advanced) | 运行证据与可复用方案 |
+| 按当前任务查资料 | [整体知识框架](https://fde.loyo.work/docs/knowledge-map/#framework) | 找到对应工作、前置条件和产出 |
 
-共 46 个主题。新增立项经济性、模型选型与替换、部署平台与迁移、性能与成本、持续价值复核及系统退出六篇基础指南。现有地址保持不变。教学案例采用合成数据，生产操作仍需实际环境验证。
+网站支持全文搜索、阶段与领域筛选、学习路线切换及已读进度。阅读进度保存在当前浏览器。
 
-## 学习路线
+## 知识体系
 
-- **新人入门**：岗位认知 → 工程基础 → 客户问题定义 → 交付生命周期。产出最小服务与一页问题定义。
-- **项目实战**：成功指标 → 方案架构 → AI 应用交付 → 评测验收 → 运维移交。产出实现、评测与交接项目包。
-- **进阶提升**：Agent → 可观测性 → 威胁建模 → 产品反馈 → 方案复用。产出运行证据与可复用方案。
+整体框架以 **6 个交付阶段 × 7 个能力领域** 组织 **58 项工作**，关联 **46 个主题**。
 
-首页提供整体框架、学习路线与实战入口，避免重复罗列全部文章。`/docs/knowledge-map/` 先展示整体交付矩阵，再提供学习路线，支持路线切换、知识域与关键词筛选、已读进度及继续学习。进度仅保存在当前浏览器。10 个专题页集中展示相关主题；文章关键词可跳到学习页继续筛选。
+- **交付阶段**：发现与立项 → 方案与计划 → 构建与验证 → 上线与采用 → 运行与改进 → 复用与演进。
+- **能力领域**：业务与价值、架构与集成、数据与知识、AI 与自动化、工程与运行、安全与治理、协作与产品。
+- **贯穿全程的基础能力**：岗位与责任边界、工程基础与开发环境、学习与能力评估。
 
-## 项目实战与资源
+整体地图完整展开，每项工作可直接进入对应文章。文章展示相关阶段与相邻领域的局部图，深色标出当前主题、虚线标出相关前置工作；返回总图可定位原来的工作。阶段可以往返迭代，项目可按目标与风险选择适用活动。
 
-采用“企业售后工单助手”贯穿全部知识域，人物、资料与指标均为合成设定。首期边界为授权检索、草稿和人工审核。
+按文章专题查阅：
 
-- [学习路线](content/docs/01-knowledge-map.mdx)：六阶段、七类能力、58 项工作、46 个主题；网页提供整体矩阵、局部定位与学习进度。
-- [端到端实战](content/docs/capstone-project.mdx)：六阶段任务、评分和进阶要求。
-- [7 份交付模板](public/templates/)：问题定义、ADR、实验、评测、上线、移交与复盘。
-- [20 条评测种子](public/examples/evaluation-seed.json)与[合成资料](public/examples/ticket-fixtures.json)。
-- [离线检索演示](public/examples/offline-retrieval.py)：仅验证关键词与范围过滤，无网络、无模型、无真实身份系统。
-- [图片来源清单](public/diagrams/sources.json)：局部矩阵从全局能力框架生成，突出文章对应的交付工作，不从正文标题摘取节点；来源只在图内标注。所有图片的图内来源统一标注为“来源：fde.loyo.work”。
+| 专题 | 主要内容 | 主题数 |
+| --- | --- | --- |
+| [岗位与学习基础](https://fde.loyo.work/topics/foundations/) | 角色、工程基础、学习与能力评估 | 4 |
+| [客户问题与业务价值](https://fde.loyo.work/topics/discovery/) | 访谈、场景筛选、成功指标、交付经济性 | 5 |
+| [方案设计与技术决策](https://fde.loyo.work/topics/design/) | 架构、业务语义、集成契约、原型验证 | 4 |
+| [软件工程与数据实现](https://fde.loyo.work/topics/engineering/) | API、数据管道、工作流、测试与审查 | 4 |
+| [AI 应用与知识工程](https://fde.loyo.work/topics/ai/) | 模型选型、RAG、Agent、评测与验收 | 6 |
+| [项目交付与上线验收](https://fde.loyo.work/topics/delivery/) | 部署、联调、验收、迁移与系统退出 | 5 |
+| [可靠性与故障诊断](https://fde.loyo.work/topics/reliability/) | 可观测性、故障诊断、变更、性能与成本 | 5 |
+| [安全、权限与数据治理](https://fde.loyo.work/topics/security/) | 身份授权、隐私、威胁建模与安全验证 | 4 |
+| [客户协作与产品反馈](https://fde.loyo.work/topics/collaboration/) | 风险沟通、用户采用、价值复核与方案复用 | 5 |
+| [实战、模板与知识沉淀](https://fde.loyo.work/topics/practice/) | 综合项目、交付模板、案例与知识治理 | 4 |
+
+## 实战与可下载资源
+
+以“企业售后工单助手”为教学案例，覆盖问题定义、架构设计、实现、评测、上线和复盘。案例使用合成人物、资料与指标，初始范围是授权检索、草稿生成和人工审核。
+
+- [端到端实战项目](https://fde.loyo.work/docs/capstone-project/)：阶段任务、交付证据、评分与进阶要求。
+- [7 份交付模板](public/templates/)：问题定义、架构决策、实验、评测、上线、移交与复盘。
+- [20 条评测种子](public/examples/evaluation-seed.json)与[合成资料](public/examples/ticket-fixtures.json)：用于复现教学练习。
+- [离线检索演示](public/examples/offline-retrieval.py)：使用 Python 标准库验证关键词检索和范围过滤。
 
 ```sh
 python3 public/examples/offline-retrieval.py
 ```
 
-当前建设完成知识体系、正文与教学材料；后续深化真实身份、模型接入、生产试点与经过授权的真实案例。不要把教学样本通过率当作生产质量结论。
+教学练习用于理解方法。真实身份集成、模型接入和生产效果需要在实际项目中验证，教学样本通过率不代表生产质量。
 
-## 内容维护
+## 本地运行与发布
 
-文档存放在 `content/docs/`，分类元数据在 `content/architecture.json`，首页路线在 `lib/learning-paths.ts`。
-
-```yaml
----
-title: 文档标题
-description: 一句话说明要解决的问题
-slug: unique-slug
-category: engineering
-order: 300
-updatedAt: "2026-10-14"
-status: guide
-tags: [软件工程, FDE]
-aiIndex: true
-searchIndex: true
----
-```
-
-状态说明：
-
-- `outline`：待完善大纲，列出学习目标、计划章节和交付物。
-- `guide`：基础指南，提供概念、方法、判断依据或检查要点。
-- `playbook`：操作手册，补齐适用版本、前置条件、步骤、验证、回退、风险与审核证据后才能使用此状态。
-
-新增或调整内容时同步维护能力框架、专题目录与学习路线。公开资料只能使用合成数据或已脱敏材料，不能包含客户密钥、账号、内网地址或未脱敏日志。
-
-## 网站与搜索
-
-- Next.js App Router、TypeScript、MDX，生产环境静态导出。
-- 全站使用同一个顶部搜索框，支持中文全文检索、方向键、回车、Escape 与点击外部关闭。
-- 首页、学习路线、10 个专题页、45 篇正文合计 57 个独立页面，均静态导出。
-- 每页独立标题、描述、canonical 与分享信息；文章展示关键词与相关阅读。
-- 提供 WebSite、CollectionPage、TechArticle、BreadcrumbList 结构化数据；图片有可读描述及图内来源。
-- sitemap 使用实际内容更新时间，覆盖 57 个页面及文章对应的局部框架；robots 保留渲染资源可抓取。
-- 47 张 PNG 分享图在构建时生成，包含图片 Alt 和来源；源记录位于 `public/social/sources.json`。
-- 搜索按标题相关性排序，同等相关性优先基础指南；多关键词需全部匹配。
-- 提供 sitemap、robots、JSON-LD、原始 Markdown、`llms.txt` 和全文索引。
-- 不接入收费模型、数据库或在线 AI 问答。
-
-## 运行与验证
+网站采用 **Next.js App Router + TypeScript + MDX**，生产构建导出静态文件。
 
 ```sh
 npm install
 npm run dev
 ```
 
-打开 `http://localhost:3000`。
+打开 <http://localhost:3000>。构建与检查：
 
 ```sh
 npm run build
 npm run typecheck
 npm run check:content
-npm run check:seo
 npm run check:framework
+npm run check:seo
 ```
 
-构建前自动生成内容索引。`check:content` 验证分类、状态、唯一地址、内容链接、图片来源、教学资源和静态输出。原创图解可用 `npm run build:diagrams` 重新生成。构建前会重新生成框架映射、局部图、分享图和内容索引；`check:seo` 核验唯一标题/描述/canonical、结构化数据、局部框架位置和 sitemap。导出文件位于 `out/`，可由静态托管平台发布。正式域名通过 `NEXT_PUBLIC_SITE_URL` 配置，默认 `https://fde.loyo.work`。
+构建前自动生成整体框架、文章局部图、分享图片和内容索引。静态产物位于 `out/`，可发布至静态托管平台。正式域名通过 `NEXT_PUBLIC_SITE_URL` 配置，默认 `https://fde.loyo.work`。
 
-## 本轮验证与依赖维护（2026-10-14）
+## 内容维护
 
-46 个主题已更新，构建与类型检查通过；内容检查覆盖图片来源、教学资源及站内链接，离线检索种子 20/20 通过。`llms-full.txt` 保留完整正文、表格和代码块，搜索索引使用精简文本。
+| 文件或目录 | 用途 |
+| --- | --- |
+| [content/docs/](content/docs/) | MDX 正文及标题、描述、分类、标签、更新时间等元数据 |
+| [content/framework.json](content/framework.json) | 交付阶段、能力领域、工作、前置关系及文章默认位置 |
+| [content/architecture.json](content/architecture.json) | 10 个内容专题 |
+| [lib/learning-paths.ts](lib/learning-paths.ts) | 新人入门、项目实战和进阶提升路线 |
+| [public/templates/](public/templates/) | 交付模板 |
+| [scripts/](scripts/) | 图解与索引生成、内容及 SEO 检查 |
 
-框架已升级至 Next.js 16.4.0，并更新 source-map-js。安装检查仍报告 4 项中危依赖告警（gray-matter 依赖链相关；sharp 已更新至 0.35.5），本轮未进行强制破坏性升级。当前站点静态导出，不使用线上模型、动态服务或图像优化服务；这不替代后续依赖审查。
+新增或修改文章时，同步维护框架位置、专题与学习路线，并更新 `updatedAt`。文档状态分为 `outline`（待完善大纲）、`guide`（基础指南）和 `playbook`（具备前置条件、操作、验证与回退的操作手册）。详细规范见[知识库治理与文档标准](content/docs/16-governance.mdx)。
 
-## SEO 维护原则
+配图在图内统一标注“来源：fde.loyo.work”。[图解来源记录](public/diagrams/sources.json)与[分享图片来源记录](public/social/sources.json)随构建更新；图解也可单独运行 `npm run build:diagrams` 重新生成。公开材料使用合成数据或经授权、已脱敏的内容。
 
-以读者任务和可抓取内容为核心，不靠关键词堆砌。关键词标签同时服务浏览和页面语义，meta keywords 不作为搜索排名承诺。优化参考 [Google SEO 入门指南](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)、[图片最佳实践](https://developers.google.com/search/docs/appearance/google-images)和 [sitemap 指南](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)。收录和排名需发布后由搜索引擎决定；当前未执行 Search Console 账号验证或提交。
+## 搜索与内容分发
 
-## 框架维护
+- 每页独立标题、描述、canonical、分享图片和结构化数据；文章提供关键词、相关阅读与图片 Alt。
+- [sitemap.xml](https://fde.loyo.work/sitemap.xml) 覆盖首页、46 个主题及 10 个专题页，随内容更新维护。
+- 提供 [robots.txt](https://fde.loyo.work/robots.txt)、[llms.txt](https://fde.loyo.work/llms.txt)、[完整正文索引](https://fde.loyo.work/llms-full.txt)及原始 Markdown。
+- 内容检查覆盖站内链接、配图来源与教学资源；框架检查覆盖文章映射、前置关系和上下文链接；SEO 检查覆盖元数据、Alt、结构化数据与 sitemap。
 
-`content/framework.json` 是全局关系的数据源。`focus` 为每篇文章指定默认工作位置；工作可引用前置活动并说明产出。新增文章不能自动从标题生成图示，必须明确对应的工作或基础能力。
-
-构建生成整体 SVG、每篇文章的默认局部 SVG、58 项工作各自的入口上下文及图片来源。`check:framework` 检查文章覆盖、前置关系、局部裁取范围、当前主题高亮和全景深链接；`check:seo` 继续验证所有页面的元数据、canonical、Alt、sitemap 与结构化数据。
+发现内容问题或希望补充主题，可通过 [GitHub Issues](https://github.com/loyo-sun/FDE/issues) 反馈。
