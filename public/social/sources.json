@@ -2,329 +2,329 @@
   {
     "file": "/social/site.png",
     "title": "FDE 学习与实战知识库",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/knowledge-map.png",
     "title": "FDE 知识框架与学习路线",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/role-and-competency.png",
     "title": "FDE 岗位与能力模型",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/delivery-lifecycle.png",
     "title": "交付生命周期",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/site-delivery-sop.png",
     "title": "部署、联调与上线准备",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/acceptance-and-handover.png",
     "title": "验收与运维移交",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/ai-foundations.png",
     "title": "AI 基础与能力边界",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/ai-delivery.png",
     "title": "AI 应用交付",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/rag-knowledge-engineering.png",
     "title": "RAG 知识工程",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/ai-evaluation-and-acceptance.png",
     "title": "AI 评测与验收",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/troubleshooting-method.png",
     "title": "故障排查方法",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/ai-troubleshooting.png",
     "title": "AI 系统常见故障",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/operations-and-change.png",
     "title": "运维、监控与变更",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/security-privacy-ai-governance.png",
     "title": "安全、隐私与 AI 治理",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/project-communication-risk.png",
     "title": "项目沟通、风险与变更",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/cases-and-toolkit.png",
     "title": "案例沉淀与工具管理",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/knowledge-governance.png",
     "title": "知识库治理与文档标准",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/training-and-certification.png",
     "title": "学习路线与能力评估",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/agent-workflows.png",
     "title": "Agent 与工具工作流",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/ai-threat-modeling.png",
     "title": "AI 威胁建模与防护验证",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/api-engineering.png",
     "title": "后端服务与 API 实现",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/business-discovery.png",
     "title": "客户访谈与问题定义",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/capstone-project.png",
     "title": "端到端实战项目",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/commercial-scoping.png",
     "title": "立项与交付经济性",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/data-architecture.png",
     "title": "数据建模与业务语义",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/data-pipelines.png",
     "title": "数据接入与处理管道",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/data-privacy.png",
     "title": "数据分级与隐私保护",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/delivery-templates.png",
     "title": "项目交付模板目录",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/deployment-platform.png",
     "title": "部署平台、环境与迁移",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/engineering-foundations.png",
     "title": "工程基础与开发环境",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/engineering-quality.png",
     "title": "测试、代码审查与持续集成",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/identity-access.png",
     "title": "身份认证与权限设计",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/integration-design.png",
     "title": "系统集成与接口契约",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/model-selection.png",
     "title": "模型选型、部署与替换策略",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/observability.png",
     "title": "可观测性与服务目标",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/performance-cost.png",
     "title": "性能、容量与单任务成本",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/product-feedback.png",
     "title": "产品反馈与需求抽象",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/prototype-validation.png",
     "title": "原型与技术验证",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/reusable-solutions.png",
     "title": "方案复用与规模化交付",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/solution-architecture.png",
     "title": "解决方案架构与技术取舍",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/solution-exit.png",
     "title": "系统退出、凭据撤销与数据善后",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/stakeholder-adoption.png",
     "title": "干系人协作与用户采用",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/success-metrics.png",
     "title": "价值假设与成功指标",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/use-case-prioritization.png",
     "title": "场景筛选与范围界定",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/value-realization.png",
     "title": "上线价值复核与持续采用",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/workflow-apps.png",
     "title": "业务应用与工作流界面",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   },
   {
     "file": "/social/workflow-mapping.png",
     "title": "业务流程与用户研究",
-    "source": "FDE 知识库原创分享图，Codex 绘制",
+    "source": "fde.loyo.work",
     "generator": "scripts/build-social-images.mjs",
     "createdAt": "2026-10-14"
   }

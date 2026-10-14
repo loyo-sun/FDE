@@ -6,7 +6,7 @@ const docs=fs.readdirSync('content/docs').filter(file=>file.endsWith('.mdx')).ma
 const byId=new Map(f.processes.map(p=>[p.id,p]));
 const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const pale=color=>'#'+[1,3,5].map(i=>Math.round(parseInt(color.slice(i,i+2),16)*.08+255*.92).toString(16).padStart(2,'0')).join('');
-const credit='来源：FDE 原创 · Codex 绘制；矩阵组织方式参考用户提供的 PMBOK 流程示意图';
+const credit='来源：fde.loyo.work';
 const sources=JSON.parse(fs.readFileSync('public/diagrams/sources.json','utf8')).filter(s=>!s.file.startsWith('/diagrams/articles/')&&!s.file.startsWith('/diagrams/processes/')&&s.file!=='/diagrams/fde-framework.svg');
 const definitions={};
 function text(x,y,value,size=14,color='#244354',weight=400){return `<text x="${x}" y="${y}" font-size="${size}" fill="${color}" font-weight="${weight}">${escape(value)}</text>`;}

@@ -16,9 +16,15 @@ const attributedImages = new Map(imageSources.map((item) => [item.file, item]));
 assert.equal(attributedImages.size, imageSources.length, "Duplicate image attribution");
 for (const item of imageSources) {
   assert(item.source && item.alt && item.createdAt && item.generator, `Incomplete attribution: ${item.file}`);
+  assert.equal(item.source.replace(/^来源：/, ""), "fde.loyo.work", `Incorrect image source: ${item.file}`);
   assert(fs.existsSync(path.join("public", item.file)), `Missing original image: ${item.file}`);
   assert(fs.existsSync(path.join("out", item.file)), `Missing exported image: ${item.file}`);
+  for (const root of ["public", "out"]) {
+    assert(fs.readFileSync(path.join(root, item.file), "utf8").includes(">来源：fde.loyo.work</text>"), `Incorrect in-image credit: ${root}${item.file}`);
+  }
 }
+const socialSources = JSON.parse(fs.readFileSync("public/social/sources.json", "utf8"));
+for (const item of socialSources) assert.equal(item.source, "fde.loyo.work", `Incorrect share image source: ${item.file}`);
 assert.equal(index.length, docs.length, "Index differs from source");
 for (const category of categories) assert(docs.some(({ data }) => data.category === category.id), `Empty category ${category.id}`);
 for (const { data, content } of docs) {

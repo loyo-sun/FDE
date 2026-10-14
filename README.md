@@ -48,7 +48,7 @@
 - [7 份交付模板](public/templates/)：问题定义、ADR、实验、评测、上线、移交与复盘。
 - [20 条评测种子](public/examples/evaluation-seed.json)与[合成资料](public/examples/ticket-fixtures.json)。
 - [离线检索演示](public/examples/offline-retrieval.py)：仅验证关键词与范围过滤，无网络、无模型、无真实身份系统。
-- [图片来源清单](public/diagrams/sources.json)：局部矩阵从全局能力框架生成，突出文章对应的交付工作，不从正文标题摘取节点；来源只在图内标注。全部为知识库原创 SVG，由 Codex 绘制。
+- [图片来源清单](public/diagrams/sources.json)：局部矩阵从全局能力框架生成，突出文章对应的交付工作，不从正文标题摘取节点；来源只在图内标注。所有图片的图内来源统一标注为“来源：fde.loyo.work”。
 
 ```sh
 python3 public/examples/offline-retrieval.py
