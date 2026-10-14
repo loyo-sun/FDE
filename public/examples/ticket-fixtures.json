@@ -1,0 +1,94 @@
+{
+  "notice": "全部为合成数据；仅验证离线关键词过滤，不代表真实设备说明或生产权限系统。",
+  "documents": [
+    {
+      "id": "M-A-v1",
+      "tenant": "tenant-a",
+      "groups": [
+        "support"
+      ],
+      "device": "P-100",
+      "version": "v1",
+      "active": false,
+      "terms": [
+        "A17",
+        "过热"
+      ],
+      "text": "合成旧版内容，不应默认召回。"
+    },
+    {
+      "id": "M-A-v2",
+      "tenant": "tenant-a",
+      "groups": [
+        "support"
+      ],
+      "device": "P-100",
+      "version": "v2",
+      "active": true,
+      "terms": [
+        "A17",
+        "过热"
+      ],
+      "text": "合成手册：A17 请核对型号并转授权售后人员。不是设备操作建议。"
+    },
+    {
+      "id": "M-B-v2",
+      "tenant": "tenant-b",
+      "groups": [
+        "support"
+      ],
+      "device": "P-100",
+      "version": "v2",
+      "active": true,
+      "terms": [
+        "A17",
+        "过热"
+      ],
+      "text": "合成 tenant-b 专属资料，禁止 tenant-a 读取。"
+    },
+    {
+      "id": "M-A-admin",
+      "tenant": "tenant-a",
+      "groups": [
+        "admin"
+      ],
+      "device": "P-100",
+      "version": "v2",
+      "active": true,
+      "terms": [
+        "INTERNAL",
+        "内部"
+      ],
+      "text": "DEMO-RESTRICTED-101：合成受限标记。"
+    },
+    {
+      "id": "M-A-P200",
+      "tenant": "tenant-a",
+      "groups": [
+        "support"
+      ],
+      "device": "P-200",
+      "version": "v2",
+      "active": true,
+      "terms": [
+        "B09",
+        "电压"
+      ],
+      "text": "合成 P-200 资料，仅展示型号匹配。"
+    },
+    {
+      "id": "M-A-revoked",
+      "tenant": "tenant-a",
+      "groups": [
+        "support"
+      ],
+      "device": "P-100",
+      "version": "v2",
+      "active": false,
+      "terms": [
+        "REVOKED"
+      ],
+      "text": "合成撤权资料，不应召回。"
+    }
+  ]
+}

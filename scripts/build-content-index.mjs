@@ -48,11 +48,11 @@ const docs = files
 fs.writeFileSync(path.join(publicDir, "content.json"), JSON.stringify(docs, null, 2));
 
 const list = docs.map((doc) => `- [${doc.title}](${doc.url}) — ${statusLabels[doc.status]}：${doc.description}`).join("\n");
-const llms = `# FDE 从入门到精通\n\n> 面向 Forward Deployed Engineer（前沿部署工程师）的中文知识库，覆盖客户问题、软件工程、AI 系统、业务价值与产品反馈。内容分为基础指南和待完善大纲，后者不代表完整教程。\n\nCanonical: https://fde.loyo.work/\n\n## Documentation\n\n${list}\n`;
+const llms = `# FDE 从入门到精通\n\n> 面向 Forward Deployed Engineer（前沿部署工程师）的中文知识库，覆盖客户问题、软件工程、AI 系统、业务价值与产品反馈。全部 40 个主题已提供基础指南，包含原创图解、合成案例、练习与可下载模板；生产操作需实际环境验证。\n\nCanonical: https://fde.loyo.work/\n\n## Documentation\n\n${list}\n`;
 fs.writeFileSync(path.join(publicDir, "llms.txt"), llms);
 
 const full = docs
-  .map((doc) => `# ${doc.title}\n\n状态：${statusLabels[doc.status]}\n\n${doc.description}\n\nSource: ${doc.url}\n\n${doc.content}`)
+  .map((doc) => `Source: ${doc.url}\n\n${fs.readFileSync(path.join(markdownDir, `${doc.slug}.md`), "utf8").trim()}`)
   .join("\n\n---\n\n");
 fs.writeFileSync(path.join(publicDir, "llms-full.txt"), full);
 

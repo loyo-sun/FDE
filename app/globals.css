@@ -307,3 +307,15 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--cyan-dark); out
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* Content diagrams preserve their native aspect ratio and remain readable in the original. */
+.mdx-content img { display: block; width: 100%; height: auto; margin: 18px 0 10px; border-radius: 12px; border: 1px solid var(--line); }
+.mdx-content p:has(> em) { color: var(--muted); font-size: .8rem; line-height: 1.6; }
+.resource-section { max-width: 1240px; margin: auto; padding: 38px 32px; }
+.resource-diagram { display: block; max-width: 900px; margin: 22px auto 0; }
+.resource-diagram img { display: block; width: 100%; height: auto; border-radius: 14px; }
+.image-credit { color: var(--muted); font-size: .78rem; text-align: center; }
+.image-credit a { color: var(--cyan-dark); text-decoration: underline; }
+.resource-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 24px; }
+.resource-links a { padding: 16px 20px; border: 1px solid var(--line); color: var(--cyan-dark); background: #f4f9fa; }
+@media (max-width: 700px) { .resource-section { padding: 26px 20px; } .resource-links { grid-template-columns: 1fr; } }
