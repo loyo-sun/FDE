@@ -484,13 +484,13 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--cyan-dark); out
 .framework-controls select { min-height: 42px; padding: 8px 30px 8px 12px; border: 1px solid #bfd0d7; border-radius: 4px; background: white; color: #294d5c; font: inherit; font-size: .85rem; }
 .framework-controls button { min-height: 42px; padding: 8px 16px; border: 1px solid #c7d7dc; border-radius: 4px; background: #edf4f5; color: #366b79; font-size: .8rem; cursor: pointer; }
 .framework-controls > span { margin-left: auto; color: #6a818c; padding-bottom: 12px; font-size: .75rem; }
-.framework-scroll { max-height: 78vh; overflow: auto; border: 1px solid #c5d3dc; border-radius: 5px; background: white; overscroll-behavior-x: contain; }
+.framework-scroll { overflow: visible; border: 1px solid #c5d3dc; border-radius: 5px; background: white; }
 .framework-matrix { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 0; font-size: .78rem; }
 .framework-matrix th, .framework-matrix td { border-right: 1px solid #d6dfe5; border-bottom: 1px solid #d6dfe5; }
-.framework-matrix thead th { position: sticky; top: 0; z-index: 4; padding: 17px 10px; background: var(--lane-color, #244859); color: white; font-size: .86rem; text-align: center; font-weight: 650; }
+.framework-matrix thead th { padding: 17px 10px; background: var(--lane-color, #244859); color: white; font-size: .86rem; text-align: center; font-weight: 650; }
 .framework-matrix .framework-axis { left: 0; width: 160px; z-index: 6; background: #244859; text-align: left; padding-left: 18px; }
 .framework-axis small { display: block; color: #bcd4df; font-size: .67rem; font-weight: 400; margin-top: 4px; }
-.framework-matrix tbody th { position: sticky; left: 0; z-index: 3; width: 160px; padding: 16px 16px; text-align: left; vertical-align: top; background: #edf2f6; }
+.framework-matrix tbody th { width: 160px; padding: 16px 16px; text-align: left; vertical-align: top; background: #edf2f6; }
 .framework-matrix tbody th > span { color: #7c949f; font-size: .67rem; letter-spacing: .1em; }
 .framework-matrix tbody th > strong { display: block; font-size: .95rem; color: #294d5f; margin: 6px 0; }
 .framework-matrix tbody th > small { display: block; font-size: .71rem; color: #69818d; font-weight: 400; line-height: 1.7; }
@@ -533,9 +533,14 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--cyan-dark); out
  .framework-controls label { flex: 1; }
  .framework-controls select { max-width: 170px; font-size: 16px; }
  .framework-controls > span { flex-basis: 100%; margin: 0; padding: 0; }
- .framework-scroll { max-height: 70vh; }
- .framework-matrix .framework-axis, .framework-matrix tbody th { width: 120px; }
- .framework-matrix tbody th { padding: 12px; }
+ .framework-matrix .framework-axis, .framework-matrix tbody th { width: 72px; padding: 9px 5px; }
+ .framework-matrix thead th { padding: 10px 3px; font-size: .68rem; }
+ .framework-matrix tbody th > strong { font-size: .72rem; }
+ .framework-matrix tbody th > small, .framework-axis small { font-size: .6rem; }
+ .framework-matrix td { padding: 5px 2px; }
+ .framework-matrix .framework-process, .framework-matrix.is-compact .framework-process { padding: 7px 2px; border-left-width: 2px; margin-bottom: 5px; }
+ .framework-process strong { font-size: .65rem; line-height: 1.5; overflow-wrap: anywhere; }
+ .framework-process span { font-size: .6rem; overflow-wrap: anywhere; }
  .framework-foundations { grid-template-columns: 1fr; padding: 18px; }
  .framework-foundations > div { margin-bottom: 3px; }
  .framework-context { margin-left: -12px; margin-right: -12px; }
