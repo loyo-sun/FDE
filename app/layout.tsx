@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { SiteHeader } from "@/components/site-header";
 import { siteDescription, siteName, siteUrl } from "@/lib/site";
 import "./globals.css";
@@ -56,6 +57,18 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="zh-CN" data-scroll-behavior="smooth">
       <body>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-7JSV9LR4J9"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-7JSV9LR4J9');
+          `}
+        </Script>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: structuredData({ "@context": "https://schema.org", "@type": "WebSite", "@id": `${siteUrl}/#website`, name: siteName, alternateName: "FDE 中文知识库", url: `${siteUrl}/`, description: siteDescription, inLanguage: "zh-CN", publisher: { "@type": "Organization", name: "FDE Team" } }) }} />
         <SiteHeader />
         {children}
