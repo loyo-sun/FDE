@@ -5,6 +5,11 @@ import { siteDescription, siteName, siteUrl } from "@/lib/site";
 import "./globals.css";
 import { structuredData } from "@/lib/seo";
 
+const configuredMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim();
+const measurementId = configuredMeasurementId && /^G-[A-Z0-9]+$/.test(configuredMeasurementId)
+  ? configuredMeasurementId
+  : undefined;
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: { default: `${siteName}｜前沿部署工程师知识库`, template: `%s｜${siteName}` },
@@ -57,18 +62,20 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="zh-CN" data-scroll-behavior="smooth">
       <body>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-7JSV9LR4J9"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-7JSV9LR4J9');
-          `}
-        </Script>
+        {measurementId && <>
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', ${JSON.stringify(measurementId)});
+            `}
+          </Script>
+        </>}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: structuredData({ "@context": "https://schema.org", "@type": "WebSite", "@id": `${siteUrl}/#website`, name: siteName, alternateName: "FDE 中文知识库", url: `${siteUrl}/`, description: siteDescription, inLanguage: "zh-CN", publisher: { "@type": "Organization", name: "FDE Team" } }) }} />
         <SiteHeader />
         {children}
