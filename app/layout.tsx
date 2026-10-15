@@ -5,7 +5,7 @@ import { siteDescription, siteName, siteUrl } from "@/lib/site";
 import "./globals.css";
 import { structuredData } from "@/lib/seo";
 
-const configuredMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim();
+const configuredMeasurementId = process.env.GA_MEASUREMENT_ID?.trim();
 const measurementId = configuredMeasurementId && /^G-[A-Z0-9]+$/.test(configuredMeasurementId)
   ? configuredMeasurementId
   : undefined;
